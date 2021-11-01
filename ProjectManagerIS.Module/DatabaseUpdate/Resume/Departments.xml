@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Departments xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Department>
+		<Title>Development Department</Title>
+		<Office>205</Office>
+		<Description>The Information Technology Department manages the company's information infrastructure and online assets.</Description>
+		<Location>Building 2</Location>
+		<DepartmentHead>283</DepartmentHead>
+	</Department>
+	<Department>
+		<Title>Finance and Accounting</Title>
+		<Office>703</Office>
+		<Description>The Finance and Accounting Department manages corporate money. The department plans, organizes, controls and accounts company finances.</Description>
+		<Location>Building 4</Location>
+		<DepartmentHead>103</DepartmentHead>
+	</Department>
+	<Department>
+		<Title>Marketing</Title>
+		<Office>203</Office>
+		<Description>The Marketing Department directs all external communications with the public and controls the corporate brand.</Description>
+		<Location>Building 3</Location>
+		<DepartmentHead>140</DepartmentHead>
+	</Department>
+	<Department>
+		<Title>Sales</Title>
+		<Office>102</Office>
+		<Description>The Sales Department manages and controls company's sales team and sales support staff and is responsible for revenue growth.</Description>
+		<Location>Building 4</Location>
+		<DepartmentHead>273</DepartmentHead>
+	</Department>
+	<Department>
+		<Title>Human Resources</Title>
+		<Office>502</Office>
+		<Description>The Human Resources Department manages employment related functions, including compliance with labor standards.</Description>
+		<Location>Building 3</Location>
+		<DepartmentHead>148</DepartmentHead>
+	</Department>
+	<Department>
+		<Title>Purchasing</Title>
+		<Office>305</Office>
+		<Description>The Purchasing Department acquires the materials and equipment necessary for production and company operations.</Description>
+		<Location>Building 3</Location>
+		<DepartmentHead>12</DepartmentHead>
+	</Department>
+	<Department>
+		<Title>Mergers and Acquisitions</Title>
+		<Office>402</Office>
+		<Description>The Mergers &amp; Acquisitions Department manages assets allocated for corporate takeovers, mergers, and acquisitions.</Description>
+		<Location>Building 3</Location>
+		<DepartmentHead>41</DepartmentHead>
+	</Department>
+	<Department>
+		<Title>Operations</Title>
+		<Office>403</Office>
+		<Description>The Operations Department manages the corporate campus and is responsible for all associated facilities-buildings.</Description>
+		<Location>Building 1</Location>
+		<DepartmentHead>274</DepartmentHead>
+	</Department>
+</Departments>

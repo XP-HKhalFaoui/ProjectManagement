@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="ProjectManagerIS">
+  <ActionDesign>
+    <Actions>
+      <Action Id="DemoTask.Postpone.PostponeParametersObject" TargetObjectsCriteria="[Status] &lt;&gt; ##Enum#DevExpress.Persistent.Base.General.TaskStatus,Completed#" />
+      <Action Id="Task.MarkCompleted" ValidationContexts="MarkCompleted" />
+    </Actions>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+    <Class Name="DevExpress.Persistent.BaseImpl.Task">
+      <OwnMembers>
+        <Member Name="DueDate" DisplayFormat="D" />
+        <Member Name="StartDate" DisplayFormat="D" EditMask="d" />
+        <Member Name="Subject" RowCount="2" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Department" ImageName="BO_Department" />
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Employee" ImageName="Employees" ObjectCaptionFormat="{0:FullName} from the {0:Department}">
+      <OwnMembers>
+        <Member Name="Position" DataSourceProperty="Department.Positions" DataSourcePropertyIsNullMode="SelectAll" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Position" ImageName="BO_Position" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="Note" Caption="Notes" ImageName="BO_Note" ViewId="Note_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="21.1.6.0" IsNewNode="True" />
+  </SchemaModules>
+  <Validation>
+    <Rules>
+      <RuleCriteria Id="@d071c45e-32e5-4a13-a960-57313d4529c3" TargetContextIDs="Delete" Criteria="[state] = 0" TargetType="DevExpress.ExpressApp.NonPersistentBaseObject" IsNewNode="True" />
+      <RuleRequiredField Id="DevExpress.Persistent.Validation.RuleRequiredField_ProjectManagerIS.Module.BusinessObjects.Position_Title" Name="TaskNoStated" CustomMessageTemplate="Task not started can not be completed" TargetType="ProjectManagerIS.Module.BusinessObjects.DemoTask" Removed="True" />
+      <RuleCriteria Id="TaskIsNotStarted" TargetContextIDs="MarkCompleted" TargetType="ProjectManagerIS.Module.BusinessObjects.DemoTask" Criteria="[Status] &lt;&gt; ##Enum#DevExpress.Persistent.Base.General.TaskStatus,NotStarted#" CustomMessageTemplate="Cannot set the task as completed because it has not started" TargetCollectionOwnerType="" TargetCriteria="" IsNewNode="True" />
+    </Rules>
+  </Validation>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <ListView Id="DemoTask_AuditTrail_ListView">
+      <Columns>
+        <ColumnInfo Id="UserName" Width="142" />
+        <ColumnInfo Id="OldValue" Index="4" />
+        <ColumnInfo Id="NewValue" Index="5" />
+        <ColumnInfo Id="Description" Index="6" />
+      </Columns>
+    </ListView>
+    <DetailView Id="DemoTask_DetailView">
+      <Items>
+        <PropertyEditor Id="Exercise" NullText="Exercise" AllowEdit="True" />
+      </Items>
+    </DetailView>
+    <ListView Id="DemoTask_ListView" AllowEdit="True" NewItemRowPosition="Top">
+      <Columns>
+        <ColumnInfo Id="Subject" AllowEdit="True" SortIndex="0" SortOrder="Ascending" Width="142" />
+        <ColumnInfo Id="Status" Index="1" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="Priority" Index="2" />
+        <ColumnInfo Id="DueDate" Index="3" />
+        <ColumnInfo Id="ProjectName" Index="4" />
+        <ColumnInfo Id="DateCompleted" Index="5" />
+        <ColumnInfo Id="Exercise" AllowEdit="False" Index="6" />
+        <ColumnInfo Id="Resolutions" Index="7" />
+        <ColumnInfo Id="StartDate" Index="8" />
+      </Columns>
+      <Filters CurrentFilterId="Hide Completed">
+        <Filter Id="Hide Completed" Caption="Hide Completed" Criteria="[Status] &lt;&gt; ##Enum#DevExpress.Persistent.Base.General.TaskStatus,Completed#" IsNewNode="True" />
+        <Filter Id="Show completed" Criteria="" IsNewNode="True" />
+      </Filters>
+    </ListView>
+    <DetailView Id="Employee_DetailView">
+      <HiddenActions>
+        <ActionLink ActionId="@69af7e21-57d7-4868-b3db-1ae203bd8e81" IsNewNode="True" />
+      </HiddenActions>
+    </DetailView>
+    <ListView Id="Employee_ListView" IsGroupPanelVisible="True">
+      <Columns>
+        <ColumnInfo Id="Anniversary" Index="-1" />
+        <ColumnInfo Id="NickName" Index="-1" />
+        <ColumnInfo Id="SpouseName" Index="-1" SortIndex="-1" SortOrder="None" Width="183" />
+        <ColumnInfo Id="TitleOfCourtesy" Index="-1" SortIndex="0" SortOrder="Ascending" Width="92" />
+        <ColumnInfo Id="FullName" Width="169" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="Department" Index="1" SortOrder="Ascending" GroupIndex="0" />
+        <ColumnInfo Id="Manager" Index="2" />
+        <ColumnInfo Id="Birthday" Index="3" />
+        <ColumnInfo Id="Position" Index="4" SortOrder="Descending" GroupIndex="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="Employee_LookupListView">
+      <Columns>
+        <ColumnInfo Id="FullName" Width="137" />
+        <ColumnInfo Id="Department" PropertyName="Department" Index="1" Width="110" IsNewNode="True" />
+        <ColumnInfo Id="Position" PropertyName="Position" Index="2" IsNewNode="True" />
+        <ColumnInfo Id="Manager" PropertyName="Manager" Index="3" Width="98" IsNewNode="True" />
+        <ColumnInfo Id="Email" PropertyName="Email" Index="4" Width="86" IsNewNode="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Resume_Portfolio_ListView">
+      <Columns>
+        <ColumnInfo Id="Tasks" Index="-1" />
+        <ColumnInfo Id="DocumentType" Index="1" />
+      </Columns>
+    </ListView>
+    <ListView Id="Task_ListView" AllowEdit="True">
+      <Columns>
+        <ColumnInfo Id="StartDate" DisplayFormat="{0:N0}%" />
+      </Columns>
+    </ListView>
+    <ListView Id="Task_LookupListView" AllowEdit="True" NewItemRowPosition="Top" />
+  </Views>
+</Application>

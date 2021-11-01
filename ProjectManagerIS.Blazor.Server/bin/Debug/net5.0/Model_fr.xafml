@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="Cancel" Caption="annuler" />
+      <Action Id="CancelAction" Caption="Annuler" />
+      <Action Id="ChangePasswordByUser" ShortCaption="Changer mon mot de passe" ToolTip="Changer mon mot de passe" />
+      <Action Id="Close" Caption="Fermer" />
+      <Action Id="CopyModelDifference" ShortCaption="Copier la différence de modèle" />
+      <Action Id="CreateDashboard" Caption="Créer un tableau de bord" />
+      <Action Id="CreateModelDifferences" ShortCaption="Créer des différences de modèle" ToolTip="Initialise les paramètres (différences de modèle) pour tous les utilisateurs." />
+      <Action Id="Delete" Caption="Supprimer" />
+      <Action Id="Delete Item" Caption="Supprimer l'élément" />
+      <Action Id="DeleteDashboard" Caption="Supprimer le tableau de bord" />
+      <Action Id="Diagnostic Info" Caption="Diagnostique" />
+      <Action Id="DialogCancel" Caption="Annuler" />
+      <Action Id="DialogClose" Caption="Fermer" />
+      <Action Id="DialogOK" Caption="d'accord" />
+      <Action Id="FullTextSearch" Caption="Filtrer par texte" ShortCaption="Rechercher" />
+      <Action Id="HideItemsFromDashboard" Caption="Masquer du tableau de bord" />
+      <Action Id="ListViewShowObject" Caption="Ouvert" />
+      <Action Id="Logoff" ShortCaption="Se déconnecter" ToolTip="Se déconnecter" />
+      <Action Id="MergeAction" ShortCaption="Fusionner" ToolTip="Fusionner" />
+      <Action Id="MyDetails" ShortCaption="Mes Details" ToolTip="Mes Details" />
+      <Action Id="NavigateBack" ShortCaption="Retour" />
+      <Action Id="NavigateForward" ShortCaption="Effronté" />
+      <Action Id="New" ShortCaption="Nouveau" ToolTip="Nouveau" />
+      <Action Id="NextObject" ShortCaption="Enregistrement suivant" ToolTip="Enregistrement suivant" />
+      <Action Id="OrganizeDashboard" Caption="Organiser le tableau de bord" />
+      <Action Id="PreviousObject" ShortCaption="Enregistrement précédent" ToolTip="Enregistrement précédent" />
+      <Action Id="Refresh" ShortCaption="Rafraîchir" ToolTip="Rafraîchir" />
+      <Action Id="RefreshAction" ShortCaption="Rafraîchir" ToolTip="Rafraîchir" />
+      <Action Id="ResetPassword" ShortCaption="réinitialiser le mot de passe" ToolTip="Générer un nouveau mot de passe pour l'utilisateur sélectionné" />
+      <Action Id="Save" Caption="sauvegarder" />
+      <Action Id="SaveAndClose" Caption="Sauver et fermer" />
+      <Action Id="SaveAndNew" Caption="Enregistrer et Nouveau" />
+      <Action Id="SetFilter" Caption="Filtre" />
+      <Action Id="SetTaskAction" ShortCaption="Définir une tâche" />
+      <Action Id="ShowAllContexts" ShortCaption="Valider" ToolTip="Valider le(s) objet(s) sélectionné(s) dans tous les contextes présentés" />
+      <Action Id="ShowItemsOnDashboard" Caption="Afficher sur le tableau de bord" />
+      <Action Id="Task.MarkCompleted" Caption="Marquer terminé" />
+      <Action Id="Unlink" Caption="Dissocier" />
+    </Actions>
+    <ActionToContainerMapping>
+      <ActionContainer Id="Close" Caption="Fermer" />
+      <ActionContainer Id="Edit" Caption="Éditer" />
+      <ActionContainer Id="Save" Caption="sauvegarder" />
+      <ActionContainer Id="Security" Caption="Sécurité" />
+    </ActionToContainerMapping>
+    <DisableReasons>
+      <Reason Id="AllowAddToCollection" Caption="L'ajout à une collection n'est pas autorisé" />
+      <Reason Id="AllowNew" Caption="L'ajout n'est pas pris en charge par la vue actuelle" />
+    </DisableReasons>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.ExpressApp.Editors.CriteriaProvider">
+      <OwnMembers>
+        <Member Name="FilterString" Caption="Filtrer la chaîne" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters" Caption="Paramètres de connexion standard d'authentification">
+      <OwnMembers>
+        <Member Name="UserName" Caption="Nom d'utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.ChangePasswordParameters" Caption="Modifier les paramètres de mot de passe">
+      <OwnMembers>
+        <Member Name="OldPassword" Caption="Ancien mot de passe" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.ProceedMember">
+      <OwnMembers>
+        <Member Name="Name" Caption="Nom" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Security.SecurityDiagnosticInfoObject">
+      <OwnMembers>
+        <Member Name="TargetType" Caption="Type de cible" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.AboutInfo">
+      <OwnMembers>
+        <Member Name="LogoImageName" Caption="Nom de l'image du logo" />
+        <Member Name="ProductName" Caption="Nom du produit" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DashboardCreationInfo">
+      <OwnMembers>
+        <Member Name="DashboardName" Caption="Nom" />
+        <Member Name="ViewItems" Caption="Voir les articles" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DashboardName">
+      <OwnMembers>
+        <Member Name="Name" Caption="Nom" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DashboardOrganizationItem">
+      <OwnMembers>
+        <Member Name="Item" Caption="Article" />
+        <Member Name="Visibility" Caption="Visibilité" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.DashboardOrganizer">
+      <OwnMembers>
+        <Member Name="ViewItems" Caption="Voir les articles" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Validation.AllContextsView.ContextValidationResult" Caption="Résultat de la validation du contexte">
+      <OwnMembers>
+        <Member Name="BrokenRules" Caption="Règles enfreintes" />
+        <Member Name="Context" Caption="Le contexte" />
+        <Member Name="ContextValidationOutcome" Caption="État" />
+        <Member Name="DisplayableValidationResultItems" Caption="Éléments de résultat de validation affichables" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Validation.AllContextsView.DisplayableValidationResultItem">
+      <OwnMembers>
+        <Member Name="ErrorMessage" Caption="Message d'erreur" />
+        <Member Name="TargetCaption" Caption="Cible" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference">
+      <OwnMembers>
+        <Member Name="DisplayName" Caption="Nom d'affichage" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.AuditDataItemPersistent">
+      <OwnMembers>
+        <Member Name="ModifiedOn" Caption="Modifié le" />
+        <Member Name="OperationType" Caption="Type d'opération" />
+        <Member Name="UserName" Caption="Nom d'utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Country">
+      <OwnMembers>
+        <Member Name="Name" Caption="Nom" />
+        <Member Name="PhoneCode" Caption="Code de téléphone" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Event">
+      <OwnMembers>
+        <Member Name="Location" Caption="Emplacement" />
+        <Member Name="StartOn" Caption="Date/heure de début" />
+        <Member Name="Subject" Caption="Sujet" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.FileAttachmentBase">
+      <OwnMembers>
+        <Member Name="File" Caption="Fichier" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.ModelDifferenceAspect">
+      <OwnMembers>
+        <Member Name="Name" Caption="Nom" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Note">
+      <OwnMembers>
+        <Member Name="Author" Caption="Auteur" />
+        <Member Name="DateTime" Caption="Date" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Party">
+      <OwnMembers>
+        <Member Name="DisplayName" Caption="Nom d'affichage" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyObjectPermissionsObject">
+      <OwnMembers>
+        <Member Name="DeleteState" Caption="Supprimer" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRole">
+      <OwnMembers>
+        <Member Name="Users" Caption="Les Utilisateurs" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyRoleBase">
+      <OwnMembers>
+        <Member Name="CanEditModel" Caption="Peut modifier le modèle" />
+        <Member Name="IsAdministrative" Caption="Est Administratif" />
+        <Member Name="Name" Caption="Nom" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyTypePermissionObject">
+      <OwnMembers>
+        <Member Name="DeleteState" Caption="Supprimer" />
+        <Member Name="TargetType" Caption="Type de cible" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser">
+      <OwnMembers>
+        <Member Name="IsActive" Caption="Actif" />
+        <Member Name="UserName" Caption="Nom d'utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Person" Caption="Personne">
+      <OwnMembers>
+        <Member Name="Birthday" Caption="Date de naissance" />
+        <Member Name="FirstName" Caption="Pénom" />
+        <Member Name="LastName" Caption="Nom" />
+        <Member Name="MiddleName" Caption="Deuxième nom" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PhoneNumber" Caption="Numéro de téléphone">
+      <OwnMembers>
+        <Member Name="Number" Caption="Nombre" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Resource">
+      <OwnMembers>
+        <Member Name="Color" Caption="Couleur" />
+        <Member Name="Events" Caption="Événements" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Task">
+      <OwnMembers>
+        <Member Name="AssignedTo" Caption="Assigné à" />
+        <Member Name="DateCompleted" DisplayFormat="{0:d}" Caption="Date d'achèvement" />
+        <Member Name="DueDate" Caption="Date d'échéance" />
+        <Member Name="PercentCompleted" Caption="Pourcentage terminé" />
+        <Member Name="StartDate" Caption="Date de début" />
+        <Member Name="Subject" Caption="Sujet" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.Validation.IRuleBaseProperties">
+      <OwnMembers>
+        <Member Name="CustomMessageTemplate" Caption="Modèle de message personnalisé" />
+        <Member Name="InvertResult" Caption="Inverser le résultat" />
+        <Member Name="Name" Caption="Nom" />
+        <Member Name="ResultType" Caption="Type de résultat" />
+        <Member Name="SkipNullOrEmptyValues" Caption="Ignorer les valeurs nulles ou vides" />
+        <Member Name="TargetContextIDs" Caption="ID de contexte cible" />
+        <Member Name="TargetType" Caption="Type de cible" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.Validation.IRuleRequiredFieldProperties">
+      <OwnMembers>
+        <Member Name="SkipNullOrEmptyValues" Caption="Ignorer les valeurs nulles ou vides" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.Validation.RuleBaseProperties">
+      <OwnMembers>
+        <Member Name="CustomMessageTemplate" Caption="Modèle de message personnalisé" />
+        <Member Name="InvertResult" Caption="Inverser le résultat" />
+        <Member Name="Name" Caption="Nom" />
+        <Member Name="ResultType" Caption="Type de résultat" />
+        <Member Name="SkipNullOrEmptyValues" Caption="Ignorer les valeurs nulles ou vides" />
+        <Member Name="TargetContextIDs" Caption="ID de contexte cible" />
+        <Member Name="TargetType" Caption="Type de cible" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.Validation.RuleSetValidationResultItem">
+      <OwnMembers>
+        <Member Name="ErrorMessage" Caption="Message d'erreur" />
+        <Member Name="Target" Caption="Cible" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Company">
+      <OwnMembers>
+        <Member Name="CompanyName" Caption="Nom de la compagnie" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.DemoTask">
+      <OwnMembers>
+        <Member Name="AuditTrail" Caption="L'historique des modifications" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Employee">
+      <OwnMembers>
+        <Member Name="NickName" Caption="Surnom" />
+        <Member Name="SpouseName" Caption="Surnom" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Exercises">
+      <OwnMembers>
+        <Member Name="ExerciceName" Caption="Nom de l'Exercice" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Project">
+      <OwnMembers>
+        <Member Name="Name" Caption="Nom" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Localization>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="DevExpress.Persistent.Base.General.TaskStatus">
+        <LocalizationItem Name="Completed" Value="Complété" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="Exceptions">
+      <LocalizationGroup Name="SystemExceptions">
+        <LocalizationItem Name="AnUnsavedObjectCannotBeShown" Value="Un enregistrement nouvellement créé ne peut pas être affiché tant qu'il n'est pas enregistré. Veuillez l'enregistrer pour afficher ses détails dans un formulaire séparé." />
+      </LocalizationGroup>
+      <LocalizationGroup Name="UserVisibleExceptions">
+        <LocalizationItem Name="CannotLoadUserSettingsFromFile" Value="Impossible de charger les paramètres utilisateur à partir du fichier Model.xafml." />
+        <LocalizationItem Name="CannotLoadUserSettingsFromTheDatabase" Value="Impossible de charger les paramètres utilisateur à partir de la base de données." />
+        <LocalizationItem Name="CannotSaveUserSettingsToTheDatabase" Value="Impossible d'enregistrer les paramètres utilisateur dans la base de données." />
+        <LocalizationGroup Name="Security">
+          <LocalizationItem Name="LastAdmin" Value="L'utilisateur '{0}' est le dernier administrateur du système. Impossible de révoquer les droits administratifs." />
+          <LocalizationItem Name="LoginFailed" Value="Échec de la connexion pour '{0}'. {1}" />
+          <LocalizationItem Name="NewPasswordIsEqualToOldPassword" Value="Le nouveau mot de passe est égal à l'ancien mot de Le nouveau mot de passe est égal à l'ancien mot de passe." />
+          <LocalizationItem Name="OldPasswordIsWrong" Value="L'ancien mot de passe est erroné" />
+          <LocalizationItem Name="PasswordsAreDifferent" Value="Les mots de passe sont différents" />
+          <LocalizationItem Name="UserNameIsEmpty" Value="Le nom d'utilisateur ne doit pas être vide" />
+        </LocalizationGroup>
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="Namespaces">
+      <LocalizationItem Name="DevExpress.Persistent.AuditTrail" Value="l'historique des modifications" />
+    </LocalizationGroup>
+    <LocalizationGroup Name="Security">
+      <LocalizationGroup Name="Account">
+        <LocalizationItem Name="UserName" Value="Nom de utilisateur" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+  </Localization>
+  <NavigationItems>
+    <Items>
+      <Item Id="DemoTask_ListView" Caption="Tâches" />
+      <Item Id="Contacts">
+        <Items>
+          <Item Id="Department_ListView" Caption="Départements" />
+          <Item Id="Employee_ListView" Caption="Employés" />
+          <Item Id="Resume_ListView" Caption="CV" />
+        </Items>
+      </Item>
+      <Item Id="Default">
+        <Items>
+          <Item Id="ApplicationUser_ListView" Caption="Les Utilisateurs" />
+          <Item Id="DemoTask_ListView" Caption="Tâches" />
+          <Item Id="Department_ListView" Caption="Départements" />
+          <Item Id="Employee_ListView" Caption="Employés" />
+          <Item Id="Event_ListView" Caption="Calendar" />
+          <Item Id="MyDetails" Caption="Mes Details" />
+          <Item Id="Note" Caption="Remarques" />
+          <Item Id="Resume_ListView" Caption="CV" />
+        </Items>
+      </Item>
+      <Item Id="Adminstration">
+        <Items>
+          <Item Id="MyDetails" Caption="Mes Details" />
+          <Item Id="ApplicationUser_ListView" Caption="Les Utilisateurs" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Validation>
+    <Contexts>
+      <ValidationContext Id="Delete" Caption="Supprimer" />
+      <ValidationContext Id="Save" Caption="sauvegarder" />
+    </Contexts>
+  </Validation>
+  <Views>
+    <DetailView Id="Address_DetailView">
+      <Items>
+        <PropertyEditor Id="Country" Caption="Pays" />
+      </Items>
+    </DetailView>
+    <ListView Id="Address_ListView">
+      <Columns>
+        <ColumnInfo Id="City" Caption="Ville" />
+        <ColumnInfo Id="Country" Caption="Pays" />
+      </Columns>
+    </ListView>
+    <DetailView Id="ApplicationUser_DetailView">
+      <Items>
+        <PropertyEditor Id="ChangePasswordOnFirstLogon" Caption="Forcer le changement de mot de passe" />
+      </Items>
+    </DetailView>
+    <ListView Id="ApplicationUser_ListView" Caption="Les Utilisateurs">
+      <Columns>
+        <ColumnInfo Id="ChangePasswordOnFirstLogon" Caption="Forcer le changement de mot de passe" />
+      </Columns>
+    </ListView>
+    <DetailView Id="AuditedObjectWeakReference_DetailView">
+      <Items>
+        <PropertyEditor Id="DisplayName" Caption="Afficher Le nom" />
+      </Items>
+    </DetailView>
+    <ListView Id="AuditedObjectWeakReference_ListView">
+      <Columns>
+        <ColumnInfo Id="DisplayName" Caption="Afficher Le nom" />
+      </Columns>
+    </ListView>
+    <ListView Id="AuditedObjectWeakReference_LookupListView">
+      <Columns>
+        <ColumnInfo Id="DisplayName" Caption="Afficher Le nom" />
+      </Columns>
+    </ListView>
+    <DetailView Id="AuthenticationStandardLogonParameters_Blazor_DetailView">
+      <Items>
+        <StaticText Id="LogonText" Text="Entrez votre nom d'utilisateur et votre mot de passe ci-dessous." />
+        <PropertyEditor Id="Password" Caption="Mot de passe" />
+      </Items>
+    </DetailView>
+    <DetailView Id="AuthenticationStandardLogonParameters_DetailView">
+      <Items>
+        <StaticText Id="LogonText" Text="Bienvenue! Veuillez entrer votre nom d'utilisateur et votre mot de passe ci-dessous." />
+        <PropertyEditor Id="Password" Caption="Mot de passe" />
+      </Items>
+    </DetailView>
+    <ListView Id="AuthenticationStandardLogonParameters_ListView">
+      <Columns>
+        <ColumnInfo Id="Password" Caption="Mot de passe" />
+      </Columns>
+    </ListView>
+    <DetailView Id="BaseAuditedObjectWeakReference_DetailView">
+      <Items>
+        <PropertyEditor Id="DisplayName" Caption="Afficher Le nom" />
+      </Items>
+    </DetailView>
+    <ListView Id="BaseAuditedObjectWeakReference_ListView">
+      <Columns>
+        <ColumnInfo Id="DisplayName" Caption="Afficher Le nom" />
+      </Columns>
+    </ListView>
+    <ListView Id="BaseAuditedObjectWeakReference_LookupListView">
+      <Columns>
+        <ColumnInfo Id="DisplayName" Caption="Afficher Le nom" />
+      </Columns>
+    </ListView>
+    <DetailView Id="ChangePasswordOnLogonParameters_Blazor_DetailView">
+      <Items>
+        <PropertyEditor Id="ConfirmPassword" Caption="Confirmez le mot de passe" />
+        <PropertyEditor Id="NewPassword" Caption="Nouveau mot de passe" />
+      </Items>
+    </DetailView>
+    <DetailView Id="ChangePasswordOnLogonParameters_DetailView">
+      <Items>
+        <PropertyEditor Id="ConfirmPassword" Caption="Confirmez le mot de passe" />
+        <PropertyEditor Id="NewPassword" Caption="Nouveau mot de passe" />
+      </Items>
+    </DetailView>
+    <ListView Id="ChangePasswordOnLogonParameters_ListView">
+      <Columns>
+        <ColumnInfo Id="NewPassword" Caption="Nouveau mot de passe" />
+        <ColumnInfo Id="ConfirmPassword" Caption="Confirmez le mot de passe" />
+      </Columns>
+    </ListView>
+    <ListView Id="ChangePasswordOnLogonParameters_LookupListView">
+      <Columns>
+        <ColumnInfo Id="NewPassword" Caption="Nouveau mot de passe" />
+        <ColumnInfo Id="ConfirmPassword" Caption="Confirmez le mot de passe" />
+      </Columns>
+    </ListView>
+    <DetailView Id="ChangePasswordParameters_Blazor_DetailView">
+      <Items>
+        <StaticText Id="ChangePasswordText" Text="Pour modifier votre mot de passe, veuillez saisir votre ancien et votre nouveau mot de passe dans les champs de texte ci-dessous." />
+        <PropertyEditor Id="ConfirmPassword" Caption="Confirmez le mot de passe" />
+        <PropertyEditor Id="NewPassword" Caption="Nouveau mot de passe" />
+      </Items>
+    </DetailView>
+    <DetailView Id="ChangePasswordParameters_DetailView" Caption="Changer le mot de passe">
+      <Items>
+        <PropertyEditor Id="ConfirmPassword" Caption="Confirmez le mot de passe" />
+        <PropertyEditor Id="NewPassword" Caption="Nouveau mot de passe" />
+      </Items>
+    </DetailView>
+    <ListView Id="ChangePasswordParameters_ListView">
+      <Columns>
+        <ColumnInfo Id="ConfirmPassword" Caption="Confirmez le mot de passe" />
+        <ColumnInfo Id="NewPassword" Caption="Nouveau mot de passe" />
+      </Columns>
+    </ListView>
+    <ListView Id="ChangePasswordParameters_LookupListView">
+      <Columns>
+        <ColumnInfo Id="ConfirmPassword" Caption="Confirmez le mot de passe" />
+        <ColumnInfo Id="NewPassword" Caption="Nouveau mot de passe" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Country_DetailView" Caption="Pays">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Country" Caption="Pays" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Country_ListView" Caption="Pays" />
+    <ListView Id="Country_LookupListView" Caption="Pays" />
+    <DetailView Id="DashboardCreationInfo_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="DashboardCreationInfo">
+              <LayoutGroup Id="ViewItems" Caption="Voir les articles" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="DemoTask_DetailView">
+      <Items>
+        <PropertyEditor Id="DateCompleted" Caption="Date de complétion" />
+      </Items>
+    </DetailView>
+    <ListView Id="DemoTask_ListView" Caption="Tâches">
+      <Columns>
+        <ColumnInfo Id="DateCompleted" DisplayFormat="{0:d}" Caption="Date de complétion" />
+      </Columns>
+    </ListView>
+    <ListView Id="Department_ListView" Caption="Départements" />
+    <DetailView Id="Employee_DetailView" Caption="Employé">
+      <Items>
+        <PropertyEditor Id="Anniversary" Caption="Date de marriage" />
+        <PropertyEditor Id="DisplayName" Caption="Afficher Le nom" />
+        <PropertyEditor Id="FullName" Caption="Nom et prénom" />
+      </Items>
+    </DetailView>
+    <ListView Id="Employee_ListView" Caption="Employés">
+      <Columns>
+        <ColumnInfo Id="Address1" Caption="Addresse" />
+        <ColumnInfo Id="Address2" Caption="Addresse 2" />
+        <ColumnInfo Id="Anniversary" Caption="Date de marriage" />
+        <ColumnInfo Id="DisplayName" Caption="Afficher Le nom" />
+        <ColumnInfo Id="FullName" Caption="Nom et prénom" />
+      </Columns>
+    </ListView>
+    <ListView Id="Employee_LookupListView" Caption="Employé">
+      <Columns>
+        <ColumnInfo Id="FullName" Caption="Nom et prénom" />
+      </Columns>
+    </ListView>
+    <ListView Id="Employee_Tasks_ListView">
+      <Columns>
+        <ColumnInfo Id="DateCompleted" Caption="Date de complétion" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Event_DetailView">
+      <Items>
+        <PropertyEditor Id="EndOn" Caption="Date/heure de fin" />
+        <PropertyEditor Id="RecurrenceInfoXml" Caption="Récurrence" />
+      </Items>
+    </DetailView>
+    <ListView Id="Event_ListView" Caption="Calendrier">
+      <Columns>
+        <ColumnInfo Id="RecurrenceInfoXml" Caption="Récurrence" />
+        <ColumnInfo Id="EndOn" Caption="Date/heure de fin" />
+        <ColumnInfo Id="AllDay" Caption="Toute la journée" />
+      </Columns>
+    </ListView>
+    <DetailView Id="FileData_DetailView" Caption="Données de fichier">
+      <Items>
+        <PropertyEditor Id="FileName" Caption="Nom de fichier" />
+      </Items>
+    </DetailView>
+    <ListView Id="FileData_ListView" Caption="Données de fichier">
+      <Columns>
+        <ColumnInfo Id="FileName" Caption="Nom de fichier" />
+      </Columns>
+    </ListView>
+    <ListView Id="FileData_LookupListView" Caption="Données de fichier">
+      <Columns>
+        <ColumnInfo Id="FileName" Caption="Nom de fichier" />
+      </Columns>
+    </ListView>
+    <ListView Id="ModelDifference_Aspects_ListView">
+      <Columns>
+        <ColumnInfo Id="DisplayName" Caption="Nom" />
+      </Columns>
+    </ListView>
+    <ListView Id="Note_ListView" Caption="Remarques" />
+    <DetailView Id="Party_DetailView">
+      <Items>
+        <PropertyEditor Id="DisplayName" Caption="Afficher Le nom" />
+      </Items>
+    </DetailView>
+    <ListView Id="Party_ListView">
+      <Columns>
+        <ColumnInfo Id="DisplayName" Caption="Afficher Le nom" />
+      </Columns>
+    </ListView>
+    <ListView Id="Party_LookupListView">
+      <Columns>
+        <ColumnInfo Id="DisplayName" Caption="Afficher Le nom" />
+      </Columns>
+    </ListView>
+    <ListView Id="PermissionPolicyRole_Users_ListView" Caption="Utilisateur de base">
+      <Columns>
+        <ColumnInfo Id="ChangePasswordOnFirstLogon" Caption="Forcer le changement de mot de passe" ToolTip="Utilisateur doit changer le mot de passe à la prochaine ouverture de session" />
+      </Columns>
+    </ListView>
+    <DetailView Id="PermissionPolicyUser_DetailView">
+      <Items>
+        <PropertyEditor Id="ChangePasswordOnFirstLogon" Caption="Forcer le changement de mot de passe" />
+      </Items>
+    </DetailView>
+    <ListView Id="PermissionPolicyUser_ListView">
+      <Columns>
+        <ColumnInfo Id="ChangePasswordOnFirstLogon" Caption="Forcer le changement de mot de passe" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Person_DetailView">
+      <Items>
+        <PropertyEditor Id="DisplayName" Caption="Afficher Le nom" />
+        <PropertyEditor Id="FullName" Caption="Nom et prénom" />
+      </Items>
+    </DetailView>
+    <ListView Id="Person_ListView">
+      <Columns>
+        <ColumnInfo Id="DisplayName" Caption="Afficher Le nom" />
+        <ColumnInfo Id="FullName" Caption="Nom et prénom" />
+      </Columns>
+    </ListView>
+    <ListView Id="Person_LookupListView">
+      <Columns>
+        <ColumnInfo Id="FullName" Caption="Nom et prénom" />
+      </Columns>
+    </ListView>
+    <DetailView Id="ResetPasswordParameters_Blazor_DetailView">
+      <Items>
+        <PropertyEditor Id="Password" Caption="Mot de passe" />
+      </Items>
+    </DetailView>
+    <DetailView Id="ResetPasswordParameters_DetailView">
+      <Items>
+        <PropertyEditor Id="Password" Caption="Mot de passe" />
+      </Items>
+    </DetailView>
+    <ListView Id="ResetPasswordParameters_ListView">
+      <Columns>
+        <ColumnInfo Id="Password" Caption="Mot de passe" />
+      </Columns>
+    </ListView>
+    <ListView Id="ResetPasswordParameters_LookupListView">
+      <Columns>
+        <ColumnInfo Id="Password" Caption="Mot de passe" />
+      </Columns>
+    </ListView>
+    <ListView Id="Resource_Events_ListView">
+      <Columns>
+        <ColumnInfo Id="RecurrenceInfoXml" Caption="Récurrence" />
+        <ColumnInfo Id="EndOn" Caption="Date/heure de fin" />
+        <ColumnInfo Id="AllDay" Caption="Toute la journée" />
+      </Columns>
+    </ListView>
+    <ListView Id="Resume_ListView" Caption="CV" />
+    <DetailView Id="StaticImageDashboardOrganizationItem_DetailView">
+      <Items>
+        <PropertyEditor Id="Preview" Caption="Aperçu" />
+      </Items>
+    </DetailView>
+    <ListView Id="StaticImageDashboardOrganizationItem_ListView">
+      <Columns>
+        <ColumnInfo Id="Preview" Caption="Aperçu" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Task_DetailView">
+      <Items>
+        <PropertyEditor Id="DateCompleted" Caption="Date de complétion" />
+      </Items>
+    </DetailView>
+    <ListView Id="Task_ListView">
+      <Columns>
+        <ColumnInfo Id="DateCompleted" Caption="Date de complétion" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

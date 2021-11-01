@@ -1,0 +1,4 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/DevExpress.Blazor" Path="C:\Program Files (x86)\DevExpress 21.1\Components\Offline Packages\devexpress.blazor\21.1.6\build\..\staticwebassets\" />
+  <ContentRoot BasePath="_content/DevExpress.ExpressApp.Blazor" Path="C:\Program Files (x86)\DevExpress 21.1\Components\Offline Packages\devexpress.expressapp.blazor\21.1.6\build\..\staticwebassets\" />
+</StaticWebAssets>

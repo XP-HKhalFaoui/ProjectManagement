@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Deterministic>false</Deterministic>
+    <AssemblyVersion>1.0.*</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Model.DesignedDiffs.Localization.fr.xafml" />
+    <None Remove="Model.DesignedDiffs.xafml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.Localization.fr.xafml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.ExpressApp" Version="21.1.6" />
+    <PackageReference Include="DevExpress.ExpressApp.AuditTrail" Version="21.1.6" />
+    <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance" Version="21.1.6" />
+    <PackageReference Include="DevExpress.ExpressApp.de" Version="21.1.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Objects" Version="21.1.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="21.1.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Validation" Version="21.1.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="21.1.6" />
+    <PackageReference Include="DevExpress.Persistent.Base" Version="21.1.6" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl" Version="21.1.6" />
+    <PackageReference Include="Microsoft.Azure.KeyVault" Version="3.0.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.ExpressApp.Blazor.v21.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Offline Packages\devexpress.expressapp.blazor\21.1.6\lib\net5.0\DevExpress.ExpressApp.Blazor.v21.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v21.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Offline Packages\devexpress.win.grid\21.1.6\lib\netcoreapp3.0\DevExpress.XtraGrid.v21.1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1560 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Tasks>
+	<Task>
+		<Id>1</Id>
+		<Subject>Prepare CURRENT_YEAR Financial</Subject>
+		<Description>IMPORTANT: The document must be fully formatted in Excel.</Description>
+	</Task>
+	<Task>
+		<Id>3</Id>
+		<Subject>Update Personnel Files</Subject>
+		<Description>
+			In an audit I conducted of personnel files this, I found documentation to be lacking. Samantha, you need to review my report and get this fixed.
+			Samantha Bright: John, I&apos;ve completed this review and sent my report to you.
+		</Description>
+	</Task>
+	<Task>
+		<Id>4</Id>
+		<Subject>Review Health Insurance Options Under the Affordable Care Act</Subject>
+		<Description>
+			The changes in health insurance laws require that we review our existing coverage and update it to meet regulations.  Samantha Bright will be point on this.
+			Samantha Bright: Update - still working with the insurance company to update our coverages.
+		</Description>
+	</Task>
+	<Task>
+		<Id>7</Id>
+		<Subject>New Brochures</Subject>
+		<Description>
+			Review and the new brochure designs and give final approval.
+			John Heart: I&apos;ve reviewed them all and forwarded an email with all changes we need to make to the brochures to comply with local regulations.
+		</Description>
+	</Task>
+	<Task>
+		<Id>10</Id>
+		<Subject>Website Re-Design Plan</Subject>
+		<Description>
+			The changes in our brochure designs for CURRENT_YEAR require us to update key areas of our website.
+			Violet Bailey: I&apos;ve completed the plan and have submitted it to Robert for his approval.
+		</Description>
+	</Task>
+	<Task>
+		<Id>12</Id>
+		<Subject>Update Sales Strategy Documents</Subject>
+		<Description>
+			Changes in marketing strategy require an update to our direct sales strategy. The report has to be completed by month&apos;s end to submission to the CEO.
+			Ed Holmes: As you will see in my report, I do not recommend any major changes.
+		</Description>
+	</Task>
+	<Task>
+		<Id>13</Id>
+		<Subject>Create LAST_YEAR Sales Report</Subject>
+		<Description>
+			LAST_YEAR Sales Report has to be completed so we can determine if major changes are required to sales strategy.
+			Jim Packard: I&apos;ve forwarded everything I have via Email. If you need anything else, please let em know.
+		</Description>
+	</Task>
+	<Task>
+		<Id>15</Id>
+		<Subject>Review LAST_YEAR Sales Report and Approve CURRENT_YEAR Plans</Subject>
+		<Description>
+			LAST_YEAR Sales Reports along with detailed market comparisons are complete. Management needs to review and provide additional guidance.
+			Robert Reagan: We are in agreement with the recommendations in the report. You are go to execute plans.
+		</Description>
+	</Task>
+	<Task>
+		<Id>17</Id>
+		<Subject>Create CURRENT_YEAR R&amp;D Plans</Subject>
+		<Description>
+			Create CURRENT_YEAR R&amp;D Plan Report for CEO and include information on products under consideration and final decisions as to which products will be depracated.
+			Bart Arnaz: Done. You should review this Arthur as there are issues we need to consider.
+		</Description>
+	</Task>
+	<Task>
+		<Id>18</Id>
+		<Subject>CURRENT_YEAR QA Strategy Report</Subject>
+		<Description>
+			In final stages of the CURRENT_YEAR R&amp;D Report to Management. Need QA strategy report asap. Remember, LAST_YEAR was a difficult year product quality-wise and we must step it up in CURRENT_YEAR.
+			Leah Simpson: Bart, my apologies about LAST_YEAR. My report includes remedies to issues we encountered.
+		</Description>
+	</Task>
+	<Task>
+		<Id>20</Id>
+		<Subject>Approve Hiring of John Jeffers</Subject>
+		<Description>
+			Review resume and non-compete with previous employer and give final approval to hire John Jeffers.
+			Greta Sims: We are unable to hire John. His non-compete is rock solid and he will not be able to perform his role as a product trainer for our company.
+		</Description>
+	</Task>
+	<Task>
+		<Id>22</Id>
+		<Subject>Update NDA Agreement</Subject>
+		<Description>
+			Need sign-off on the new NDA agreement. It&apos;s important that this is done quickly to prevent any unauthorized leaks.
+			John Heart: Done. Please have Greta update employee files.
+		</Description>
+	</Task>
+	<Task>
+		<Id>25</Id>
+		<Subject>Sign Updated NDA</Subject>
+		<Description>You must sign updated NDA. Documents have been emailed to you. Once documents have been signed, please retain one copy for your records and return one to HR for filing.</Description>
+	</Task>
+	<Task>
+		<Id>27</Id>
+		<Subject>Sign Updated NDA</Subject>
+		<Description>You must sign updated NDA. Documents have been emailed to you. Once documents have been signed, please retain one copy for your records and return one to HR for filing.</Description>
+	</Task>
+	<Task>
+		<Id>29</Id>
+		<Subject>Submit Questions Regarding New NDA</Subject>
+		<Description>The new NDA is now required for employment. I need a list of questions or issues so we can submit all paperwork to HR.</Description>
+	</Task>
+	<Task>
+		<Id>31</Id>
+		<Subject>Submit Signed NDA</Subject>
+		<Description>
+			The new NDA must be signed for continued employment at DevAV. Do not ignore this task as you will be terminated if not signed.
+			The sensitive nature of our job responsibilities demands that we hold ourselves to the highest standards.
+		</Description>
+	</Task>
+	<Task>
+		<Id>33</Id>
+		<Subject>Submit Signed NDA</Subject>
+		<Description>
+			The new NDA must be signed for continued employment at DevAV. Do not ignore this task as you will be terminated if not signed.
+			The sensitive nature of our job responsibilities demands that we hold ourselves to the highest standards.
+		</Description>
+	</Task>
+	<Task>
+		<Id>36</Id>
+		<Subject>Review Revenue Projections</Subject>
+		<Description>
+			Board requires CURRENT_YEAR Revenue Projection Report. Review sales reports and my projections and give final approval before I proceed.
+			Ed Holmes: Done. You are 100% on target with the data.
+		</Description>
+	</Task>
+	<Task>
+		<Id>38</Id>
+		<Subject>Comment on Revenue Projections</Subject>
+		<Description>Board requires CURRENT_YEAR Revenue Projection Report. Comment on sales reports and my projections and provide any additional information that might be relevant to management.</Description>
+	</Task>
+	<Task>
+		<Id>41</Id>
+		<Subject>Review Changes to Health Insurance Coverage</Subject>
+		<Description>
+			Shipping department must review new health insurance policy and submit paperwork by the end of the month. If not submitted, coverage will terminate.
+			Kevin Carter: All employees have submitted paperwork.
+		</Description>
+	</Task>
+	<Task>
+		<Id>42</Id>
+		<Subject>Scan Health Insurance Forms</Subject>
+		<Description>
+			HR needs scanned copies of all signed documents for personnel files. Victor, you have to scan them for me as I&apos;m just too busy.
+			Victor Norris: Done and forwarded by Email.
+		</Description>
+	</Task>
+	<Task>
+		<Id>49</Id>
+		<Subject>Submit Refund Report for CURRENT_YEAR Recall</Subject>
+		<Description>
+			Need a report on all customers who&apos;ve been promised a refund as a result of the CURRENT_YEAR TV recall.
+			Barb Banks: Sent by Email. I know, this is going to hurt our bottom-line.
+		</Description>
+	</Task>
+	<Task>
+		<Id>50</Id>
+		<Subject>Give Final Approval for Refunds</Subject>
+		<Description>
+			Refunds as a result of our CURRENT_YEAR TV recalls have been submitted. Need final approval to cut checks to customers.
+			Samantha Bright: You can send the checks out mid-May.
+		</Description>
+	</Task>
+	<Task>
+		<Id>51</Id>
+		<Subject>Prepare Product Recall Report</Subject>
+		<Description>
+			Bart, this recall was an absolute disaster. Your report better be on my desk tomorrow. This is killing our bottom-line.
+			Bart Arnaz: Yes, it&apos;s unacceptable.
+		</Description>
+	</Task>
+	<Task>
+		<Id>55</Id>
+		<Subject>Review Overtime Report</Subject>
+		<Description>Brett, way too much overtime being submitted by the IT department please review numbers and get with management and tell me long term decision on this matter.</Description>
+	</Task>
+	<Task>
+		<Id>56</Id>
+		<Subject>Submit Overtime Request Forms</Subject>
+		<Description>
+			Taylor, you are working too many hours and management wants to stop it. You cannot work this much overtime. Send me the report so I can kick it up to HR.
+			They need you to justify your hours.
+		</Description>
+	</Task>
+	<Task>
+		<Id>57</Id>
+		<Subject>Submit Overtime Request Forms</Subject>
+		<Description>
+			Amelia, you are working too many hours and management wants to stop it. You cannot work this much overtime. Send me the report so I can kick it up to HR.
+			They need you to justify your hours.
+		</Description>
+	</Task>
+	<Task>
+		<Id>60</Id>
+		<Subject>Refund Request Template</Subject>
+		<Description>
+			We need to update the refund request template as I keep getting asked questions from confused customers. Is this something we can do this week?
+			Ed Holmes: I&apos;ve asked for input from legal. For now it&apos;s 
+			quo.
+		</Description>
+	</Task>
+	<Task>
+		<Id>61</Id>
+		<Subject>Recall Rebate Form</Subject>
+		<Description>
+			I don’t think we can keep sending our existing rebate forms. Like the refund request forms, customers are confused by all the legal language and they refuse to sign it.
+			Ed Holmes: We have nothing from legal on this and so we have to keep doing what we&apos;ve been doing.
+		</Description>
+	</Task>
+	<Task>
+		<Id>63</Id>
+		<Subject>Review Customer Feedback Report</Subject>
+		<Description>The problems with our recall and refund request forms are real. Sale staff are overwhelmed and are answering the same questions over and over again. Need a solution from legal.</Description>
+	</Task>
+	<Task>
+		<Id>65</Id>
+		<Subject>Prepare Shipping Cost Analysis Report</Subject>
+		<Description>
+			Management needs to see which shipping company is giving us the best bang for our buck. Need the report asap as we have to commit to one shipper soon.
+			Kevin Carter: They are all the same, but the report has been prepared nonetheless.
+		</Description>
+	</Task>
+	<Task>
+		<Id>68</Id>
+		<Subject>Provide Feedback on Shippers</Subject>
+		<Description>
+			Need to know which shipping companies you prefer to work. Looks like costs are all coming in the same so I think we just need to pick the one that offers the best services.
+			Robin Cosworth: You already know my opinion Kevin. Why keep asking me about this?
+		</Description>
+	</Task>
+	<Task>
+		<Id>69</Id>
+		<Subject>Select Preferred Shipper</Subject>
+		<Description>
+			All cost analysis reports have been prepared. I&apos;ve also submitted personal opinions on all the shippers we&apos;ve dealt with. We need a final decision so I can negotiate final contract.
+			Samantha Bright: This is not just up to me. Will take it CEO.
+		</Description>
+	</Task>
+	<Task>
+		<Id>70</Id>
+		<Subject>Complete Shipper Selection Form</Subject>
+		<Description>
+			John, the natives are getting restless. You need to make a final decision on the shipper we are going to go with. I don’t know why we can&apos;t choose a single shipper?
+			John Heart: Samantha, we&apos;ve been through this. We need to work with multiple shippers
+		</Description>
+	</Task>
+	<Task>
+		<Id>72</Id>
+		<Subject>Upgrade Personal Computers</Subject>
+		<Description>
+			It&apos;s end-of-life for Windows XP. We either have to upgrade everyone&apos;s computers or upgrade the OS on existing customers. We need a final decision from management to proceed.
+			Brett Wade: We will upgrade computers one at a time through April 2019.
+		</Description>
+	</Task>
+	<Task>
+		<Id>74</Id>
+		<Subject>Decide on Mobile Devices to Use in the Field</Subject>
+		<Description>
+			We need to decide whether we are going to use Surface tablets in the field or go with iPad. I&apos;ve prepared the pros and cons based on feedback from everyon in the IT dept.
+			Arthur Miller: Surface
+		</Description>
+	</Task>
+	<Task>
+		<Id>75</Id>
+		<Subject>Upgrade Apps to Windows RT or stay with WinForms</Subject>
+		<Description>
+			Need to decide if we are going to re-write apps as Metro apps or simply touch-enable our existing apps. Obviously the former is going to take a lot of time.
+			Brett Wade: Definitely use DevExpress Controls and upgrade to touch-enabled - do not rewrite anything
+		</Description>
+	</Task>
+	<Task>
+		<Id>80</Id>
+		<Subject>Site Up-Time Report</Subject>
+		<Description>
+			Need to see site up-time reports. Online sales have taken a big dive and we think it&apos;s because the site is not reliable.
+			Brett Wade: The site has 100% uptime. Don’t think this is the problem with sales.
+		</Description>
+	</Task>
+	<Task>
+		<Id>81</Id>
+		<Subject>Review Site Up-Time Report</Subject>
+		<Description>Robert, as you&apos;ll see by this report, the drop in online sales is not a result of site up-time. You should review this with John and tell me what you want us to do. </Description>
+	</Task>
+	<Task>
+		<Id>83</Id>
+		<Subject>Determine New Online Marketing Strategy</Subject>
+		<Description>
+			Online sales are a disaster. We need to rework our entire marketing message and spend a lot of money on ad-words to generate more traffic to our site. We have great products. I don’t understand the problem.
+			Ed Holmes: You know the reason. We had a recall a couple of months back.
+		</Description>
+	</Task>
+	<Task>
+		<Id>85</Id>
+		<Subject>Approve New Online Marketing Strategy</Subject>
+		<Description>
+			We have prepared a detailed report of all options to improve online sales. We have 3 major recommendations and I need the ok to pursue this with the IT and design teams.
+			Robert Reagan: Approved, go ahead and start
+		</Description>
+	</Task>
+	<Task>
+		<Id>87</Id>
+		<Subject>Create Icons for Website</Subject>
+		<Description>
+			Im in a tough spot as management wants the new design right away. I need you to take the lead and create all the icons we are going to need for the new site. Send it to me asap.
+			Violet Bailey: Done, sent by Email.
+		</Description>
+	</Task>
+	<Task>
+		<Id>89</Id>
+		<Subject>Create New Shopping Cart</Subject>
+		<Description>You have the PSDs from the design team. I need the cart updated. Management wants this done immediately so we can roll out by October 15.</Description>
+	</Task>
+	<Task>
+		<Id>91</Id>
+		<Subject>Review New Product Pages</Subject>
+		<Description>
+			Karen published the new product pages on our sandbox server. Can you take a look and give your thoughts. Is it what you wanted? I&apos;m not sure that I like it that much.
+			Ed Holmes: Yes, I love it.
+		</Description>
+	</Task>
+	<Task>
+		<Id>93</Id>
+		<Subject>Launch New Website</Subject>
+		<Description>
+			You are good to go Brett. Launch the website and track first day activities. Send me a report once you have everything ready.
+		</Description>
+	</Task>
+	<Task>
+		<Id>94</Id>
+		<Subject>Update Customer Shipping Profiles</Subject>
+		<Description>Problems with new website. We did not update shipping profiles and customers have no idea how to update personal information. Can you get on this asap?</Description>
+	</Task>
+	<Task>
+		<Id>96</Id>
+		<Subject>Get Design for Shipping Return Labels</Subject>
+		<Description>Wally, you are point to create the new RMA labels for the website. We are under pressure from the shipping department to get this done by month&apos;s end. Get with the design department and deploy it by the end of the month.</Description>
+	</Task>
+	<Task>
+		<Id>98</Id>
+		<Subject>Request Bandwidth Increase from ISP</Subject>
+		<Description>
+			Getting a lot of complaints from users about slow connection speeds. I&apos;ve checked with our ISP and we can upgrade to a faster access plan.
+		</Description>
+	</Task>
+	<Task>
+		<Id>99</Id>
+		<Subject>Submit D&amp;B Number to ISP for Credit Approval</Subject>
+		<Description>
+			Our ISP is not willing to upgrade our access plan because they are concerned about our payment history. Sandra, please get them our D&amp;B # so they can check our credit history.
+			Sandra Johnson: They are crazy. We pay our bills on time. I&apos;ll deal with this.
+		</Description>
+	</Task>
+	<Task>
+		<Id>101</Id>
+		<Subject>Prepare Year-End Support Summary Report</Subject>
+		<Description>
+			Need a summary of all major support issues we encountered this year. This report will be presented to management. You are the point person on this James.
+			James Anderson: I&apos;m on it Barb.
+		</Description>
+	</Task>
+	<Task>
+		<Id>104</Id>
+		<Subject>Distribute Training Material to Support Staff</Subject>
+		<Description>Please distribute new training material to all support staff. The information is very useful and I believe it will help us address issues in a more effective manner.</Description>
+	</Task>
+	<Task>
+		<Id>107</Id>
+		<Subject>Publish New Art on the Server</Subject>
+		<Description>
+			Violet, please get all our new art published so that other teams can use them as necessary. I asked you to do this a week ago.
+			Violet Bailey: I already published it. I guess I put it in the wrong location.
+		</Description>
+	</Task>
+	<Task>
+		<Id>108</Id>
+		<Subject>Replace Old Artwork with New Artwork</Subject>
+		<Description>
+			Sammy - please replace all artwork / brochures / media being used for sales presentations with new materials produced by the graphic design team. If you have questions, ask me.
+			Sammy Hill: Done
+		</Description>
+	</Task>
+	<Task>
+		<Id>109</Id>
+		<Subject>Replace Old Artwork with New Artwork</Subject>
+		<Description>
+			Olivia - please replace all artwork / brochures / media being used for sales presentations with new materials produced by the graphic design team. If you have questions, ask me.
+			Olivia Peyton: Done
+		</Description>
+	</Task>
+	<Task>
+		<Id>110</Id>
+		<Subject>Replace Old Artwork with New Artwork</Subject>
+		<Description>
+			Lucy - please replace all artwork / brochures / media being used for sales presentations with new materials produced by the graphic design team. If you have questions, ask me.
+			Lucy Ball: Done
+		</Description>
+	</Task>
+	<Task>
+		<Id>114</Id>
+		<Subject>Install New Database</Subject>
+		<Description>
+			We are go on the new database. I need you to get it installed so we can begin company wide roll-out.
+			Amelia Harper: Brett, I will take care of this, but you need to approve overtime.
+		</Description>
+	</Task>
+	<Task>
+		<Id>118</Id>
+		<Subject>Create New Spike for Automation Server</Subject>
+		<Description>
+			I need to see if this is a market we should enter and unless I get a spike, I wont know what to report to CEO.
+			Brad Jameson: Ive forwarded information on what you need to execute the app.
+		</Description>
+	</Task>
+	<Task>
+		<Id>120</Id>
+		<Subject>Code Review - New Automation Server</Subject>
+		<Description>
+			Need your eyes on the new Automation Server product. I&apos;m having performance issues and you have to figure out what is causing it.
+			Karen Goodson: We need time to figure this out.
+		</Description>
+	</Task>
+	<Task>
+		<Id>123</Id>
+		<Subject>Schedule Meeting with Sales Team</Subject>
+		<Description>Need to discuss new retail strategies with sales team. Please coordinate everything and make sure everyone is present.</Description>
+	</Task>
+	<Task>
+		<Id>126</Id>
+		<Subject>Send 2 Remotes for Giveaways</Subject>
+		<Description>
+			Running a contest in my region and will be giving away 2 remote controls. Can you send them to me asap.
+			Lucy Ball: Remotes on their way to you priority.
+		</Description>
+	</Task>
+	<Task>
+		<Id>130</Id>
+		<Subject>Replace Desktops on the 3rd Floor</Subject>
+		<Description>
+			Been told that all desktops on the third floor have to be replaced. We are being asked to do it because of workload in IT dept.
+			Taylor Riley: Not a problem, Im taking care of it.
+		</Description>
+	</Task>
+	<Task>
+		<Id>131</Id>
+		<Subject>Update Database with New Leads</Subject>
+		<Description>
+			Todd, I&apos;m told you have all new leads from the tradeshow. Can you please update the database so I can begin my follow-ups.
+			Todd Hoffman: I&apos;ve done the best I can with this, but I just have no time to finish it.
+		</Description>
+	</Task>
+	<Task>
+		<Id>134</Id>
+		<Subject>Territory Sales Breakdown Report</Subject>
+		<Description>
+			Per discussion, I need territory sales report by EOD.
+			Jim Packard: John, Im waiting for the report from Sammy. I don’t know what&apos;s taking him so long to finish it…we are at 50%.
+		</Description>
+	</Task>
+	<Task>
+		<Id>136</Id>
+		<Subject>Report on the State of Engineering Dept</Subject>
+		<Description>Under a lot of pressure from CEO to figure out cause of refunds. Need you to send me a state of engineering dept report so we can get to the bottom of the problems.</Description>
+	</Task>
+	<Task>
+		<Id>140</Id>
+		<Subject>Support Dept Budget Report</Subject>
+		<Description>
+			Barb, I really need you to send me your budget report because CEO is looking to make changes and I&apos;m stuck without your help.
+			Barb Banks: Coming soon...
+		</Description>
+	</Task>
+	<Task>
+		<Id>143</Id>
+		<Subject>1Q Travel Spend Report</Subject>
+		<Description>
+			Marcus, have complaints from management that travel costs are just too high. I need you to send me over your detailed report.
+			Marcus Orbison: It&apos;s going to take me a while to compile it.
+		</Description>
+	</Task>
+	<Task>
+		<Id>146</Id>
+		<Subject>State of Operations Report</Subject>
+		<Description>
+			Samantha, I&apos;m dissapointed you have not sent this report over to me. You know we are trying to manage a crisis and it does not help when you are not proactive.
+			Samantha Bright: I know John, I&apos;m collecting info from teams.
+		</Description>
+	</Task>
+	<Task>
+		<Id>149</Id>
+		<Subject>Shipping Label Artwork</Subject>
+		<Description>
+			Kevin wants new shipping labels and I cannot print them without the artwork from your team. Can you please hurry and send it to me.
+			Morgan Kennedy: Send me the specs and I will work on it when I can.
+		</Description>
+	</Task>
+	<Task>
+		<Id>152</Id>
+		<Subject>Move Inventory to New Warehouse</Subject>
+		<Description>Robin, you are point person to get all inventory moved to the new warehouse location. You can hire temp workers if needed.</Description>
+	</Task>
+	<Task>
+		<Id>156</Id>
+		<Subject>Approve Overtime Pay</Subject>
+		<Description>
+			Brett, the overtime I submitted was not paid and I&apos;m being told it was not approved. I thought you approved this. What is the problem?
+			Brett Wade: I did approve it. It was error in payroll. Trying to figure it out.
+		</Description>
+	</Task>
+	<Task>
+		<Id>160</Id>
+		<Subject>Review Website Complaint Reports</Subject>
+		<Description>Brett, a lot of the reports about the website are related to uptime. You need to review this document and send and Email to me and Ken so we can deal with the Consumer Affairs Dept.</Description>
+	</Task>
+	<Task>
+		<Id>161</Id>
+		<Subject>Test New Automation App</Subject>
+		<Description>We are in a rush to ship this and you need to put all your energy behind finding bugs. If you do find bugs, use standard reporting mechanisms. We&apos;ll fix what we can as soon as we can.</Description>
+	</Task>
+	<Task>
+		<Id>164</Id>
+		<Subject>Install New Router in Dev Room</Subject>
+		<Description>
+			Ameilia, we keep getting bounced off the network and we cant get our job done. Can you please replace this old router so we can get things done?
+			Amelia Harper: I&apos;ve placed the order. Will replace as soon as I get the new router
+		</Description>
+	</Task>
+	<Task>
+		<Id>169</Id>
+		<Subject>Pickup Packages from the Warehouse</Subject>
+		<Description>We have a shipment from one of our PC vendors in the warehouse. Can you please pick these up as we do not have anyone who can deliver them to you.</Description>
+	</Task>
+	<Task>
+		<Id>170</Id>
+		<Subject>Sumit Travel Expenses for Recent Trip</Subject>
+		<Description>
+			Gabe, you sent me some receipts by Email but in order for me to get you a payment for expenses, I need your expense report.
+			Gabe Jones: I&apos;m missing a receipt. As soon as I find it, I will submit
+		</Description>
+	</Task>
+	<Task>
+		<Id>173</Id>
+		<Subject>Collect Customer Reviews for Website</Subject>
+		<Description>
+			We are updating our website again with customer reviews. Need you to contact 10 customers and get feedback and authorization to publish their thoughts on our website.
+		</Description>
+	</Task>
+	<Task>
+		<Id>176</Id>
+		<Subject>Review New Customer Follow Up Plan</Subject>
+		<Description>
+			John, I&apos;ve created a detailed follow up with all of our customers. This will help us with retention. Please review and give me OK so I can push it out to the field.
+			John Heart: Im getting feedback from management.
+		</Description>
+	</Task>
+	<Task>
+		<Id>179</Id>
+		<Subject>Contact Customers for Video Interviews</Subject>
+		<Description>
+			We are creating a new section on our website for video interviews. Contact a few customers and see if they are willing to record a video review for us.
+			Kelly Rodriguez: Not much like so far. Still trying.
+		</Description>
+	</Task>
+	<Task>
+		<Id>183</Id>
+		<Subject>Send Receipts for all Flights Last Month</Subject>
+		<Description>Marcus, I&apos;ve not seen last month&apos;s flight expense report. Please forward it to me as I cannot reconcile our accounts without them.</Description>
+	</Task>
+	<Task>
+		<Id>189</Id>
+		<Subject>Review Training Content</Subject>
+		<Description>Sam please review training content submitted by Leah.  We need to be sure everything is included in the packet.</Description>
+	</Task>
+	<Task>
+		<Id>194</Id>
+		<Subject>Review Automation App</Subject>
+		<Description>Can we set a time to go over the new changes?  I need to be brought up to speed ASAP</Description>
+	</Task>
+	<Task>
+		<Id>205</Id>
+		<Subject>Submitted Reports</Subject>
+		<Description>Greta can you send me a report for January complaints.</Description>
+	</Task>
+	<Task>
+		<Id>213</Id>
+		<Subject>Retail Sales Meeting</Subject>
+		<Description>I missed the last half of the meeting.  Can you shoot me over a list of interested parties to review online sales.</Description>
+	</Task>
+	<Task>
+		<Id>214</Id>
+		<Subject>New Warehourse</Subject>
+		<Description>I need an itemized list of everything moving to the new warehouse next week.  </Description>
+	</Task>
+	<Task>
+		<Id>2</Id>
+		<Subject>Prepare CURRENT_YEAR Marketing Plan</Subject>
+		<Description>
+			We need to double revenues in CURRENT_YEAR and our marketing strategy is going to be key here. R&amp;D is improving existing products and creating new products so we can deliver great AV equipment to our customers.
+			Robert, please make certain to create a PowerPoint presentation for the members of the executive team.
+		</Description>
+	</Task>
+	<Task>
+		<Id>5</Id>
+		<Subject>Choose between PPO and HMO Health Plan</Subject>
+		<Description>
+			We need a final decision on whether we are planning on staying with a PPO Health Plan or we plan on switching to an HMO. We cannot proceed with compliance with the Affordable Health Act until we make this decision.
+			John Heart: Samantha, I&apos;m still reviewing costs. I am not in a position to make a final decision at this point.
+		</Description>
+	</Task>
+	<Task>
+		<Id>6</Id>
+		<Subject>Google AdWords Strategy</Subject>
+		<Description>
+			Make final decision on whether we are going to increase our Google AdWord spend based on our CURRENT_YEAR marketing plan.
+			We must seriously consider a higher spend if we are going to double revenues this year.
+		</Description>
+	</Task>
+	<Task>
+		<Id>8</Id>
+		<Subject>CURRENT_YEAR Brochure Designs</Subject>
+		<Description>
+			The changes we need to make to our CURRENT_YEAR brochures have been forwarded via Email please review and send updated versions to Robert Reagan.
+			Morgan Kennedy: This task has been completed. New designs are published on our server.
+		</Description>
+	</Task>
+	<Task>
+		<Id>9</Id>
+		<Subject>Brochure Design Review</Subject>
+		<Description>
+			We have been instructed by management to modify brochure designs for CURRENT_YEAR. All specifications and change requests are on the server.
+			Violet Bailey: What did you want me to do besides create the icons we&apos;ll be using in the brochure?
+			Morgan Kennedy: That&apos;s it. Thanks
+		</Description>
+	</Task>
+	<Task>
+		<Id>11</Id>
+		<Subject>Rollout of New Website and Marketing Brochures</Subject>
+		<Description>
+			The designs for new brochures and website have been approved. Launch date is set for Feb 28.
+			Robert Reagan: Designers and IT departments have implemented all requirements. The rollout is complete.
+		</Description>
+	</Task>
+	<Task>
+		<Id>14</Id>
+		<Subject>Direct vs Online Sales Comparison Report</Subject>
+		<Description>
+			To better understand CURRENT_YEAR sales strategy, we need to report LAST_YEAR direct vs online sales information to management.
+			Hannah Brookly: Jim, I created this a long time ago and I&apos;ve forwarded it to you again. Let me know if it&apos;s sufficient.
+		</Description>
+	</Task>
+	<Task>
+		<Id>16</Id>
+		<Subject>Deliver R&amp;D Plans for CURRENT_YEAR</Subject>
+		<Description>
+			Marketing strategy is set. R&amp;D needs to deliver a detailed report on product development plans along with final decisions as to which product lines will be terminated.
+			Arther Miller: I&apos;ve submitted your reports. Need final approval.
+		</Description>
+	</Task>
+	<Task>
+		<Id>19</Id>
+		<Subject>CURRENT_YEAR Training Events</Subject>
+		<Description>
+			Need to finalize CURRENT_YEAR Training Events. QA is under pressure to step it up in CURRENT_YEAR and without an effective training strategy for the field, QA problems will persist.
+			Nat Maguiree: Leah, we&apos;ve forwarded our CURRENT_YEAR training schedule. We&apos;ll do our best to minimize issues in CURRENT_YEAR.
+		</Description>
+	</Task>
+	<Task>
+		<Id>21</Id>
+		<Subject>Non-Compete Agreements</Subject>
+		<Description>
+			Make final decision on whether our employees should sign non-compete agreements.
+			Samantha Bright: Greta, we discussed this and we feel it is unnecessary to require non-compete agreements for employees.
+		</Description>
+	</Task>
+	<Task>
+		<Id>23</Id>
+		<Subject>Update Employee Files with New NDA</Subject>
+		<Description>
+			Management has approved new NDA. All employees must sign the new NDA and their employee files must be updated.
+			Greta Sims: Having difficulty with a few employees. Will follow up by Email.
+		</Description>
+	</Task>
+	<Task>
+		<Id>24</Id>
+		<Subject>Sign Updated NDA</Subject>
+		<Description>You must sign updated NDA. Documents have been emailed to you. Once documents have been signed, please retain one copy for your records and return one to HR for filing.</Description>
+	</Task>
+	<Task>
+		<Id>26</Id>
+		<Subject>Sign Updated NDA</Subject>
+		<Description>
+			You must sign updated NDA. Documents have been emailed to you. Once documents have been signed, please retain one copy for your records and return one to HR for filing.
+			Ed Holmes: As discussed, I don&apos;t believe the new NDA is helpful for our sales strategy.
+		</Description>
+	</Task>
+	<Task>
+		<Id>28</Id>
+		<Subject>Submit Questions Regarding New NDA</Subject>
+		<Description>
+			The new NDA is now required for employment. I need a list of questions or issues so we can submit all paperwork to HR.
+			Kelly Rodriguez: I don’t have any questions. Thank you.
+		</Description>
+	</Task>
+	<Task>
+		<Id>30</Id>
+		<Subject>Submit Questions Regarding New NDA</Subject>
+		<Description>
+			The new NDA is now required for employment. I need a list of questions or issues so we can submit all paperwork to HR.
+			Anthony Remmen: My attorney suggests that I not sign this.
+		</Description>
+	</Task>
+	<Task>
+		<Id>32</Id>
+		<Subject>Submit Signed NDA</Subject>
+		<Description>
+			The new NDA must be signed for continued employment at DevAV. Do not ignore this task as you will be terminated if not signed.
+			The sensitive nature of our job responsibilities demands that we hold ourselves to the highest standards.
+		</Description>
+	</Task>
+	<Task>
+		<Id>34</Id>
+		<Subject>Submit Signed NDA</Subject>
+		<Description>
+			The new NDA must be signed for continued employment at DevAV. Do not ignore this task as you will be terminated if not signed.
+			The sensitive nature of our job responsibilities demands that we hold ourselves to the highest standards.
+		</Description>
+	</Task>
+	<Task>
+		<Id>35</Id>
+		<Subject>Update Revenue Projections</Subject>
+		<Description>
+			Meeting with Board has been scheduled. Need final sales projections for CURRENT_YEAR.
+			Sandra Johnson: Report has been emailed to all stakeholders.
+		</Description>
+	</Task>
+	<Task>
+		<Id>37</Id>
+		<Subject>Comment on Revenue Projections</Subject>
+		<Description>Board requires CURRENT_YEAR Revenue Projection Report. Comment on sales reports and my projections and provide any additional information that might be relevant to management.</Description>
+	</Task>
+	<Task>
+		<Id>39</Id>
+		<Subject>Comment on Revenue Projections</Subject>
+		<Description>
+			Board requires CURRENT_YEAR Revenue Projection Report. Comment on sales reports and my projections and provide any additional information that might be relevant to management.
+			Sandra Johnson: Todd, I need this information from you. You are holding up my report. I will have to go without your input if I do not receive it.
+		</Description>
+	</Task>
+	<Task>
+		<Id>40</Id>
+		<Subject>Provide New Health Insurance Docs</Subject>
+		<Description>
+			Need to get employees to sign new health insurance documents. Need final paperwork from agents.
+			Greta Sims: Cindy, this information was already sent to you. Do not create unnecessary tasks for me.
+		</Description>
+	</Task>
+	<Task>
+		<Id>43</Id>
+		<Subject>Sign Health Insurance Forms</Subject>
+		<Description>
+			Kevin asked me to collect all signed health insurance forms for him - he is too busy. Please get this done asap so I can get back to my regular job.
+			Mary Stern: Done and Email sent.
+		</Description>
+	</Task>
+	<Task>
+		<Id>44</Id>
+		<Subject>Sign Health Insurance Forms</Subject>
+		<Description>
+			Kevin asked me to collect all signed health insurance forms for him - he is too busy. Please get this done asap so I can get back to my regular job.
+			Davey Jones: Done and Email sent.
+		</Description>
+	</Task>
+	<Task>
+		<Id>45</Id>
+		<Subject>Sign Health Insurance Forms</Subject>
+		<Description>
+			Kevin asked me to collect all signed health insurance forms for him - he is too busy. Please get this done asap so I can get back to my regular job.
+			Robin Cosworth: I&apos;m going with my husband&apos;s plan. This new plan is terrible and I don’t want it.
+		</Description>
+	</Task>
+	<Task>
+		<Id>46</Id>
+		<Subject>Follow up with West Coast Stores</Subject>
+		<Description>
+			The problem with the TVs has been confirmed with R&amp;D. We need to immediately follow up with West Coast Retailers and let them know so we do not get any returns.
+			James Anderson: This is going to take me a long time to finish.
+		</Description>
+	</Task>
+	<Task>
+		<Id>47</Id>
+		<Subject>Follow up with East Coast Stores</Subject>
+		<Description>
+			The problem with the TVs has been confirmed with R&amp;D. We need to immediately follow up with West Coast Retailers and let them know so we do not get any returns.
+			Kelly Rodriguez: Still working on this. Taking so much time.
+		</Description>
+	</Task>
+	<Task>
+		<Id>48</Id>
+		<Subject>Send Email to Customers about Recall</Subject>
+		<Description>
+			The problem with the TVs has been confirmed with R&amp;D. We need to send an email to all customers who purchased the TV in the last 30 days.
+			Anthony Remmen: Done. Over 100 emails have been sent.
+		</Description>
+	</Task>
+	<Task>
+		<Id>52</Id>
+		<Subject>Review Product Recall Report by Engineering Team</Subject>
+		<Description>
+			John, everyone in Engineering is working hard to avoid any future recalls. Can you please review this report and send me your thoughts.
+			John Heart: Very difficult situation. It should never have happened.
+		</Description>
+	</Task>
+	<Task>
+		<Id>53</Id>
+		<Subject>Create Training Course for New TVs</Subject>
+		<Description>After the recall, customers have option to purchase new version of TV. You need to prepare training course for our retail partners so they can better understand the design changes.</Description>
+	</Task>
+	<Task>
+		<Id>54</Id>
+		<Subject>Review Training Course for any Ommissions</Subject>
+		<Description>
+			Leah, consider this most important item on your agenda. I need this new training material reviewed so it can be submitted to management.
+			Leah Simpson: I only found a few spelling mistakes.
+		</Description>
+	</Task>
+	<Task>
+		<Id>58</Id>
+		<Subject>Submit Overtime Request Forms</Subject>
+		<Description>
+			Wally, you are working too many hours and management wants to stop it. You cannot work this much overtime. Send me the report so I can kick it up to HR.
+			They need you to justify your hours.
+		</Description>
+	</Task>
+	<Task>
+		<Id>59</Id>
+		<Subject>Overtime Approval Guidelines</Subject>
+		<Description>
+			Samantha, we cannot keep going like this. Everytime my people send overtime request, we get hassled. Can you please send me the definitive guide as to when people can submit overtime?
+			Samantha Bright: Done. Check Email.
+		</Description>
+	</Task>
+	<Task>
+		<Id>62</Id>
+		<Subject>Create Report on Customer Feedback</Subject>
+		<Description>
+			Ed asked me to get with you and prepare a full report of all questions being asked by customers about the recall and refund request forms. Legal does not want to take any action until we submit this.
+			Sammy Hill: This is crazy. I don’t understand why legal does not change the language.
+		</Description>
+	</Task>
+	<Task>
+		<Id>64</Id>
+		<Subject>Customer Feedback Report Analysis</Subject>
+		<Description>
+			We&apos;ve analyzed all complaints submitted to sales staff. The problems are real and a solution is needed. Kicking this up to you John as legal simply will not budge.
+			John Heart: Ed, I&apos;m with legal on this. Tell the sales staff to keep doing what they are doing.
+		</Description>
+	</Task>
+	<Task>
+		<Id>66</Id>
+		<Subject>Provide Feedback on Shippers</Subject>
+		<Description>Need to know which shipping companies you prefer to work. Looks like costs are all coming in the same so I think we just need to pick the one that offers the best services.</Description>
+	</Task>
+	<Task>
+		<Id>67</Id>
+		<Subject>Provide Feedback on Shippers</Subject>
+		<Description>Need to know which shipping companies you prefer to work. Looks like costs are all coming in the same so I think we just need to pick the one that offers the best services.</Description>
+	</Task>
+	<Task>
+		<Id>71</Id>
+		<Subject>Upgrade Server Hardware</Subject>
+		<Description>
+			Website traffic has doubled. We must upgrade server hardware or customers will continue to experience difficulties ordering. We need a decision by end of month.
+			Brett Wade: You request has been approved.
+		</Description>
+	</Task>
+	<Task>
+		<Id>73</Id>
+		<Subject>Approve Personal Computer Upgrade Plan</Subject>
+		<Description>Windows XP is finished and we need to know if we are going to upgrade hardware or simply update OS. IT department has a lot of work ahead of it and the sooner we know, the better it will be for everyone.</Description>
+	</Task>
+	<Task>
+		<Id>76</Id>
+		<Subject>Estimate Time Required to Touch-Enable Apps</Subject>
+		<Description>
+			Management has decided to stick with existing apps. We simply need to make them touch-enabled for the new Surface Tablets being distributed to the field. Can you get me an estimate?
+			Karen Goodson: Bard, they are already touch-enabled. We are using DevExpress WinForms Controls
+		</Description>
+	</Task>
+	<Task>
+		<Id>77</Id>
+		<Subject>Report on Tranistion to Touch-Based Apps</Subject>
+		<Description>
+			Wally, I&apos;ve given the approval to go with touch-based apps on WinForms vs complete re-write. I need your report as to when the apps are going to be ready to deploy to the field.
+			Wally Hobbs: Brett, the apps are already touch-enabled. We didn’t have to do anything.
+		</Description>
+	</Task>
+	<Task>
+		<Id>78</Id>
+		<Subject>Try New Touch-Enabled WinForms Apps</Subject>
+		<Description>
+			The field will get this rolled out next week. You should try the apps on the new Surface tablets and give me your thoughts. We did not re-write anything - the app was already touch-enabled because we used DevExpress UI Controls.
+			Arthur Miller: Works like a charm.
+		</Description>
+	</Task>
+	<Task>
+		<Id>79</Id>
+		<Subject>Rollout New Touch-Enabled WinForms Apps</Subject>
+		<Description>
+			We are go to rollout the new WinForms apps to all Surface tablets used in the field.
+			Brade Jameson: I&apos;m going to mark this as an on-going task for me to do throughout CURRENT_YEAR and 2019.
+		</Description>
+	</Task>
+	<Task>
+		<Id>82</Id>
+		<Subject>Review Online Sales Report</Subject>
+		<Description>
+			The dip in online sales is not a result of website reliability. The issue is a marketing one and we need to discuss how to update our marketing content so we can get sales back on track.
+			John Heart: You told me it was because of website reliability. This is not good Robert.
+		</Description>
+	</Task>
+	<Task>
+		<Id>84</Id>
+		<Subject>New Online Marketing Strategy</Subject>
+		<Description>
+			We need to do something to stop the fall in online sales right away. Management is putting a lot of pressure on me and I don’t know exactly what to do. Send me a report with your opinions.
+			Hannah Brookly: Report Emailed to you.
+		</Description>
+	</Task>
+	<Task>
+		<Id>86</Id>
+		<Subject>Submit New Website Design</Subject>
+		<Description>
+			New marketing strategy has been approved by management. I need a new website design.
+			Morgan Kennedy: We worked 24/7 and prepared this in record time.
+		</Description>
+	</Task>
+	<Task>
+		<Id>88</Id>
+		<Subject>Review PSDs for New Website</Subject>
+		<Description>
+			Brett, we&apos;ve done all we can in the design department. You have all the PSDs. It&apos;s now up to you to create and deploy the new online sales portal. Good luck.
+			Brett Wade: I&apos;m on it. Thanks for all the hard work.
+		</Description>
+	</Task>
+	<Task>
+		<Id>90</Id>
+		<Subject>Create New Product Pages</Subject>
+		<Description>
+			You have the PSDs from the design team. I need the product pages updated. Management wants this done immediately so we can roll out by Octover 15.
+			Karen Goodson: I&apos;m going to have a lot of overtime this week.
+		</Description>
+	</Task>
+	<Task>
+		<Id>92</Id>
+		<Subject>Approve Website Launch</Subject>
+		<Description>
+			Everything is in place Robert. You are the final approval for us to launch the new website. Please give me the OK so I can get this done.
+			Robert Reagan: You have the OK to go live.
+		</Description>
+	</Task>
+	<Task>
+		<Id>95</Id>
+		<Subject>Create New Shipping Return Labels</Subject>
+		<Description>Need a new RMA label for the website. I&apos;ve requested this a few times but it keeps getting put off. Can we get this completed by the end of the month Brett? It&apos;s really important.</Description>
+	</Task>
+	<Task>
+		<Id>97</Id>
+		<Subject>PSD needed for Shipping Return Labels</Subject>
+		<Description>
+			Violet, Im behind the 8 ball on this one. I need a new design for our RMA labels. Can you please send me the artwork. I&apos;ve uploaded the specs to the server.
+			Violet Bailey: Not a problem Wally
+		</Description>
+	</Task>
+	<Task>
+		<Id>100</Id>
+		<Subject>Contact ISP and Discuss Payment Options</Subject>
+		<Description>
+			ISP is being difficult and refusing to increase our bandwidth because they say our credit is not good. Can you please get in touch with Herb Heart and resolve this. I don’t have much more information that I can provide them.
+			Samantha Brigh: We are good Sandra. They OK&apos;d it.
+		</Description>
+	</Task>
+	<Task>
+		<Id>102</Id>
+		<Subject>Analyze Support Traffic for CURRENT_YEAR</Subject>
+		<Description>Antony, we are being pushed to get the a support issues report delivered before year end. Can you aggragate all of our data so I can compile it and send it over to Barb?</Description>
+	</Task>
+	<Task>
+		<Id>103</Id>
+		<Subject>Review New Training Material</Subject>
+		<Description>
+			Just getting ready to push out some new training material for our customers so they can better understand how our product line fits together.  Can I get a review of the content so I can send it out to the printer?
+			Leah Simpson: Nat, I&apos;ve reviewed everything and it looks really nice.
+		</Description>
+	</Task>
+	<Task>
+		<Id>105</Id>
+		<Subject>Training Material Distribution Schedule</Subject>
+		<Description>
+			I am in the process of publishing my new training material. It will be posted to the server. Please see that all support engineers have access to them.
+			Barb Banks: This is great Nat, we&apos;ve needed this for some time.
+		</Description>
+	</Task>
+	<Task>
+		<Id>106</Id>
+		<Subject>Provide New Artwork to Support Team</Subject>
+		<Description>
+			We need to get new artwork and PDFs for the support team. We are currently using out-dated materials. Can you please publish them on our server…
+			Morgan Kennedy: I&apos;ll get my assistant to publish it for you.
+		</Description>
+	</Task>
+	<Task>
+		<Id>111</Id>
+		<Subject>Ship New Brochures to Field</Subject>
+		<Description>
+			Need to receive 1000 new brochures so I can begin distributing it out to customer accounts that I manage. I&apos;ve stopped using old brochures. Please forward new brochures to me asap.
+			Ed Holmes: I will ask someone from shipping to send them out to you.
+		</Description>
+	</Task>
+	<Task>
+		<Id>112</Id>
+		<Subject>Ship Brochures to Todd Hoffman</Subject>
+		<Description>
+			Victor - we need new brochures sent out to Todd Hoffman. It&apos;s urgent as we are no longer using older brochures and he has sales calls to make.
+			Victor Norris: Overnighted 1000 brochures to him.
+		</Description>
+	</Task>
+	<Task>
+		<Id>113</Id>
+		<Subject>Update Server with Service Packs</Subject>
+		<Description>
+			Going directly to you Amelia as Brett is out of the office. We have to update the server with newest service pack. This is highest priority.
+			Amelia Harper: Done
+		</Description>
+	</Task>
+	<Task>
+		<Id>115</Id>
+		<Subject>Approve Overtime for HR</Subject>
+		<Description>
+			Submitted my overtime request to you for approval so I can walk it down to HR before the year end paycheck. I had no choice…I had to work overtime to get the database rolled out.
+			Brett Wade: Approved and Emailed.
+		</Description>
+	</Task>
+	<Task>
+		<Id>116</Id>
+		<Subject>Review New HDMI Specification</Subject>
+		<Description>
+			Bart, this is already delayed too long. I need your report on the new HDMI specification and how we plan on getting to market.
+			Bart Arnaz: I understand and I&apos;m working on it. Getting input from Industry types.
+		</Description>
+	</Task>
+	<Task>
+		<Id>117</Id>
+		<Subject>Approval on Converting to New HDMI Specification</Subject>
+		<Description>
+			My report is not complete and in order to complete it, I need approval to invest $250K on new tooling for HDMI 2.
+			Arthur Miller: We must delay this spend. Too much at this time.
+		</Description>
+	</Task>
+	<Task>
+		<Id>119</Id>
+		<Subject>Report on Retail Sales Strategy for 2019</Subject>
+		<Description>
+			Need a detailed report on retail sales strategy for 2019. Management wants to significantly increase revenues this year and retail is our primary focus.
+			Jim Packard: You have the report, let me know if you have questions.
+		</Description>
+	</Task>
+	<Task>
+		<Id>121</Id>
+		<Subject>Feedback on New Training Course</Subject>
+		<Description>Kelly, I have not received your feedback on my new training course. Can you please send me an email asap so I can consider your comments?</Description>
+	</Task>
+	<Task>
+		<Id>122</Id>
+		<Subject>Send Monthly Invoices from Shippers</Subject>
+		<Description>
+			Im missing all invoices for this month and I cannot reconcile until I get them. Kevin, please remember to do this on a regular basis.
+			Kevin Carter: Im sorry. I will take care of it.
+		</Description>
+	</Task>
+	<Task>
+		<Id>124</Id>
+		<Subject>Confirm Availability for Sales Meeting</Subject>
+		<Description>
+			I&apos;ve called you a few times Hannah, but no response. Retail sales meeting is mandatory but I&apos;m told you are going to be out of town. Please advise.
+			Hannah Brookly: I will not be able to attend Lucy.
+		</Description>
+	</Task>
+	<Task>
+		<Id>125</Id>
+		<Subject>Reschedule Sales Team Meeting</Subject>
+		<Description>
+			Hannah is unable to attend the meeting and unless you want to go without her, you will need to reschedule this.
+			Gabe Jones: Will reschedule.
+		</Description>
+	</Task>
+	<Task>
+		<Id>127</Id>
+		<Subject>Ship 2 Remotes Priority to Clark Morgan</Subject>
+		<Description>
+			Please refer to my Email. We are doing a giveaway in Clark&apos;s region and we need to send 2 remotes.
+			Mary Stern: I already took care of this and have marked the task as completed.
+		</Description>
+	</Task>
+	<Task>
+		<Id>128</Id>
+		<Subject>Discuss Product Giveaways with Management</Subject>
+		<Description>
+			Need a final decision if we are going to be doing more product giveaways at tradeshows so I can coordinate with shipping department.
+			Olivia Peyton: No decision has been made if this will be long-term strategy at tradeshows.
+		</Description>
+	</Task>
+	<Task>
+		<Id>129</Id>
+		<Subject>Follow Up Email with Recent Online Purchasers</Subject>
+		<Description>
+			Need you to send Emails to everyone who purchased a product online in the last week. We want to test whether this yields a sales improvement.
+			Sammy Hill: Working on it. Lot&apos;s of emails to send.
+		</Description>
+	</Task>
+	<Task>
+		<Id>132</Id>
+		<Subject>Mail New Leads for Follow Up</Subject>
+		<Description>Todd, I know you have no time to update the database yourself, but can you please forward the leads to me by mail so I an take care of my follow-ups?</Description>
+	</Task>
+	<Task>
+		<Id>133</Id>
+		<Subject>Send Territory Sales Breakdown</Subject>
+		<Description>
+			Need you to create a spreadsheet with sales by territory and forward it to CEO. He is on vacation and does not have access to VPN.
+			Sammy Hill: Compiling it
+		</Description>
+	</Task>
+	<Task>
+		<Id>135</Id>
+		<Subject>Return Merchandise Report</Subject>
+		<Description>
+			Need to see the number of returns this month as I&apos;m told by accounting that our refunds are through the roof. What is the problem Arthur?
+			Arthur Miller: John, I know. I&apos;m on it.
+		</Description>
+	</Task>
+	<Task>
+		<Id>137</Id>
+		<Subject>Staff Productivity Report</Subject>
+		<Description>
+			We might need to cut back on your budget so can you send me staff productivity report so I can send it over to the CEO
+			Brett Wade: What report is that? Never heard of it.
+		</Description>
+	</Task>
+	<Task>
+		<Id>138</Id>
+		<Subject>Review HR Budget Company Wide</Subject>
+		<Description>
+			Need to do a top to bottom review on our payroll and figure out where we can cut costs.
+			Greta Sims: I have what I need on my end. Waiting on things from dept heads.
+		</Description>
+	</Task>
+	<Task>
+		<Id>139</Id>
+		<Subject>Sales Dept Budget Request Report</Subject>
+		<Description>
+			Ed, I really need you to send me your budget report because CEO is looking to make changes and I&apos;m stuck without your help.
+			Ed Holmes: I&apos;m working on this right now.
+		</Description>
+	</Task>
+	<Task>
+		<Id>141</Id>
+		<Subject>IT Dept Budget Request Report</Subject>
+		<Description>
+			Brett, you are usually really good at getting me this information but you have not done it this year. Being pressured by CEO to deliver final report. Please forward your budget report to me.
+			Brett Wade: Been busy. Working on it.
+		</Description>
+	</Task>
+	<Task>
+		<Id>142</Id>
+		<Subject>Engineering Dept Budget Request Report</Subject>
+		<Description>
+			Bart, please see subject. You have to send me your budget report otherwise you may end up with cut-backs.
+			Bart Arnaz: Cutbacks? We are overwhelmed as it is. I will talk to CEO about this.
+		</Description>
+	</Task>
+	<Task>
+		<Id>144</Id>
+		<Subject>Approve Benefits Upgrade Package</Subject>
+		<Description>
+			Negotiated a great new deal for health insurance. I need to get approval from you.
+			Sandra Johnson: You know we are under tight budgets. Why would you do this?
+		</Description>
+	</Task>
+	<Task>
+		<Id>145</Id>
+		<Subject>Final Budget Review</Subject>
+		<Description>We need to get together and review the budget before kicking it up to John. I need you to take a look at what I sent and give me your thoughts.</Description>
+	</Task>
+	<Task>
+		<Id>147</Id>
+		<Subject>Online Sales Report</Subject>
+		<Description>
+			Hannah, you are the only one who has not sent me the report I requested in our meeting. I need you to send it to me asap.
+			Hannah Brookly: I was sick yesterday.
+		</Description>
+	</Task>
+	<Task>
+		<Id>148</Id>
+		<Subject>Reprint All Shipping Labels</Subject>
+		<Description>
+			Get with graphic design and let&apos;s reprint all of our shipping labels. I want to use a new font.
+			Davey Jones: Im waiting on artwork. Done what I can.
+		</Description>
+	</Task>
+	<Task>
+		<Id>150</Id>
+		<Subject>Specs for New Shipping Label</Subject>
+		<Description>We got your specs and we&apos;ve started the redesign. We are confused by a few things and need you to reply to our Email with detailed information.</Description>
+	</Task>
+	<Task>
+		<Id>151</Id>
+		<Subject>Move Packaging Materials to New Warehouse</Subject>
+		<Description>Mary, you are going to have to coordinate the move. All packaging materials are your responsibility. You can hire temp workers if needed.</Description>
+	</Task>
+	<Task>
+		<Id>153</Id>
+		<Subject>Take Forklift to Service Center</Subject>
+		<Description>
+			We cannot have the forklift continue to breakdown Victor. You know this is your responsibility and I want you to go out and get it fixed.
+			Victor Norris: So what do we do if we don&apos;t  have a forklift…rent?
+		</Description>
+	</Task>
+	<Task>
+		<Id>154</Id>
+		<Subject>Approve Rental of Forklift</Subject>
+		<Description>
+			Kevin, do we have the ok to get a forklift rental. I still don’t know when our forklift is going to be fixed and I&apos;m worried it might take a long time.
+			Kevin Carter: I need to get approval from the Controller
+		</Description>
+	</Task>
+	<Task>
+		<Id>155</Id>
+		<Subject>Give Final Approval to Rent Forklift</Subject>
+		<Description>
+			Sandra, I cannot wait on your approval any longer. My staff is lifting boxes and everyone&apos;s back is starting to hurt. We need you to ok this.
+			Sandra Johnson: It&apos;s not up to me. I&apos;ve kicked it up the ladder
+		</Description>
+	</Task>
+	<Task>
+		<Id>157</Id>
+		<Subject>Approve Vacation Request</Subject>
+		<Description>
+			Planning a trip with the family for 2 weeks. Can you give me the ok so I can submit this to HR?
+			Bart Arnaz: Will take a look as soon as I can.
+		</Description>
+	</Task>
+	<Task>
+		<Id>158</Id>
+		<Subject>Approve Salary Increase Request</Subject>
+		<Description>
+			I am told by Bart that we have a salary freeze and that my request for an increase in salary is on hold.
+			Please approve this request. I work very hard and deserve to be paid more.
+		</Description>
+	</Task>
+	<Task>
+		<Id>159</Id>
+		<Subject>Review Complaint Reports</Subject>
+		<Description>
+			We are getting a lot of complaints sent to the Consumer Affairs dept. Can you please reivew the report I sent you and send me your thoughts as to how we can deal with all this.
+			Barb Banks: This is a lot of work. Will do what I can
+		</Description>
+	</Task>
+	<Task>
+		<Id>162</Id>
+		<Subject>Fix Synchronization Issues</Subject>
+		<Description>
+			Terry, I don’t know who else to get help from. The automation app is not synchronizing anything so I&apos;m stuck until I get this fixed. I need to finish my testing. Please look at the log report and send Email with info.
+			Terry Bradley: I know why this happened. Fix on the way.
+		</Description>
+	</Task>
+	<Task>
+		<Id>163</Id>
+		<Subject>Free Up Space for New Application Set</Subject>
+		<Description>I need you to tell me where I&apos;m going to be able to install our new application set for management&apos;s review. As it stands, I&apos;m being blamed for the delay, but it&apos;s not my fault.</Description>
+	</Task>
+	<Task>
+		<Id>165</Id>
+		<Subject>Update Your Profile on Website</Subject>
+		<Description>
+			Antony, it&apos;s your responsibility to maintain personal profile on site. I&apos;ve asked you repeatedly. Is there a problem or something I can help with?
+			Antony Remmen: I forgot my password and we don’t have recovery page.
+		</Description>
+	</Task>
+	<Task>
+		<Id>166</Id>
+		<Subject>Schedule Conf Call with SuperMart</Subject>
+		<Description>
+			They had some great things to say about your support follow up. Please schedule a conf call with them. I want to see if we can do a case study for our website.
+			Antony Remmen: Left a message and waiting on a call back.
+		</Description>
+	</Task>
+	<Task>
+		<Id>167</Id>
+		<Subject>Support Team Evaluation Report</Subject>
+		<Description>
+			Barb, can we get together and finish our evaluation of the support team.
+			Barb Banks: Ken, this is a high priority item as we have to keep support satisfaction levels very high. I have to defer this task for the time being however.
+		</Description>
+	</Task>
+	<Task>
+		<Id>168</Id>
+		<Subject>Create New Installer for Company Wide App Deployment</Subject>
+		<Description>
+			I cannot deploy the apps manually. I need you to create an installer so we can get the apps installed on all desktops without manual configuration.
+			Brad Jameson: Ok, give me a few days.
+		</Description>
+	</Task>
+	<Task>
+		<Id>171</Id>
+		<Subject>Make Travel Arrangements for Sales Trip to San Francisco</Subject>
+		<Description>
+			Need you to join me on our upcoming roadtrip to San Francisco. We are going to visit a few stores and help out with product staging.
+			Gabe: Im waiting on Marcus. He has to book flights.
+		</Description>
+	</Task>
+	<Task>
+		<Id>172</Id>
+		<Subject>Book Flights to San Fran for Sales Trip</Subject>
+		<Description>
+			We are heading out to San Francisco. Planned schedule has been emailed. Please book us flights asap. Please also use my frequent flier #.
+			Marcus Orbison: What&apos;s your FF#?
+		</Description>
+	</Task>
+	<Task>
+		<Id>174</Id>
+		<Subject>Submit New W4 for Updated Exemptions</Subject>
+		<Description>
+			James, we cannot update your personnel file and we cannot change your exemptions until you sign your W4 form. Can you get that done soon?
+			James Anderson: I&apos;m consulting an accountant on what to do.
+		</Description>
+	</Task>
+	<Task>
+		<Id>175</Id>
+		<Subject>Get New Frequent Flier Account</Subject>
+		<Description>Just called the airline for your Jim and they told me they cancelled your frequent flier account. You need to call them yourself and get a new account. As soon as I get it, I will send it to travel dept.</Description>
+	</Task>
+	<Task>
+		<Id>177</Id>
+		<Subject>Submit Customer Follow Up Plan Feedback</Subject>
+		<Description>
+			Forwarded Ken&apos;s new follow up plan to you by email. Need your opinions on it asap so we can get things nailed down in the upcoming months.
+			Samantha Bright: John, I had a family emergency. I need you to ask someone else to help.
+		</Description>
+	</Task>
+	<Task>
+		<Id>178</Id>
+		<Subject>Review Issue Report and Provide Workarounds</Subject>
+		<Description>
+			Karen, we have a stack of issues with the new apps that you need to review and fix asap. I&apos;ve logged everything in the db. Give me your thoughts.
+			Karen Goodson: I&apos;m working on these. Will let you know.
+		</Description>
+	</Task>
+	<Task>
+		<Id>180</Id>
+		<Subject>Resubmit Request for Expense Reimbursement</Subject>
+		<Description>
+			Kelly, I lost your expense reimbursement documents so I&apos;m going to need you to send them to me by Email so this can get paid in this week&apos;s check run.
+			Kelly Rodriguez: I don’t have receipts scanned. Is that ok?
+		</Description>
+	</Task>
+	<Task>
+		<Id>181</Id>
+		<Subject>Approve Vacation Request Form</Subject>
+		<Description>
+			Kevin, I need to take some time off. My back hurts from lifting all these boxes. Can you please approve my vacation.
+		</Description>
+	</Task>
+	<Task>
+		<Id>182</Id>
+		<Subject>Email Test Report on New Products</Subject>
+		<Description>
+			Leah, we cannot fix our products until we get the test report from you. Please send everything you have by email to me so I can distribute it in the engineering dept.
+			Leah Simpson: Still collecting these
+		</Description>
+	</Task>
+	<Task>
+		<Id>184</Id>
+		<Subject>New Shipping Labels</Subject>
+		<Description>
+			Kevin wants new shipping labels and I cannot print them without the artwork from your team. Can you please hurry and send it to me.
+			Morgan Kennedy: Send me the specs and I will work on it when I can.
+		</Description>
+	</Task>
+	<Task>
+		<Id>185</Id>
+		<Subject>PSD Needed For Shipping Labels</Subject>
+		<Description>
+			Violet, Im behind the 8 ball on this one. I need a new design for our RMA labels. Can you please send me the artwork. I&apos;ve uploaded the specs to the server.
+			Violet Bailey: Not a problem Arnie
+		</Description>
+	</Task>
+	<Task>
+		<Id>186</Id>
+		<Subject>Online Retail Purchasers</Subject>
+		<Description>
+			Need you to send Emails to everyone who purchased a product online in the last week. We want to test whether this yields a sales improvement.
+			Billy: Working on it. Lot&apos;s of emails to send.
+		</Description>
+	</Task>
+	<Task>
+		<Id>187</Id>
+		<Subject>Update NDA Agreement</Subject>
+		<Description>
+			Need sign-off on the new NDA agreement. It&apos;s important that this is done quickly to prevent any unauthorized leaks.
+			John Heart: Done. Please have Greta update employee files.
+		</Description>
+	</Task>
+	<Task>
+		<Id>188</Id>
+		<Subject>Test New Automation App</Subject>
+		<Description>We have to get on this ASAP.  Use standard reporting system to detail bugs.</Description>
+	</Task>
+	<Task>
+		<Id>190</Id>
+		<Subject>Classroom Size</Subject>
+		<Description>We have 32 people registered for training in Orlando.  We need to get a bigger space.</Description>
+	</Task>
+	<Task>
+		<Id>191</Id>
+		<Subject>Specs for Automation App</Subject>
+		<Description>I need the upddated specs for the Automation App so I can be sure we are all on the same page.</Description>
+	</Task>
+	<Task>
+		<Id>192</Id>
+		<Subject>Business Cards</Subject>
+		<Description>I need updated business cards with our new address.</Description>
+	</Task>
+	<Task>
+		<Id>193</Id>
+		<Subject>Update address</Subject>
+		<Description>I moved and I need to fill out an address change form for our insurance.  Can I download a PDF online or can you email the form.</Description>
+	</Task>
+	<Task>
+		<Id>195</Id>
+		<Subject>Tradershow Flight</Subject>
+		<Description>I need a flight arranged for the tradeshow in Altlanta.  Prefer window seat near the front of the plane.</Description>
+	</Task>
+	<Task>
+		<Id>196</Id>
+		<Subject>Tradeshow Marketing Message</Subject>
+		<Description>Review the 5 point marketing plan in place for customer communications.  I will put together an email once done so everyone is on the same page.</Description>
+	</Task>
+	<Task>
+		<Id>197</Id>
+		<Subject>Per Diem</Subject>
+		<Description>Submitted request for per diem.  Cindy can you check the form?</Description>
+	</Task>
+	<Task>
+		<Id>198</Id>
+		<Subject>Health Insurance Notification</Subject>
+		<Description>Please send me the changes to our health insurance plan so I can send an email to all employees</Description>
+	</Task>
+	<Task>
+		<Id>199</Id>
+		<Subject>Lunch Potluck</Subject>
+		<Description>Send around sheet for lunch potluck</Description>
+	</Task>
+	<Task>
+		<Id>200</Id>
+		<Subject>Review Benefits</Subject>
+		<Description>It will take about an hour to go over your benefits.  Please plan accordingly.</Description>
+	</Task>
+	<Task>
+		<Id>201</Id>
+		<Subject>Review Benefits</Subject>
+		<Description>It will take about an hour to go over your benefits.  Please plan accordingly.</Description>
+	</Task>
+	<Task>
+		<Id>202</Id>
+		<Subject>Review Benefits</Subject>
+		<Description>It will take about an hour to go over your benefits.  Please plan accordingly.</Description>
+	</Task>
+	<Task>
+		<Id>203</Id>
+		<Subject>Review Benefits</Subject>
+		<Description>It will take about an hour to go over your benefits.  Please plan accordingly.</Description>
+	</Task>
+	<Task>
+		<Id>204</Id>
+		<Subject>Training</Subject>
+		<Description>We need to do a conflict resolution and mediation training session with Engineering.  No more than 1 day.</Description>
+	</Task>
+	<Task>
+		<Id>206</Id>
+		<Subject>Review Articles</Subject>
+		<Description>Did you get through the articles on Improving Skill and Confidence</Description>
+	</Task>
+	<Task>
+		<Id>207</Id>
+		<Subject>NDA Revision</Subject>
+		<Description>Provide points as to why NDA was rejected so we can have legal revise please</Description>
+	</Task>
+	<Task>
+		<Id>208</Id>
+		<Subject>Budget Reports</Subject>
+		<Description>I need the last 3 months of expeses.  Please group by department so we can see a complete picture ASAP</Description>
+	</Task>
+	<Task>
+		<Id>209</Id>
+		<Subject>Sales Report by Territory</Subject>
+		<Description>Ed wants me to get with you to pull sales numbers by terriorty.</Description>
+	</Task>
+	<Task>
+		<Id>210</Id>
+		<Subject>Leads Generated from Atlanta</Subject>
+		<Description>Can you send me all the leads you were unable to contact.  I will follow-up.</Description>
+	</Task>
+	<Task>
+		<Id>211</Id>
+		<Subject>Materials Needed for On-Site Event</Subject>
+		<Description>Send me a list of all materials needed for this event including any documention of all outstanding issues.</Description>
+	</Task>
+	<Task>
+		<Id>212</Id>
+		<Subject>Northwest Territory Customers</Subject>
+		<Description>Will I need to cover all NW territory contacts while Harv is on vacation.  Please forward list ASAP</Description>
+	</Task>
+	<Task>
+		<Id>215</Id>
+		<Subject>Purchase 2 New Remotes</Subject>
+		<Description>Please remember to use standard shipping and forward reciept to Sandy.</Description>
+	</Task>
+	<Task>
+		<Id>216</Id>
+		<Subject>Walk Thru with Shipping Companies</Subject>
+		<Description>The shipping companies want to do a walk through before they quote us.  I&apos;ve scheduled a time to do this with each company</Description>
+	</Task>
+	<Task>
+		<Id>217</Id>
+		<Subject>Missing Signatures</Subject>
+		<Description>We are missing 3 employees health insurance forms.  I sent you a revised list.  Please follow-up ASAP</Description>
+	</Task>
+	<Task>
+		<Id>218</Id>
+		<Subject>Review Training Manual - First Draft</Subject>
+		<Description>I&apos;ve sent you my first draft revisions to the training manual.  Can you update and send me a revised version.</Description>
+	</Task>
+	<Task>
+		<Id>219</Id>
+		<Subject>Online Video Content</Subject>
+		<Description>I have a few customers interested in doing a video.  Can you send me an ouline for video content</Description>
+	</Task>
+	<Task>
+		<Id>220</Id>
+		<Subject>Year End Support Summary Report</Subject>
+		<Description>James I need access to pull these reports.  I am not an authorized user.</Description>
+	</Task>
+</Tasks>

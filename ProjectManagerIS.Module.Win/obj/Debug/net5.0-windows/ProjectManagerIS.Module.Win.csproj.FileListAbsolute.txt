@@ -1,0 +1,17 @@
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\bin\Debug\net5.0-windows\ProjectManagerIS.Module.Win.deps.json
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\bin\Debug\net5.0-windows\ProjectManagerIS.Module.Win.dll
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\bin\Debug\net5.0-windows\ref\ProjectManagerIS.Module.Win.dll
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\bin\Debug\net5.0-windows\ProjectManagerIS.Module.Win.pdb
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Blazor.v21.1.dll
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\bin\Debug\net5.0-windows\ProjectManagerIS.Module.dll
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\bin\Debug\net5.0-windows\ProjectManagerIS.Module.pdb
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\bin\Debug\net5.0-windows\fr\ProjectManagerIS.Module.resources.dll
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\obj\Debug\net5.0-windows\ProjectManagerIS.Module.Win.csproj.AssemblyReference.cache
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\obj\Debug\net5.0-windows\ProjectManagerIS.Module.Win.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\obj\Debug\net5.0-windows\ProjectManagerIS.Module.Win.AssemblyInfoInputs.cache
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\obj\Debug\net5.0-windows\ProjectManagerIS.Module.Win.AssemblyInfo.cs
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\obj\Debug\net5.0-windows\ProjectManagerIS.Module.Win.csproj.CoreCompileInputs.cache
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\obj\Debug\net5.0-windows\ProjectManagerIS.Module.Win.csproj.CopyComplete
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\obj\Debug\net5.0-windows\ProjectManagerIS.Module.Win.dll
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\obj\Debug\net5.0-windows\ref\ProjectManagerIS.Module.Win.dll
+C:\Users\xpertsoft\source\repos\ProjectManagerIS\ProjectManagerIS.Module.Win\obj\Debug\net5.0-windows\ProjectManagerIS.Module.Win.pdb

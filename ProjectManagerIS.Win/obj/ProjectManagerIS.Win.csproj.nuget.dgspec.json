@@ -1,0 +1,326 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Win\\ProjectManagerIS.Win.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module.Win\\ProjectManagerIS.Module.Win.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module.Win\\ProjectManagerIS.Module.Win.csproj",
+        "projectName": "ProjectManagerIS.Module.Win",
+        "projectPath": "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module.Win\\ProjectManagerIS.Module.Win.csproj",
+        "packagesPath": "C:\\Users\\xpertsoft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module.Win\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xpertsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module\\ProjectManagerIS.Module.csproj": {
+                "projectPath": "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module\\ProjectManagerIS.Module.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "DevExpress.ExpressApp": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.Security.Xpo": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.Validation.Win": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.Win": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.Xpo": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.de": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.Persistent.Base": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.Persistent.BaseImpl": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module\\ProjectManagerIS.Module.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module\\ProjectManagerIS.Module.csproj",
+        "projectName": "ProjectManagerIS.Module",
+        "projectPath": "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module\\ProjectManagerIS.Module.csproj",
+        "packagesPath": "C:\\Users\\xpertsoft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xpertsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "DevExpress.ExpressApp": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.AuditTrail": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.ConditionalAppearance": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.Objects": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.Security.Xpo": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.Validation": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.Xpo": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.de": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.Persistent.Base": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.Persistent.BaseImpl": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "Microsoft.Azure.KeyVault": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Win\\ProjectManagerIS.Win.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Win\\ProjectManagerIS.Win.csproj",
+        "projectName": "ProjectManagerIS.Win",
+        "projectPath": "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Win\\ProjectManagerIS.Win.csproj",
+        "packagesPath": "C:\\Users\\xpertsoft\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Win\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\xpertsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module.Win\\ProjectManagerIS.Module.Win.csproj": {
+                "projectPath": "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module.Win\\ProjectManagerIS.Module.Win.csproj"
+              },
+              "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module\\ProjectManagerIS.Module.csproj": {
+                "projectPath": "C:\\Users\\xpertsoft\\Source\\Repos\\XP-HKhalFaoui\\ProjectManagement\\ProjectManagerIS.Module\\ProjectManagerIS.Module.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "DevExpress.ExpressApp": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.Security.Xpo": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.Validation.Win": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.Win": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.Xpo": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.ExpressApp.de": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.Persistent.Base": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.Persistent.BaseImpl": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            },
+            "DevExpress.RichEdit.Export": {
+              "target": "Package",
+              "version": "[21.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

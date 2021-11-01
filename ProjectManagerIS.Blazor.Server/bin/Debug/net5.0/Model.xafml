@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="Cancel" Caption="Undo" />
+      <Action Id="Task.MarkCompleted" Caption="Mark Completed" />
+    </Actions>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.Person">
+      <OwnMembers>
+        <Member Name="Birthday" Caption="Birth Date" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <NavigationItems DefaultLeafImageName="ModelEditor_Navigation_Items" StartupNavigationItem="Employee_ListView">
+    <Items>
+      <Item Id="DemoTask_ListView" ViewId="DemoTask_ListView" ObjectKey="" Caption="Tasks" Index="0" IsNewNode="True" />
+      <Item Id="Contacts" Index="1" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Company_ListView" ViewId="Company_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Department_ListView" Caption="Departments" ObjectKey="" ViewId="Department_ListView" ChildItemsDisplayStyle="List" IsNewNode="True" />
+          <Item Id="Employee_ListView" Caption="Employees" ObjectKey="" ViewId="Employee_ListView" IsNewNode="True" />
+          <Item Id="Resume_ListView" Caption="Resumes" ObjectKey="" ViewId="Resume_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Table de base" Index="3" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Exercises_ListView" ViewId="Exercises_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Position_ListView" ViewId="Position_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="Project_ListView" ViewId="Project_ListView" ObjectKey="" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="Default" Index="4" Caption="Others">
+        <Items>
+          <Item Id="ApplicationUser_ListView" Removed="True" />
+          <Item Id="Company_ListView" Removed="True" />
+          <Item Id="DemoTask_ListView" Caption="Tasks" Removed="True" />
+          <Item Id="Department_ListView" ChildItemsDisplayStyle="List" Caption="Departments" Removed="True" />
+          <Item Id="Employee_ListView" Caption="Employees" Removed="True" />
+          <Item Id="Event_ListView" Caption="Calendar" />
+          <Item Id="Exercises_ListView" Removed="True" />
+          <Item Id="MyDetails" Removed="True" />
+          <Item Id="PermissionPolicyRole_ListView" Removed="True" />
+          <Item Id="Position_ListView" Removed="True" />
+          <Item Id="Project_ListView" Removed="True" />
+          <Item Id="Resume_ListView" Caption="Resumes" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="Adminstration" Index="5" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="MyDetails" Caption="My Details" ObjectKey="@CurrentUserID" ViewId="ApplicationUser_DetailView" ImageName="BO_MyDetails" Index="0" IsNewNode="True" />
+          <Item Id="ApplicationUser_ListView" ViewId="ApplicationUser_ListView" ObjectKey="" Index="1" IsNewNode="True" />
+          <Item Id="PermissionPolicyRole_ListView" ViewId="PermissionPolicyRole_ListView" ObjectKey="" Index="2" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="21.1.6.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="DemoTask_ListView" Caption="Tasks" />
+    <ListView Id="Department_ListView" Caption="Departments" />
+    <DetailView Id="Employee_DetailView">
+      <Items>
+        <PropertyEditor Id="Anniversary" Caption="Wedding Date" />
+      </Items>
+    </DetailView>
+    <ListView Id="Employee_ListView" Caption="Employees">
+      <Columns>
+        <ColumnInfo Id="Address1" Caption="Address" />
+        <ColumnInfo Id="Anniversary" Caption="Wedding Date" />
+      </Columns>
+    </ListView>
+    <ListView Id="Event_ListView" Caption="Calendar" />
+    <ListView Id="Note_ListView" Caption="Notes" />
+    <ListView Id="Resume_ListView" Caption="Resumes" />
+  </Views>
+</Application>

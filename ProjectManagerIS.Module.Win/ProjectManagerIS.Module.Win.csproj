@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Deterministic>false</Deterministic>
+    <AssemblyVersion>1.0.*</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.ExpressApp" Version="21.1.6" />
+    <PackageReference Include="DevExpress.ExpressApp.de" Version="21.1.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="21.1.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Validation.Win" Version="21.1.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Win" Version="21.1.6" />
+    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="21.1.6" />
+    <PackageReference Include="DevExpress.Persistent.Base" Version="21.1.6" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl" Version="21.1.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Model.DesignedDiffs.xafml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectManagerIS.Module\ProjectManagerIS.Module.csproj">
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.ExpressApp.Blazor.v21.1">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\DevExpress 21.1\Components\Offline Packages\devexpress.expressapp.blazor\21.1.6\lib\net5.0\DevExpress.ExpressApp.Blazor.v21.1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
