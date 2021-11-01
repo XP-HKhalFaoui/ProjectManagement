@@ -15,7 +15,7 @@ using System.Text;
 namespace ProjectManagerIS.Module.BusinessObjects
 {
     [DefaultClassOptions]
-    [System.ComponentModel.DisplayName("Dossier")]
+    [System.ComponentModel.DisplayName("folder")]
     //[ImageName("BO_Contact")]
     //[DefaultProperty("DisplayMemberNameForLookupEditorsOfThisType")]
     //[DefaultListViewOptions(MasterDetailMode.ListViewOnly, false, NewItemRowPosition.None)]
@@ -48,6 +48,7 @@ namespace ProjectManagerIS.Module.BusinessObjects
         //}
 
         Company company;
+        Exercises exercise;
         string name;
 
 
@@ -69,18 +70,18 @@ namespace ProjectManagerIS.Module.BusinessObjects
             get { return GetCollection<DemoTask>(nameof(Tasks)); }
         }
 
-        [Association("Project-Exercises")]
-        public XPCollection<Exercises> Exercise
-        {
-            get { return GetCollection<Exercises>(nameof(Exercise)); }
-        }
-
 
         [Association("Company,Project")]
         public Company Company
         {
             get => company;
             set => SetPropertyValue(nameof(Company), ref company, value);
+        }
+
+        public Exercises Exercise
+        {
+            get => exercise;
+            set => SetPropertyValue(nameof(Exercise), ref exercise, value);
         }
 
     }

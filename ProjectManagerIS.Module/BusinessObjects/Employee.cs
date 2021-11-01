@@ -23,7 +23,8 @@ namespace ProjectManagerIS.Module.BusinessObjects
     {
         public Employee(Session session) : base(session) {
 
-        } 
+        }
+        Company company;
         private Employee manager;
         [DataSourceProperty("Department.Contacts", DataSourcePropertyIsNullMode.SelectAll)]
         [DataSourceCriteria("Position.Title = 'Manager' AND Oid != '@This.Oid'")]
@@ -70,7 +71,9 @@ namespace ProjectManagerIS.Module.BusinessObjects
         public Department Department
         {
             get { return department; }
-            set { SetPropertyValue(nameof(Department), ref department, value);
+            set
+            {
+                SetPropertyValue(nameof(Department), ref department, value);
                 // Clear Position and Manager properties if the Department has been changed.
                 if (!IsLoading)
                 {
@@ -82,7 +85,7 @@ namespace ProjectManagerIS.Module.BusinessObjects
                 }
             }
         }
-        
+
         private Position position;
         public Position Position
         {
@@ -90,15 +93,6 @@ namespace ProjectManagerIS.Module.BusinessObjects
             set { SetPropertyValue(nameof(Position), ref position, value); }
         }
 
-        [Association("Contact-DemoTask")]
-        [ImmediatePostData]
-        public XPCollection<DemoTask> Tasks
-        {
-            get
-            {
-                return GetCollection<DemoTask>(nameof(Tasks));
-            }
-        }
 
         [Association("Contact-Resumes")]
         public XPCollection<Resume> Resumes
@@ -117,6 +111,14 @@ namespace ProjectManagerIS.Module.BusinessObjects
             {
                 SetPropertyValue<ApplicationUser>(nameof(User), ref user, value);
             }
+        }
+
+        [Association("Company,Empolyees")]
+        
+        public Company Company
+        {
+            get => company;
+            set => SetPropertyValue(nameof(Company), ref company, value);
         }
 
 

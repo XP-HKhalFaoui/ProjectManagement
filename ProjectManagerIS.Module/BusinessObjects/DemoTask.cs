@@ -43,14 +43,7 @@ namespace ProjectManagerIS.Module.BusinessObjects
 
 
 
-        [Association("Contact-DemoTask")]
-        public XPCollection<Employee> Contacts
-        {
-            get
-            {
-                return GetCollection<Employee>(nameof(Contacts));
-            }
-        }
+
 
         private Priority priority;
         public Priority Priority
@@ -101,25 +94,9 @@ namespace ProjectManagerIS.Module.BusinessObjects
             }
         }
 
-        Exercises exercise;
-        [Association("Exercises-DemTask")]
-        [DataSourceProperty("ProjectName.Exercise", DataSourcePropertyIsNullMode.SelectAll )]
         
-        
-       
-        [ImmediatePostData]
 
-        public Exercises Exercise
-        {
-            get
-            {
-                return exercise;
-            }
-            set
-            {
-                SetPropertyValue(nameof(Exercise), ref exercise, value);
-            }
-        }
+        
 
         private Resolution resolutions;
         public Resolution Resolutions

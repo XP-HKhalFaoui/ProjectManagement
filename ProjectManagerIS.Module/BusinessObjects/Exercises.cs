@@ -143,36 +143,10 @@ namespace ProjectManagerIS.Module.BusinessObjects
             }
         }
 
-        XPCollection<DemoTask> task;
-        [Association("Exercises-DemTask")]
-        [ImmediatePostData]
-        public XPCollection<DemoTask> Task
-        {
-            get
-            {
-                return task;
-            }
-            set
-            {
-                SetPropertyValue<XPCollection<DemoTask>>(nameof(Task), ref task, value);
-            }
-        }
 
 
-        private Project projectName;
-        [Association("Project-Exercises")]
 
-        public Project Project
-        {
-            get
-            {
-                return projectName;
-            }
-            set
-            {
-                SetPropertyValue(nameof(Project), ref projectName, value);
-            }
-        }
+
     }
     public enum Cloture
     {

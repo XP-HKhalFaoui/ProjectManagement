@@ -29,54 +29,54 @@ namespace ProjectManagerIS.Module.Controllers
         {
             base.OnActivated();
             // Perform various tasks depending on the target View.
-            ObjectSpace.ObjectChanged += ObjectSpace_ObjectChanged;
+            //ObjectSpace.ObjectChanged += ObjectSpace_ObjectChanged;
         }
 
             
 
-        void ObjectSpace_ObjectChanged(object sender, ObjectChangedEventArgs e)
-        {
-            if (View.CurrentObject == e.Object &&
-                            e.PropertyName == "Project" &&
-                            ObjectSpace.IsModified &&
-                            e.NewValue != null
-                            )
-            {
-                Exercises newExercise = (Exercises)e.Object;
-                var collectionProjects = ObjectSpace.CreateCollection(typeof(Project), null);
-                foreach (Project Projectitem in collectionProjects)
-                {
-                    Console.WriteLine(Projectitem.Name);
-                    if ( Projectitem.Oid == newExercise.Project.Oid)
-                    {
-                        foreach (Exercises ExerciceItem in Projectitem.Exercise )
-                        {
-                            if (ExerciceItem.Cloture == Cloture.Cloture)
-                            {
-                                MessageOptions options = new MessageOptions();
-                                options.Duration = 2000;
-                                options.Message = string.Format("{0} Project allready has an open exercise, please cloture it  ", newExercise.Project);
+        //void ObjectSpace_ObjectChanged(object sender, ObjectChangedEventArgs e)
+        //{
+        //    if (View.CurrentObject == e.Object &&
+        //                    e.PropertyName == "Project" &&
+        //                    ObjectSpace.IsModified &&
+        //                    e.NewValue != null
+        //                    )
+        //    {
+        //        Exercises newExercise = (Exercises)e.Object;
+        //        var collectionProjects = ObjectSpace.CreateCollection(typeof(Project), null);
+        //        foreach (Project Projectitem in collectionProjects)
+        //        {
+        //            Console.WriteLine(Projectitem.Name);
+        //            if ( Projectitem.Oid == newExercise.Project.Oid)
+        //            {
+        //                foreach (Exercises ExerciceItem in Projectitem.Exercise )
+        //                {
+        //                    if (ExerciceItem.Cloture == Cloture.Cloture)
+        //                    {
+        //                        MessageOptions options = new MessageOptions();
+        //                        options.Duration = 2000;
+        //                        options.Message = string.Format("{0} Project allready has an open exercise, please cloture it  ", newExercise.Project);
 
-                                options.Win.Caption = "Success";
-                                options.Win.Type = WinMessageType.Toast;
-                                options.CancelDelegate = () => {
-                                    IObjectSpace os = Application.CreateObjectSpace(typeof(Exercises));
-                                    DetailView newTaskDetailView = Application.CreateDetailView(os, os.CreateObject<Exercises>());
-                                    Application.ShowViewStrategy.ShowViewInPopupWindow(newTaskDetailView);
-                                };
-                                options.Type = InformationType.Success;
-                                options.Web.Position = InformationPosition.Right;
-                                Application.ShowViewStrategy.ShowMessage(options);
+        //                        options.Win.Caption = "Success";
+        //                        options.Win.Type = WinMessageType.Toast;
+        //                        options.CancelDelegate = () => {
+        //                            IObjectSpace os = Application.CreateObjectSpace(typeof(Exercises));
+        //                            DetailView newTaskDetailView = Application.CreateDetailView(os, os.CreateObject<Exercises>());
+        //                            Application.ShowViewStrategy.ShowViewInPopupWindow(newTaskDetailView);
+        //                        };
+        //                        options.Type = InformationType.Success;
+        //                        options.Web.Position = InformationPosition.Right;
+        //                        Application.ShowViewStrategy.ShowMessage(options);
 
-                            }
-                        }
-                    }
+        //                    }
+        //                }
+        //            }
 
 
-                }
-            }
+        //        }
+        //    }
 
-        }
+        //}
 
 
         //    //IQueryable<Task> outdatedTasks = objectSpace.GetObjectsQuery<Task>().Where(t => t.DueDate < DateTime.Now);
@@ -97,7 +97,7 @@ namespace ProjectManagerIS.Module.Controllers
         {
             // Unsubscribe from previously subscribed events and release other references and resources.
             base.OnDeactivated();
-            ObjectSpace.ObjectChanged += ObjectSpace_ObjectChanged;
+            //ObjectSpace.ObjectChanged += ObjectSpace_ObjectChanged;
 
         }
     }

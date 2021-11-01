@@ -36,7 +36,7 @@ C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS
 C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Module.Blazor\obj\Debug\net5.0\staticwebassets\ProjectManagerIS.Module.Blazor.StaticWebAssets.xml
 C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Module.Blazor\obj\Debug\net5.0\scopedcss\bundle\ProjectManagerIS.Module.Blazor.styles.css
 C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Module.Blazor\obj\Debug\net5.0\ProjectManagerIS.Module.Blazor.RazorTargetAssemblyInfo.cache
-C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Module.Blazor\obj\Debug\net5.0\ProjectManagerIS.Module.Blazor.csproj.CopyComplete
 C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Module.Blazor\obj\Debug\net5.0\ProjectManagerIS.Module.Blazor.dll
 C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Module.Blazor\obj\Debug\net5.0\ref\ProjectManagerIS.Module.Blazor.dll
 C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Module.Blazor\obj\Debug\net5.0\ProjectManagerIS.Module.Blazor.pdb
+C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Module.Blazor\obj\Debug\net5.0\ProjectManagerIS.Module.Blazor.csproj.CopyComplete

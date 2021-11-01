@@ -64,11 +64,17 @@ namespace ProjectManagerIS.Module.BusinessObjects
         }
 
         [Association("Company,Project")]
-        [System.ComponentModel.DisplayName("Dossier")]
+        [System.ComponentModel.DisplayName("Folders")]
         public XPCollection<Project> Projects
         {
             get { return GetCollection<Project>(nameof(Projects)); }
         }
-        
+        [Association("Company,Empolyees")]
+        [System.ComponentModel.DisplayName("Empolyees")]
+        public XPCollection<Employee> Empolyees
+        {
+            get { return GetCollection<Employee>(nameof(Empolyees)); }
+        }
+
     }
 }

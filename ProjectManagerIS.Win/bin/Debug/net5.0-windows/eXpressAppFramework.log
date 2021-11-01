@@ -2907,3 +2907,668 @@ Loaded assemblies
 	UIAutomationClient, Version=5.0.11.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\UIAutomationClient.dll
 ================================================================================
 
+01.11.21 11:39:42.934	================================================================================
+01.11.21 11:39:42.941	Trace Log for ProjectManagerIS.Win is started
+01.11.21 11:39:42.944	================================================================================
+01.11.21 11:39:42.952	System Environment
+	OS Version: Microsoft Windows NT 10.0.19041.0
+	CLR Version: 5.0.11
+	eXpressApp Version: 21.1.6.0
+	eXpressApp File Version: 21.1.6.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+	Languages=fr
+
+01.11.21 11:39:43.486	Initialize application
+=======================
+01.11.21 11:39:43.512		Command line arguments: 
+		C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\ProjectManagerIS.Win.dll
+01.11.21 11:39:45.659	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+01.11.21 11:39:45.667	--------------------------------------------------------------------------------
+							
+
+01.11.21 11:39:45.723	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.BonusSkins.v21.1.dll
+	DevExpress.Data.Desktop.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Data.Desktop.v21.1.dll
+	DevExpress.Data.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Data.v21.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v21.1.dll
+	DevExpress.ExpressApp.Objects.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Objects.v21.1.dll
+	DevExpress.ExpressApp.Security.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.v21.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.Xpo.v21.1.dll
+	DevExpress.ExpressApp.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.v21.1.dll
+	DevExpress.ExpressApp.Validation.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.v21.1.dll
+	DevExpress.ExpressApp.Validation.Win.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.Win.v21.1.dll
+	DevExpress.ExpressApp.Win.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Win.v21.1.dll
+	DevExpress.ExpressApp.Xpo.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Xpo.v21.1.dll
+	DevExpress.Persistent.Base.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.Base.v21.1.dll
+	DevExpress.Persistent.BaseImpl.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.BaseImpl.v21.1.dll
+	DevExpress.Printing.v21.1.Core, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Printing.v21.1.Core.dll
+	DevExpress.Utils.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Utils.v21.1.dll
+	DevExpress.Xpo.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Xpo.v21.1.dll
+	DevExpress.XtraBars.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.XtraBars.v21.1.dll
+	DevExpress.XtraEditors.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.XtraEditors.v21.1.dll
+	Microsoft.Win32.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\netstandard.dll
+	ProjectManagerIS.Module, Version=1.0.7975.20988, Culture=neutral, PublicKeyToken=null, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\ProjectManagerIS.Module.dll
+	ProjectManagerIS.Module.Win, Version=1.0.7975.20989, Culture=neutral, PublicKeyToken=null, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\ProjectManagerIS.Module.Win.dll
+	ProjectManagerIS.Win, Version=1.0.7975.20989, Culture=neutral, PublicKeyToken=null, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\ProjectManagerIS.Win.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.dll
+	System.Buffers, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Buffers.dll
+	System.Collections, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Collections.dll
+	System.Collections.Concurrent, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Collections.Concurrent.dll
+	System.Collections.NonGeneric, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Collections.Specialized.dll
+	System.ComponentModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Configuration.ConfigurationManager.dll
+	System.Data.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Data.Common.dll
+	System.Diagnostics.Debug, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Diagnostics.Debug.dll
+	System.Diagnostics.FileVersionInfo, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Diagnostics.TraceSource.dll
+	System.Drawing, Version=5.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Drawing.dll
+	System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.IO.Compression.dll
+	System.IO.FileSystem, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.IO.FileSystem.dll
+	System.Linq, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Linq.dll
+	System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Linq.Expressions.dll
+	System.Memory, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Memory.dll
+	System.Net.WebClient, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Net.WebClient.dll
+	System.ObjectModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.ObjectModel.dll
+	System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Private.CoreLib.dll
+	System.Private.Uri, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Private.Uri.dll
+	System.Private.Xml, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Private.Xml.dll
+	System.Reflection.Emit, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Resources.Extensions.dll
+	System.Resources.ResourceManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Resources.ResourceManager.dll
+	System.Runtime, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Runtime.dll
+	System.Runtime.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Runtime.Extensions.dll
+	System.Runtime.InteropServices, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Serialization.Formatters, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Runtime.Serialization.Formatters.dll
+	System.Security.Cryptography.Algorithms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Security.Cryptography.Primitives.dll
+	System.Security.Permissions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Security.Permissions.dll
+	System.Text.Encoding.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Text.RegularExpressions.dll
+	System.Threading, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Threading.dll
+	System.Threading.Thread, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=5.0.11.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Windows.Forms.dll
+	System.Windows.Forms.Primitives, Version=5.0.11.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Xml.XmlSerializer.dll
+01.11.21 11:39:45.944	The ValueManagerType is initialized by the default value: SimpleValueManager.
+01.11.21 11:39:46.065	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.Utils.CaptionHelper.GetModelApplicationValueManager()
+   at DevExpress.ExpressApp.Utils.CaptionHelper.get_ApplicationModel()
+   at DevExpress.ExpressApp.Utils.CaptionHelper.get_BoModel()
+   at DevExpress.ExpressApp.Utils.CaptionHelper.GetMemberCaption(IMemberInfo memberInfo)
+   at DevExpress.ExpressApp.Utils.CaptionHelper.GetMemberCaption(Type objectType, String memberName)
+   at ProjectManagerIS.Module.Controllers.TaskActionsController..ctor() in C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Module\Controllers\TaskActionsController.cs:line 39
+   at Create_TaskActionsController()
+   at DevExpress.ExpressApp.Utils.Reflection.TypeData.CreateInstance(Object[] args)
+   at DevExpress.ExpressApp.Utils.Reflection.TypeHelper.CreateInstance(Type type, Object[] args)
+   at DevExpress.ExpressApp.Controller.Create(Type controllerType)
+   at DevExpress.ExpressApp.Core.ControllersManager.CreateController(Type controllerType)
+   at DevExpress.ExpressApp.Core.ControllersManager.<>c.<RegisterControllerTypes>b__9_0(Type type)
+   at System.Linq.Parallel.SelectQueryOperator`2.SelectQueryOperatorResults.GetElement(Int32 index)
+   at System.Linq.Parallel.QueryResults`1.get_Item(Int32 index)
+   at System.Linq.Parallel.PartitionedDataSource`1.ListContiguousIndexRangeEnumerator.MoveNext(T& currentElement, Int32& currentKey)
+   at System.Linq.Parallel.WhereQueryOperator`1.WhereQueryOperatorEnumerator`1.MoveNext(TInputOutput& currentElement, TKey& currentKey)
+   at System.Linq.Parallel.StopAndGoSpoolingTask`2.SpoolingWork()
+   at System.Linq.Parallel.SpoolingTaskBase.Work()
+   at System.Linq.Parallel.QueryTask.BaseWork(Object unused)
+   at System.Linq.Parallel.QueryTask.RunTaskSynchronously(Object o)
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteEntryUnsafe(Thread threadPoolThread)
+   at System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task task, Boolean taskWasPreviouslyQueued)
+   at System.Threading.Tasks.TaskScheduler.TryRunInline(Task task, Boolean taskWasPreviouslyQueued)
+   at System.Threading.Tasks.Task.InternalRunSynchronously(TaskScheduler scheduler, Boolean waitForCompletion)
+   at System.Threading.Tasks.Task.RunSynchronously(TaskScheduler scheduler)
+   at System.Linq.Parallel.QueryTask.RunSynchronously(TaskScheduler taskScheduler)
+   at System.Linq.Parallel.SpoolingTask.<>c__DisplayClass0_0`2.<SpoolStopAndGo>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteEntryUnsafe(Thread threadPoolThread)
+   at System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task task, Boolean taskWasPreviouslyQueued)
+   at System.Threading.Tasks.TaskScheduler.TryRunInline(Task task, Boolean taskWasPreviouslyQueued)
+   at System.Threading.Tasks.Task.InternalRunSynchronously(TaskScheduler scheduler, Boolean waitForCompletion)
+   at System.Threading.Tasks.Task.RunSynchronously(TaskScheduler scheduler)
+   at System.Linq.Parallel.SpoolingTask.SpoolStopAndGo[TInputOutput,TIgnoreKey](QueryTaskGroupState groupState, PartitionedStream`2 partitions, SynchronousChannel`1[] channels, TaskScheduler taskScheduler)
+   at System.Linq.Parallel.DefaultMergeHelper`2.System.Linq.Parallel.IMergeHelper<TInputOutput>.Execute()
+   at System.Linq.Parallel.MergeExecutor`1.Execute()
+   at System.Linq.Parallel.MergeExecutor`1.Execute[TKey](PartitionedStream`2 partitions, Boolean ignoreOutput, ParallelMergeOptions options, TaskScheduler taskScheduler, Boolean isOrdered, CancellationState cancellationState, Int32 queryId)
+   at System.Linq.Parallel.PartitionedStreamMerger`1.Receive[TKey](PartitionedStream`2 partitionedStream)
+   at System.Linq.Parallel.UnaryQueryOperator`2.UnaryQueryOperatorResults.ChildResultsRecipient.Receive[TKey](PartitionedStream`2 inputStream)
+   at System.Linq.Parallel.UnaryQueryOperator`2.UnaryQueryOperatorResults.GivePartitionedStream(IPartitionedStreamRecipient`1 recipient)
+   at System.Linq.Parallel.UnaryQueryOperator`2.UnaryQueryOperatorResults.GivePartitionedStream(IPartitionedStreamRecipient`1 recipient)
+   at System.Linq.Parallel.QueryOperator`1.ExecuteAndGetResultsAsArray()
+   at System.Linq.ParallelEnumerable.ToArray[TSource](ParallelQuery`1 source)
+   at DevExpress.ExpressApp.Core.ControllersManager.RegisterControllerTypes(IEnumerable`1 controllerTypes)
+   at DevExpress.ExpressApp.ApplicationModulesManager.RegisterControllerTypes()
+   at DevExpress.ExpressApp.ApplicationModulesManager.Load(ITypesInfo typesInfo, Boolean loadTypesInfo)
+   at DevExpress.ExpressApp.XafApplication.SetupCore(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.Win.WinApplication.<>n__0(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.Win.WinApplication.<>c__DisplayClass78_0.<SetupCore>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteEntryUnsafe(Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteFromThreadPool(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+01.11.21 11:39:46.102	SetupModules
+01.11.21 11:39:46.633	Customize TypesInfo
+01.11.21 11:39:51.717		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+01.11.21 11:39:51.722		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+01.11.21 11:39:52.033	Logon With Parameters
+01.11.21 11:39:52.038		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 3ade0e3d-326a-4fd6-9995-9d75d5022863
+								Category: Unspecified
+
+01.11.21 11:39:52.365	Generate default Model for Action containers
+01.11.21 11:39:55.126	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:39:55.128		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+01.11.21 11:39:55.132	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:39:55.134		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 3ade0e3d-326a-4fd6-9995-9d75d5022863
+								Category: Unspecified
+
+01.11.21 11:39:55.222	--------------------------------------------------------------------------------
+							Start logon process
+
+01.11.21 11:39:55.228	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+01.11.21 11:39:55.239		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=XPERT_X\SQLXPERT2019;Initial Catalog=ProjectManagerIS;XpoDataStorePool=True;
+01.11.21 11:39:55.245		ConnectionString: 
+01.11.21 11:39:55.265	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+01.11.21 11:40:02.569	--------------------------------------------------------------------------------
+							UpdateDB
+
+01.11.21 11:40:13.256		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=XPERT_X\SQLXPERT2019;Initial Catalog=ProjectManagerIS;XpoDataStorePool=True;
+01.11.21 11:40:14.160	--------------------------------------------------------------------------------
+							Logon successful
+
+01.11.21 11:40:14.272	--------------------------------------------------------------------------------
+							Logon completed
+
+01.11.21 11:40:14.342		startUpActions: 1
+01.11.21 11:40:14.389	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+01.11.21 11:40:15.058	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:40:15.060		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+01.11.21 11:40:15.062		SelectedItem: Users
+01.11.21 11:40:16.551	Action 'ShowNavigationItem' done
+01.11.21 11:40:17.231	Action '3ade0e3d-326a-4fd6-9995-9d75d5022863' done
+01.11.21 11:40:17.236	Window closing: Log In
+01.11.21 11:40:17.285	Action 'Logon' done
+01.11.21 11:40:17.287	Window closed: Log In
+01.11.21 11:40:17.401	Application startup done
+=========================
+01.11.21 11:40:17.403	Application running
+====================
+01.11.21 11:40:20.218	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:40:20.219		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+01.11.21 11:40:20.221		SelectedItem: Company
+01.11.21 11:40:20.376	Action 'ShowNavigationItem' done
+01.11.21 11:40:21.827	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:40:21.829		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+01.11.21 11:40:21.831		SelectedItem: Users
+01.11.21 11:40:21.946	Action 'ShowNavigationItem' done
+01.11.21 11:40:25.364	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:40:25.366		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+01.11.21 11:40:25.368		SelectedItem: Task
+01.11.21 11:40:25.412	--------------------------------------------------------------------------------
+							FilterController.SetFilter, View: DemoTask_ListView
+
+01.11.21 11:40:25.413		filterID: Hide Completed
+01.11.21 11:40:25.685	Action 'ShowNavigationItem' done
+01.11.21 11:40:28.716	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:40:28.717		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Task
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+01.11.21 11:40:28.719		SelectedItem: Task
+01.11.21 11:40:29.351	Action 'New' done
+01.11.21 11:40:39.320	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:40:39.322		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: folder
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+01.11.21 11:40:39.324		SelectedItem: folder
+01.11.21 11:40:42.348	Window closing: folder
+01.11.21 11:40:42.392	Window closed: folder
+01.11.21 11:40:42.614	Action 'New' done
+01.11.21 11:40:44.376	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:40:44.378		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: folder
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+01.11.21 11:40:44.381		SelectedItem: folder
+01.11.21 11:40:46.638	Window closing: folder
+01.11.21 11:40:46.641	Window closed: folder
+01.11.21 11:40:46.756	Action 'New' done
+01.11.21 11:40:49.688	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:40:49.690		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: folder
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+01.11.21 11:40:49.693		SelectedItem: folder
+01.11.21 11:40:52.464	Window closing: folder
+01.11.21 11:40:52.469	Window closed: folder
+01.11.21 11:40:52.566	Action 'New' done
+01.11.21 11:56:13.391	================================================================================
+01.11.21 11:56:13.397	Trace Log for ProjectManagerIS.Win is started
+01.11.21 11:56:13.399	================================================================================
+01.11.21 11:56:13.407	System Environment
+	OS Version: Microsoft Windows NT 10.0.19041.0
+	CLR Version: 5.0.11
+	eXpressApp Version: 21.1.6.0
+	eXpressApp File Version: 21.1.6.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+	eXpressAppFrameworkTraceLevel=3
+	Languages=fr
+
+01.11.21 11:56:13.696	Initialize application
+=======================
+01.11.21 11:56:13.701		Command line arguments: 
+		C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\ProjectManagerIS.Win.dll
+01.11.21 11:56:15.195	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+01.11.21 11:56:15.198	--------------------------------------------------------------------------------
+							
+
+01.11.21 11:56:15.247	--------------------------------------------------------------------------------
+Loaded assemblies
+	Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\Accessibility.dll
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.BonusSkins.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.BonusSkins.v21.1.dll
+	DevExpress.Data.Desktop.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Data.Desktop.v21.1.dll
+	DevExpress.Data.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Data.v21.1.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.ConditionalAppearance.v21.1.dll
+	DevExpress.ExpressApp.Objects.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Objects.v21.1.dll
+	DevExpress.ExpressApp.Security.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.v21.1.dll
+	DevExpress.ExpressApp.Security.Xpo.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Security.Xpo.v21.1.dll
+	DevExpress.ExpressApp.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.v21.1.dll
+	DevExpress.ExpressApp.Validation.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.v21.1.dll
+	DevExpress.ExpressApp.Validation.Win.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Validation.Win.v21.1.dll
+	DevExpress.ExpressApp.Win.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Win.v21.1.dll
+	DevExpress.ExpressApp.Xpo.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.ExpressApp.Xpo.v21.1.dll
+	DevExpress.Persistent.Base.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.Base.v21.1.dll
+	DevExpress.Persistent.BaseImpl.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Persistent.BaseImpl.v21.1.dll
+	DevExpress.Printing.v21.1.Core, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Printing.v21.1.Core.dll
+	DevExpress.Utils.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Utils.v21.1.dll
+	DevExpress.Xpo.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.Xpo.v21.1.dll
+	DevExpress.XtraBars.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.XtraBars.v21.1.dll
+	DevExpress.XtraEditors.v21.1, Version=21.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\DevExpress.XtraEditors.v21.1.dll
+	Microsoft.Win32.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\Microsoft.Win32.Primitives.dll
+	Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\Microsoft.Win32.Registry.dll
+	Microsoft.Win32.SystemEvents, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\Microsoft.Win32.SystemEvents.dll
+	netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\netstandard.dll
+	ProjectManagerIS.Module, Version=1.0.7975.20988, Culture=neutral, PublicKeyToken=null, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\ProjectManagerIS.Module.dll
+	ProjectManagerIS.Module.Win, Version=1.0.7975.20989, Culture=neutral, PublicKeyToken=null, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\ProjectManagerIS.Module.Win.dll
+	ProjectManagerIS.Win, Version=1.0.7975.20989, Culture=neutral, PublicKeyToken=null, Location=C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\bin\Debug\net5.0-windows\ProjectManagerIS.Win.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.dll
+	System.Buffers, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Buffers.dll
+	System.Collections, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Collections.dll
+	System.Collections.Concurrent, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Collections.Concurrent.dll
+	System.Collections.NonGeneric, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Collections.NonGeneric.dll
+	System.Collections.Specialized, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Collections.Specialized.dll
+	System.ComponentModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.ComponentModel.dll
+	System.ComponentModel.EventBasedAsync, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.ComponentModel.EventBasedAsync.dll
+	System.ComponentModel.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.ComponentModel.Primitives.dll
+	System.ComponentModel.TypeConverter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.ComponentModel.TypeConverter.dll
+	System.Configuration.ConfigurationManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Configuration.ConfigurationManager.dll
+	System.Data.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Data.Common.dll
+	System.Diagnostics.Debug, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Diagnostics.Debug.dll
+	System.Diagnostics.FileVersionInfo, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Diagnostics.FileVersionInfo.dll
+	System.Diagnostics.Process, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Diagnostics.Process.dll
+	System.Diagnostics.StackTrace, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Diagnostics.StackTrace.dll
+	System.Diagnostics.TextWriterTraceListener, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Diagnostics.TextWriterTraceListener.dll
+	System.Diagnostics.TraceSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Diagnostics.TraceSource.dll
+	System.Drawing, Version=5.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Drawing.dll
+	System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Drawing.Common.dll
+	System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Drawing.Primitives.dll
+	System.IO.Compression, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.IO.Compression.dll
+	System.IO.FileSystem, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.IO.FileSystem.dll
+	System.Linq, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Linq.dll
+	System.Linq.Expressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Linq.Expressions.dll
+	System.Memory, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Memory.dll
+	System.Net.WebClient, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Net.WebClient.dll
+	System.ObjectModel, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.ObjectModel.dll
+	System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Private.CoreLib.dll
+	System.Private.Uri, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Private.Uri.dll
+	System.Private.Xml, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Private.Xml.dll
+	System.Reflection.Emit, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Reflection.Emit.dll
+	System.Reflection.Emit.ILGeneration, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Reflection.Emit.ILGeneration.dll
+	System.Reflection.Emit.Lightweight, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Reflection.Emit.Lightweight.dll
+	System.Reflection.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Reflection.Primitives.dll
+	System.Resources.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Resources.Extensions.dll
+	System.Resources.ResourceManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Resources.ResourceManager.dll
+	System.Runtime, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Runtime.dll
+	System.Runtime.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Runtime.Extensions.dll
+	System.Runtime.InteropServices, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Runtime.InteropServices.dll
+	System.Runtime.InteropServices.RuntimeInformation, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Runtime.InteropServices.RuntimeInformation.dll
+	System.Runtime.Serialization.Formatters, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Runtime.Serialization.Formatters.dll
+	System.Security.Cryptography.Algorithms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Security.Cryptography.Algorithms.dll
+	System.Security.Cryptography.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Security.Cryptography.Primitives.dll
+	System.Security.Permissions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Security.Permissions.dll
+	System.Text.Encoding.Extensions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Text.Encoding.Extensions.dll
+	System.Text.RegularExpressions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Text.RegularExpressions.dll
+	System.Threading, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Threading.dll
+	System.Threading.Thread, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Threading.Thread.dll
+	System.Threading.ThreadPool, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Threading.ThreadPool.dll
+	System.Windows.Forms, Version=5.0.11.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Windows.Forms.dll
+	System.Windows.Forms.Primitives, Version=5.0.11.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.11\System.Windows.Forms.Primitives.dll
+	System.Xml.ReaderWriter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Xml.ReaderWriter.dll
+	System.Xml.XmlSerializer, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.11\System.Xml.XmlSerializer.dll
+01.11.21 11:56:15.396	The ValueManagerType is initialized by the default value: SimpleValueManager.
+01.11.21 11:56:15.478	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.<>c__4`1.<GetValueManager>b__4_1(String _key)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.Utils.CaptionHelper.GetModelApplicationValueManager()
+   at DevExpress.ExpressApp.Utils.CaptionHelper.get_ApplicationModel()
+   at DevExpress.ExpressApp.Utils.CaptionHelper.get_BoModel()
+   at DevExpress.ExpressApp.Utils.CaptionHelper.GetMemberCaption(IMemberInfo memberInfo)
+   at DevExpress.ExpressApp.Utils.CaptionHelper.GetMemberCaption(Type objectType, String memberName)
+   at ProjectManagerIS.Module.Controllers.TaskActionsController..ctor() in C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Module\Controllers\TaskActionsController.cs:line 39
+   at Create_TaskActionsController()
+   at DevExpress.ExpressApp.Utils.Reflection.TypeData.CreateInstance(Object[] args)
+   at DevExpress.ExpressApp.Utils.Reflection.TypeHelper.CreateInstance(Type type, Object[] args)
+   at DevExpress.ExpressApp.Controller.Create(Type controllerType)
+   at DevExpress.ExpressApp.Core.ControllersManager.CreateController(Type controllerType)
+   at DevExpress.ExpressApp.Core.ControllersManager.<>c.<RegisterControllerTypes>b__9_0(Type type)
+   at System.Linq.Parallel.SelectQueryOperator`2.SelectQueryOperatorResults.GetElement(Int32 index)
+   at System.Linq.Parallel.QueryResults`1.get_Item(Int32 index)
+   at System.Linq.Parallel.PartitionedDataSource`1.ListContiguousIndexRangeEnumerator.MoveNext(T& currentElement, Int32& currentKey)
+   at System.Linq.Parallel.WhereQueryOperator`1.WhereQueryOperatorEnumerator`1.MoveNext(TInputOutput& currentElement, TKey& currentKey)
+   at System.Linq.Parallel.StopAndGoSpoolingTask`2.SpoolingWork()
+   at System.Linq.Parallel.SpoolingTaskBase.Work()
+   at System.Linq.Parallel.QueryTask.BaseWork(Object unused)
+   at System.Linq.Parallel.QueryTask.RunTaskSynchronously(Object o)
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteEntryUnsafe(Thread threadPoolThread)
+   at System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task task, Boolean taskWasPreviouslyQueued)
+   at System.Threading.Tasks.TaskScheduler.TryRunInline(Task task, Boolean taskWasPreviouslyQueued)
+   at System.Threading.Tasks.Task.InternalRunSynchronously(TaskScheduler scheduler, Boolean waitForCompletion)
+   at System.Threading.Tasks.Task.RunSynchronously(TaskScheduler scheduler)
+   at System.Linq.Parallel.QueryTask.RunSynchronously(TaskScheduler taskScheduler)
+   at System.Linq.Parallel.SpoolingTask.<>c__DisplayClass0_0`2.<SpoolStopAndGo>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteEntryUnsafe(Thread threadPoolThread)
+   at System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task task, Boolean taskWasPreviouslyQueued)
+   at System.Threading.Tasks.TaskScheduler.TryRunInline(Task task, Boolean taskWasPreviouslyQueued)
+   at System.Threading.Tasks.Task.InternalRunSynchronously(TaskScheduler scheduler, Boolean waitForCompletion)
+   at System.Threading.Tasks.Task.RunSynchronously(TaskScheduler scheduler)
+   at System.Linq.Parallel.SpoolingTask.SpoolStopAndGo[TInputOutput,TIgnoreKey](QueryTaskGroupState groupState, PartitionedStream`2 partitions, SynchronousChannel`1[] channels, TaskScheduler taskScheduler)
+   at System.Linq.Parallel.DefaultMergeHelper`2.System.Linq.Parallel.IMergeHelper<TInputOutput>.Execute()
+   at System.Linq.Parallel.MergeExecutor`1.Execute()
+   at System.Linq.Parallel.MergeExecutor`1.Execute[TKey](PartitionedStream`2 partitions, Boolean ignoreOutput, ParallelMergeOptions options, TaskScheduler taskScheduler, Boolean isOrdered, CancellationState cancellationState, Int32 queryId)
+   at System.Linq.Parallel.PartitionedStreamMerger`1.Receive[TKey](PartitionedStream`2 partitionedStream)
+   at System.Linq.Parallel.UnaryQueryOperator`2.UnaryQueryOperatorResults.ChildResultsRecipient.Receive[TKey](PartitionedStream`2 inputStream)
+   at System.Linq.Parallel.UnaryQueryOperator`2.UnaryQueryOperatorResults.GivePartitionedStream(IPartitionedStreamRecipient`1 recipient)
+   at System.Linq.Parallel.UnaryQueryOperator`2.UnaryQueryOperatorResults.GivePartitionedStream(IPartitionedStreamRecipient`1 recipient)
+   at System.Linq.Parallel.QueryOperator`1.ExecuteAndGetResultsAsArray()
+   at System.Linq.ParallelEnumerable.ToArray[TSource](ParallelQuery`1 source)
+   at DevExpress.ExpressApp.Core.ControllersManager.RegisterControllerTypes(IEnumerable`1 controllerTypes)
+   at DevExpress.ExpressApp.ApplicationModulesManager.RegisterControllerTypes()
+   at DevExpress.ExpressApp.ApplicationModulesManager.Load(ITypesInfo typesInfo, Boolean loadTypesInfo)
+   at DevExpress.ExpressApp.XafApplication.SetupCore(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.Win.WinApplication.<>n__0(String applicationName, IList`1 objectSpaceProviders, ApplicationModulesManager modulesManager, ISecurityStrategyBase security)
+   at DevExpress.ExpressApp.Win.WinApplication.<>c__DisplayClass78_0.<SetupCore>b__0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteEntryUnsafe(Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteFromThreadPool(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+
+01.11.21 11:56:15.514	SetupModules
+01.11.21 11:56:15.842	Customize TypesInfo
+01.11.21 11:56:20.303		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+01.11.21 11:56:20.310		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+01.11.21 11:56:20.464	Logon With Parameters
+01.11.21 11:56:20.468		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: fc8eeae1-361a-4133-be29-82fce19fee2b
+								Category: Unspecified
+
+01.11.21 11:56:20.674	Generate default Model for Action containers
+01.11.21 11:56:23.346	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:56:23.349		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+01.11.21 11:56:23.352	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:56:23.354		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: fc8eeae1-361a-4133-be29-82fce19fee2b
+								Category: Unspecified
+
+01.11.21 11:56:23.443	--------------------------------------------------------------------------------
+							Start logon process
+
+01.11.21 11:56:23.448	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+01.11.21 11:56:23.457		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=XPERT_X\SQLXPERT2019;Initial Catalog=ProjectManagerIS;XpoDataStorePool=True;
+01.11.21 11:56:23.460		ConnectionString: 
+01.11.21 11:56:23.473	Resolve the 'Microsoft.Data.SqlClient, Culture=neutral, PublicKeyToken=null' assembly
+01.11.21 11:56:26.452	--------------------------------------------------------------------------------
+							UpdateDB
+
+01.11.21 11:56:31.498		ConnectionString: Integrated Security=SSPI;Pooling=false;Data Source=XPERT_X\SQLXPERT2019;Initial Catalog=ProjectManagerIS;XpoDataStorePool=True;
+01.11.21 11:56:43.955	--------------------------------------------------------------------------------
+							Logon successful
+
+01.11.21 11:56:44.153	--------------------------------------------------------------------------------
+							Logon completed
+
+01.11.21 11:56:44.241		startUpActions: 1
+01.11.21 11:56:44.331	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+01.11.21 11:56:45.183	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:56:45.185		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+01.11.21 11:56:45.188		SelectedItem: Users
+01.11.21 11:56:46.749	Action 'ShowNavigationItem' done
+01.11.21 11:56:47.404	Action 'fc8eeae1-361a-4133-be29-82fce19fee2b' done
+01.11.21 11:56:47.409	Window closing: Log In
+01.11.21 11:56:47.451	Action 'Logon' done
+01.11.21 11:56:47.453	Window closed: Log In
+01.11.21 11:56:47.567	Application startup done
+=========================
+01.11.21 11:56:47.570	Application running
+====================
+01.11.21 11:56:55.965	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:56:55.968		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Users
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: Admin
+
+01.11.21 11:56:55.970		SelectedItem: Company
+01.11.21 11:56:56.509	Action 'New' done
+01.11.21 11:56:59.955	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:56:59.958		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+01.11.21 11:56:59.961		SelectedItem: Task
+01.11.21 11:57:00.045	--------------------------------------------------------------------------------
+							FilterController.SetFilter, View: DemoTask_ListView
+
+01.11.21 11:57:00.047		filterID: Hide Completed
+01.11.21 11:57:00.399	Action 'ShowNavigationItem' done
+01.11.21 11:57:03.047	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:57:03.049		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Task
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 0
+								Context.CurrentObject: <not specified>
+
+01.11.21 11:57:03.052		SelectedItem: Task
+01.11.21 11:57:03.682	Action 'New' done
+01.11.21 11:57:29.036	--------------------------------------------------------------------------------
+							Execute action
+
+01.11.21 11:57:29.038		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Close
+								Category: Close
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.CloseWindowController
+								Context.Name: Task
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: ProjectManagerIS.Module.BusinessObjects.DemoTask(5a5869d0-f731-468c-9596-724e28486984)
+
+01.11.21 11:57:29.042	Window closing: Task
+01.11.21 11:57:29.072	Window closed: Task
+01.11.21 11:57:29.291	Action 'Close' done

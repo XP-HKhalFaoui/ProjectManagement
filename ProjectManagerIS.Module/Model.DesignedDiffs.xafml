@@ -2,6 +2,9 @@
 <Application Title="ProjectManagerIS">
   <ActionDesign>
     <Actions>
+      <Action Id="Cancel">
+        <DisableReasons Index="50" />
+      </Action>
       <Action Id="DemoTask.Postpone.PostponeParametersObject" TargetObjectsCriteria="[Status] &lt;&gt; ##Enum#DevExpress.Persistent.Base.General.TaskStatus,Completed#" />
       <Action Id="Task.MarkCompleted" ValidationContexts="MarkCompleted" />
     </Actions>
@@ -47,6 +50,7 @@
   </Validation>
   <Views>
     <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <DetailView Id="ChangePasswordOnLogonParameters_Blazor_DetailView" Caption="Changer le mot de passe" />
     <ListView Id="DemoTask_AuditTrail_ListView">
       <Columns>
         <ColumnInfo Id="UserName" Width="142" />
@@ -57,7 +61,7 @@
     </ListView>
     <DetailView Id="DemoTask_DetailView">
       <Items>
-        <PropertyEditor Id="Exercise" NullText="Exercise" AllowEdit="True" />
+        <PropertyEditor Id="ProjectName" LookupEditorMode="AllItems" ImmediatePostData="True" />
       </Items>
     </DetailView>
     <ListView Id="DemoTask_ListView" AllowEdit="True" NewItemRowPosition="Top">
@@ -68,7 +72,6 @@
         <ColumnInfo Id="DueDate" Index="3" />
         <ColumnInfo Id="ProjectName" Index="4" />
         <ColumnInfo Id="DateCompleted" Index="5" />
-        <ColumnInfo Id="Exercise" AllowEdit="False" Index="6" />
         <ColumnInfo Id="Resolutions" Index="7" />
         <ColumnInfo Id="StartDate" Index="8" />
       </Columns>
@@ -89,10 +92,11 @@
         <ColumnInfo Id="SpouseName" Index="-1" SortIndex="-1" SortOrder="None" Width="183" />
         <ColumnInfo Id="TitleOfCourtesy" Index="-1" SortIndex="0" SortOrder="Ascending" Width="92" />
         <ColumnInfo Id="FullName" Width="169" SortIndex="-1" SortOrder="None" />
-        <ColumnInfo Id="Department" Index="1" SortOrder="Ascending" GroupIndex="0" />
-        <ColumnInfo Id="Manager" Index="2" />
-        <ColumnInfo Id="Birthday" Index="3" />
-        <ColumnInfo Id="Position" Index="4" SortOrder="Descending" GroupIndex="1" />
+        <ColumnInfo Id="Manager" Index="1" />
+        <ColumnInfo Id="Birthday" Index="2" />
+        <ColumnInfo Id="User" Index="3" />
+        <ColumnInfo Id="Position" Index="4" SortOrder="None" GroupIndex="-1" />
+        <ColumnInfo Id="Department" Index="5" SortOrder="None" GroupIndex="-1" />
       </Columns>
     </ListView>
     <ListView Id="Employee_LookupListView">

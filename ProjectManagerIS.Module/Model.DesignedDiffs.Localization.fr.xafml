@@ -1,2 +1,665 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Application />
+<Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="Cancel" Caption="Annuler" />
+      <Action Id="CancelAction" Caption="Annuler" />
+      <Action Id="DemoTask.Postpone.PostponeParametersObject" Caption="Reporter" />
+      <Action Id="DialogCancel" Caption="Annuler" />
+      <Action Id="FindBySubjectAction" Caption="Rechercher une tâche par sujet" NullValuePrompt="Rechercher une tâche par sujet" />
+      <Action Id="ListViewShowObject" Caption="Ouvert" />
+      <Action Id="Logon" Caption="Connectez-vous" />
+      <Action Id="ResetViewSettings" Caption="Réinitialiser les paramètres d'affichage" />
+      <Action Id="Save" Caption="Sauvegarder" />
+      <Action Id="SaveAndClose" Caption="Enregistrer et fermer" />
+      <Action Id="SaveAndNew" Caption="Enregistrer et Nouveau" />
+      <Action Id="SetTaskAction" Caption="Définir Tâche">
+        <ChoiceActionItems>
+          <ChoiceActionItem Id="Priority" Caption="Priorité">
+            <ChoiceActionItems>
+              <ChoiceActionItem Id="High" Caption="Haut" />
+              <ChoiceActionItem Id="Low" Caption="Bas" />
+            </ChoiceActionItems>
+          </ChoiceActionItem>
+          <ChoiceActionItem Id="Status" Caption="Statut">
+            <ChoiceActionItems>
+              <ChoiceActionItem Id="Canceled" Caption="Annulé" />
+              <ChoiceActionItem Id="Created" Caption="Créé" />
+              <ChoiceActionItem Id="Faulted" Caption="En défaut" />
+              <ChoiceActionItem Id="Running" Caption="En cours" />
+              <ChoiceActionItem Id="WaitingForActivation" Caption="En attente d'activation" />
+              <ChoiceActionItem Id="WaitingToRun" Caption="Attente Pour Exécuter" />
+            </ChoiceActionItems>
+          </ChoiceActionItem>
+        </ChoiceActionItems>
+      </Action>
+      <Action Id="ShowNotesAction" Caption="Afficher les commentaires" />
+      <Action Id="Task.MarkCompleted" Caption="Marquer terminé" />
+    </Actions>
+    <DisableReasons>
+      <Reason Id="IsModifiedObject" Caption="Vous devez enregistrer les modifications en attente avant de modifier cet enregistrement" />
+    </DisableReasons>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters">
+      <OwnMembers>
+        <Member Name="UserName" Caption="Nom d'utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.SystemModule.AboutInfo">
+      <OwnMembers>
+        <Member Name="Company" Caption="Compagnie" />
+        <Member Name="LogoImageName" Caption="Nom de l'image du logo" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.ExpressApp.Validation.AllContextsView.ContextValidationResult">
+      <OwnMembers>
+        <Member Name="BrokenRules" Caption="Règles violées" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.AuditTrail.BaseAuditedObjectWeakReference">
+      <OwnMembers>
+        <Member Name="DisplayName" Caption="Nom d'affichage" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.AuditDataItemPersistent">
+      <OwnMembers>
+        <Member Name="UserName" Caption="Nom d'utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Event">
+      <OwnMembers>
+        <Member Name="AllDay" Caption="Toute la journée" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.ModelDifference">
+      <OwnMembers>
+        <Member Name="UserName" Caption="Nom d'utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.ModelDifferenceAspect">
+      <OwnMembers>
+        <Member Name="DisplayName" Caption="Nom d'affichage" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Party">
+      <OwnMembers>
+        <Member Name="DisplayName" Caption="Nom d'affichage" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser">
+      <OwnMembers>
+        <Member Name="UserName" Caption="Nom d'utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Person" Caption="Personne">
+      <OwnMembers>
+        <Member Name="Birthday" Caption="Anniversaire" />
+        <Member Name="Email" Caption="E-mail" />
+        <Member Name="FirstName" Caption="Prénom" />
+        <Member Name="FullName" Caption="Nom et prénom" />
+        <Member Name="LastName" Caption="Nom de famille" />
+        <Member Name="MiddleName" Caption="Deuxième nom" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Task" Caption="Tâche">
+      <OwnMembers>
+        <Member Name="AssignedTo" Caption="Assigné à" />
+        <Member Name="DateCompleted" Caption="Rendez-vous complet" />
+        <Member Name="DueDate" Caption="Date d'échéance" />
+        <Member Name="PercentCompleted" Caption="Pourcentage de réalisation" />
+        <Member Name="StartDate" Caption="Date de début" />
+        <Member Name="Status" Caption="Statut" />
+        <Member Name="Subject" Caption="Sujet" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.Validation.IRuleIsReferencedProperties">
+      <OwnMembers>
+        <Member Name="LooksFor" Caption="Cherche des" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.Validation.IRuleObjectExistsProperties">
+      <OwnMembers>
+        <Member Name="LooksFor" Caption="Cherche des" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.Validation.RuleIsReferencedProperties">
+      <OwnMembers>
+        <Member Name="LooksFor" Caption="Cherche des" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.Validation.RuleObjectExistsProperties">
+      <OwnMembers>
+        <Member Name="LooksFor" Caption="Cherche des" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.ApplicationUser" Caption="Utilisateur de l'application">
+      <OwnMembers>
+        <Member Name="Employe" Caption="Employé" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.ApplicationUserLoginInfo">
+      <OwnMembers>
+        <Member Name="User" Caption="Utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Company" Caption="Compagnie">
+      <OwnMembers>
+        <Member Name="CompanyName" Caption="Nom de la compagnie" />
+        <Member Name="Empolyees" Caption="Employés" />
+        <Member Name="Location" Caption="Emplacement" />
+        <Member Name="Projects" Caption="Dossiers" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.DemoTask" Caption="Tâche">
+      <OwnMembers>
+        <Member Name="AuditTrail" Caption="Historique des opération" />
+        <Member Name="Portfolio" Caption="fichier" />
+        <Member Name="Priority" Caption="Priorité" />
+        <Member Name="ProjectName" Caption="Dossier" />
+        <Member Name="Resolutions" Caption="Résolutions" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Department" Caption="Département">
+      <OwnMembers>
+        <Member Name="Contacts" Caption="Employés" />
+        <Member Name="Office" Caption="Bureau" />
+        <Member Name="Positions" Caption="Postes" />
+        <Member Name="Title" Caption="Titre" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Employee" Caption="Employé">
+      <OwnMembers>
+        <Member Name="Anniversary" Caption="Anniversaire" />
+        <Member Name="Department" Caption="Département" />
+        <Member Name="Manager" Caption="Directeur" />
+        <Member Name="NickName" Caption="Surnom" />
+        <Member Name="Notes" Caption="Remarques" />
+        <Member Name="Position" Caption="Poste" />
+        <Member Name="Resumes" Caption="curriculum vitae" />
+        <Member Name="SpouseName" Caption="Nom conjoint" />
+        <Member Name="User" Caption="Utilisateur" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Exercises" Caption="Exercices">
+      <OwnMembers>
+        <Member Name="DateModified" Caption="Date de modification" />
+        <Member Name="EndDate" Caption="Date de fin" />
+        <Member Name="ExerciceName" Caption="Nom d'Exercice" />
+        <Member Name="StartDate" Caption="Date de début" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.PortfolioFileData" Caption="Données du fichier de Portfolio ">
+      <OwnMembers>
+        <Member Name="DocumentType" Caption="Type de document" />
+        <Member Name="Resume" Caption="curriculum vitae" />
+        <Member Name="Tasks" Caption="Tâches" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Position" Caption="Poste">
+      <OwnMembers>
+        <Member Name="Departments" Caption="Départements" />
+        <Member Name="Title" Caption="Titre" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.PostponeParametersObject" Caption="Reporter l'objet Paramètres">
+      <OwnMembers>
+        <Member Name="Comment" Caption="Commenter" />
+        <Member Name="PostponeForDays" Caption="Reporter" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Project" Caption="Dossier">
+      <OwnMembers>
+        <Member Name="Company" Caption="Compagnie" />
+        <Member Name="Exercise" Caption="Exercice" />
+        <Member Name="Name" Caption="Nom" />
+        <Member Name="Tasks" Caption="Tâches" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Resume" Caption="curriculum vitae">
+      <OwnMembers>
+        <Member Name="Contact" Caption="Employé" />
+        <Member Name="Portfolio" Caption="Données du fichier de Portfolio " />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.SchedulerEvent" Caption="Événement du planificateur" />
+  </BOModel>
+  <CreatableItems>
+    <CreatableItem ClassName="ProjectManagerIS.Module.BusinessObjects.Resume" Caption="curriculum vitae" />
+  </CreatableItems>
+  <Localization>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="DevExpress.Persistent.Base.General.TaskStatus">
+        <LocalizationItem Name="Completed" Value="Complété" />
+        <LocalizationItem Name="Deferred" Value="Différé" />
+        <LocalizationItem Name="InProgress" Value="En cours" />
+        <LocalizationItem Name="NotStarted" Value="Libre" />
+        <LocalizationItem Name="WaitingForSomeoneElse" Value="Attendre quelqu'un d'autre" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="ProjectManagerIS.Module.BusinessObjects.Priority">
+        <LocalizationItem Name="High" Value="Haut" />
+        <LocalizationItem Name="Low" Value="Bas" />
+      </LocalizationGroup>
+    </LocalizationGroup>
+    <LocalizationGroup Name="Exceptions">
+      <LocalizationItem Name="CanNotSaveObject" Value="Vous ne pouvez pas enregistrer l'objet '{0}' en raison des restrictions de sécurité." />
+      <LocalizationGroup Name="SystemExceptions">
+        <LocalizationItem Name="AnUnsavedObjectCannotBeShown" Value="Un enregistrement nouvellement créé ne peut pas être affiché tant qu'il n'est pas enregistré. Veuillez l'enregistrer pour afficher ses détails dans un formulaire séparé." />
+        <LocalizationItem Name="ApplicationIsNotStarted" Value="L'application n'a pas démarré" />
+      </LocalizationGroup>
+      <LocalizationGroup Name="UserVisibleExceptions">
+        <LocalizationItem Name="AsyncOperationInProgress" Value="Opération annulée. Opération asynchrone en cours." />
+        <LocalizationItem Name="CannotSaveUserSettingsToTheDatabase" Value="Impossible d'enregistrer les paramètres utilisateur dans la base de données.&#xD;&#xA;" />
+        <LocalizationItem Name="LogonAttemptsAmountedToLimitWin" Value="Après trois tentatives de connexion infructueuses, l'application sera maintenant fermée. Contacter un administrateur à propos de vos informations de connexion." />
+        <LocalizationItem Name="ObjectToSaveWasChanged" Value="L'objet que vous essayez d'enregistrer a été modifié par un autre utilisateur. Veuillez actualiser les données." />
+        <LocalizationItem Name="SimultaneousChangeDataMessage" Value="Attention : des modifications simultanées des mêmes informations dans différentes fenêtres/vues sont détectées :\n&#xA;{0}\n&#xA;Il sera possible d'enregistrer les modifications dans une seule fenêtre/vue." />
+        <LocalizationGroup Name="Validation">
+          <LocalizationItem Name="SaveErrorMessageHeader" Value="Erreur de validation des données : veuillez examiner et corriger les erreurs de validation des données répertoriées ci-dessous pour continuer." />
+        </LocalizationGroup>
+      </LocalizationGroup>
+    </LocalizationGroup>
+  </Localization>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="Resume_ListView" Caption="curriculum vitae" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Validation>
+    <Contexts>
+      <ValidationContext Id="Save" Caption="Sauvegarder" />
+    </Contexts>
+    <Rules>
+      <RuleRequiredField Id="RuleRequiredField for Task.Project" CustomMessageTemplate="Un projet doit être spécifié" />
+      <RuleCriteria Id="TaskIsNotStarted" CustomMessageTemplate="Impossible de définir la tâche comme compléte car elle libre" />
+    </Rules>
+  </Validation>
+  <Views>
+    <DetailView Id="AboutInfo_DetailView" Caption="À propos" />
+    <DetailView Id="Address_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Address" Caption="Adresse" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="ApplicationUser_ListView" Caption="Utilisateurs" />
+    <DetailView Id="AuthenticationStandardLogonParameters_Blazor_DetailView" Caption="Connectez-vous" />
+    <DetailView Id="AuthenticationStandardLogonParameters_DetailView" Caption="Connectez-vous" />
+    <DetailView Id="ChangePasswordOnLogonParameters_DetailView" Caption="Changer le mot de passe">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Static" Caption="Statique" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ChangePasswordParameters_Blazor_DetailView" Caption="Changer le mot de passe" />
+    <DetailView Id="ChangePasswordParameters_DetailView" Caption="Changer le mot de passe">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Static" Caption="Statique" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="DashboardCreationInfo_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="DashboardCreationInfo">
+              <LayoutGroup Id="ViewItems" Caption="Voir les articles" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="DemoTask_AuditTrail_ListView" Caption="Historique des opération">
+      <Columns>
+        <ColumnInfo Id="ModifiedOn" Caption="Modifié le" />
+        <ColumnInfo Id="OperationType" Caption="Type d'opération" />
+        <ColumnInfo Id="PropertyName" Caption="Nom de la propriété" />
+        <ColumnInfo Id="OldValue" Caption="Ancienne valeur" />
+        <ColumnInfo Id="NewValue" Caption="Nouvelle valeur" />
+      </Columns>
+    </ListView>
+    <DetailView Id="DemoTask_DetailView">
+      <Items>
+        <PropertyEditor Id="AuditTrail" Caption="Historique des opération" />
+        <PropertyEditor Id="DateCompleted" Caption="Date d'achèvement" />
+        <PropertyEditor Id="PercentCompleted" Caption="Pourcentage de réalisation" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Task" Caption="Tâche" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="DemoTask_ListView">
+      <Columns>
+        <ColumnInfo Id="DateCompleted" Caption="Date d'achèvement" />
+      </Columns>
+      <Filters>
+        <Filter Id="Hide Completed" Caption="Masquer les tâches terminées" />
+        <Filter Id="Show completed" Caption="Afficher les tâches complètes" />
+      </Filters>
+    </ListView>
+    <ListView Id="DemoTask_Portfolio_ListView">
+      <Columns>
+        <ColumnInfo Id="File" Caption="Fichier" />
+        <ColumnInfo Id="Resume" Caption="curriculum vitae" />
+      </Columns>
+    </ListView>
+    <DetailView Id="DisplayableValidationResultItem_DetailView">
+      <Items>
+        <PropertyEditor Id="RuleProperties" Caption="Détails de la règle" />
+      </Items>
+    </DetailView>
+    <DetailView Id="Employee_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Employee" Caption="Employé" />
+            <LayoutGroup Id="Person" Caption="Personne" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Event_DetailView">
+      <Items>
+        <PropertyEditor Id="ReminderTime" Caption="Rappel" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Event" Caption="Événement" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Exercises_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Exercises" Caption="Des exercices" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="FileAttachmentBase_LookupListView">
+      <Columns>
+        <ColumnInfo Id="File.FileName" Caption="Nom du fichier" />
+      </Columns>
+    </ListView>
+    <DetailView Id="IRuleBaseProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleCollectionPropertyProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleCombinationOfPropertiesIsUniqueProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleCriteriaProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleFromBoolPropertyProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleIsReferencedProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleObjectExistsProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRulePropertyValueProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleRangeProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleRegularExpressionProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleRequiredFieldProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleSearchObjectProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleStringComparisonProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleSupportsCollectionAggregatesProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleUniqueValueProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="IRuleValueComparisonProperties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="IRuleBaseProperties" Caption="Propriétés de la base IRule" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="ModelDifference_Aspects_ListView">
+      <Columns>
+        <ColumnInfo Id="DisplayName" Caption="Nom" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Person_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Person" Caption="Personne">
+            <LayoutGroup Id="Person_col1" Caption="Personne_col1" />
+            <LayoutGroup Id="Person_col2" Caption="Personne_col2" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Person_ListView">
+      <Columns>
+        <ColumnInfo Id="Address1" Caption="Adresse 1" />
+        <ColumnInfo Id="Address2" Caption="Adresse 2" />
+        <ColumnInfo Id="FullName" Caption="Nom et prénom" />
+        <ColumnInfo Id="FirstName" Caption="Prénom" />
+        <ColumnInfo Id="LastName" Caption="Nom de famille" />
+        <ColumnInfo Id="MiddleName" Caption="Deuxième nom" />
+        <ColumnInfo Id="Birthday" Caption="Anniversaire" />
+        <ColumnInfo Id="Email" Caption="E-mail" />
+      </Columns>
+    </ListView>
+    <ListView Id="PortfolioFileData_LookupListView">
+      <Columns>
+        <ColumnInfo Id="File.FileName" Caption="Personne_col2" />
+      </Columns>
+    </ListView>
+    <DetailView Id="ProcessDataLockingInfoMergeDialog_DetailView" Caption="Avertissement">
+      <Items>
+        <StaticText Id="Message" Text="Les informations que vous essayez d'enregistrer ont été modifiées par un autre utilisateur.&#xD;&#xA;Vous pouvez soit fusionner les modifications, actualiser les données et annuler vos modifications, soit annuler l'opération de sauvegarde." />
+      </Items>
+    </DetailView>
+    <DetailView Id="ProcessDataLockingInfoRefreshDialog_DetailView" Caption="Avertissement">
+      <Items>
+        <StaticText Id="Message" Text="Les informations que vous essayez d'enregistrer ont été modifiées par un autre utilisateur.&#xD;&#xA;Vous pouvez soit actualiser les données et annuler vos modifications, soit annuler l'opération de sauvegarde." />
+      </Items>
+    </DetailView>
+    <DetailView Id="Project_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Project" Caption="Dossier" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Project_Tasks_ListView">
+      <Columns>
+        <ColumnInfo Id="DateCompleted" Caption="Date d'achèvement" />
+      </Columns>
+    </ListView>
+    <DetailView Id="ResetPasswordParameters_Blazor_DetailView" Caption="Réinitialiser le mot de passe" />
+    <DetailView Id="ResetPasswordParameters_DetailView" Caption="réinitialiser le mot de passe">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Static" Caption="Statique" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="RuleSetValidationResult_ByTarget_Error_DetailView" Caption="Erreur de validation">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="Static" Caption="Statique" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SchedulerEvent_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Event" Caption="Événement" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SecurityDiagnosticInfoObject_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <TabbedGroup Id="Tabs1">
+            <LayoutGroup Id="IsGrantedInfo" Caption="Autorisations" />
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Task_DetailView">
+      <Items>
+        <PropertyEditor Id="DateCompleted" Caption="Date d'achèvement" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Task" Caption="Tâche" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Task_ListView">
+      <Columns>
+        <ColumnInfo Id="DateCompleted" Caption="Date d'achèvement" />
+      </Columns>
+    </ListView>
+    <ListView Id="Task_LookupListView" Caption="Tâche" />
+    <DetailView Id="ValidationResults_Error_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="Static" Caption="Statique" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ValidationResults_Passed_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Principal">
+          <LayoutGroup Id="Static" Caption="Statique" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

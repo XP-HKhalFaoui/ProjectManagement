@@ -15,6 +15,7 @@ using System.Text;
 namespace ProjectManagerIS.Module.BusinessObjects
 {
     [DefaultClassOptions]
+    [Browsable(false)]
     public class Payment : BaseObject
     {
         public Payment(Session session) : base(session) { }

@@ -16,8 +16,7 @@
           "DevExpress.ExpressApp.de": "21.1.6",
           "DevExpress.Persistent.Base": "21.1.6",
           "DevExpress.Persistent.BaseImpl": "21.1.6",
-          "ProjectManagerIS.Module": "1.0.0",
-          "DevExpress.ExpressApp.Blazor.v21.1": "21.1.6.0"
+          "ProjectManagerIS.Module": "1.0.0"
         },
         "runtime": {
           "ProjectManagerIS.Module.Win.dll": {}
@@ -2073,14 +2072,6 @@
             "locale": "fr"
           }
         }
-      },
-      "DevExpress.ExpressApp.Blazor.v21.1/21.1.6.0": {
-        "runtime": {
-          "DevExpress.ExpressApp.Blazor.v21.1.dll": {
-            "assemblyVersion": "21.1.6.0",
-            "fileVersion": "21.1.6.0"
-          }
-        }
       }
     }
   },
@@ -3366,11 +3357,6 @@
     },
     "ProjectManagerIS.Module/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "DevExpress.ExpressApp.Blazor.v21.1/21.1.6.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

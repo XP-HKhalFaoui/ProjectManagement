@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="DemoTask_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Exercise" AllowEdit="False" Index="6" />
+      </Columns>
+    </ListView>
+    <DetailView Id="DemoTask_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="Exercise" NullText="Exercise" AllowEdit="True" />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>

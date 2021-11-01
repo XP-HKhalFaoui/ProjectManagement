@@ -30,7 +30,7 @@ namespace ProjectManagerIS.Module.Controllers
             base.OnActivated();
             // Perform various tasks depending on the target View.
             //CollectionSource.EmptyCollectionCriteria= CriteriaOperator.FromLambda<Employee>(c => c.Position.Title == "Developer");
-            View.CollectionSource.Criteria["Developers"] = CriteriaOperator.FromLambda<Employee>(c => c.Position.Title == "Developer");
+            //View.CollectionSource.Criteria["Developers"] = CriteriaOperator.FromLambda<Employee>(c => c.Position.Title == "Developer");
         }
         protected override void OnViewControlsCreated()
         {
