@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Employee_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Person">
+              <LayoutGroup Id="Person_col1">
+                <LayoutItem Id="Email1" Index="0" RelativeSize="27.11864406779661" ViewItem="Email" Removed="True" />
+                <LayoutItem Id="Address11" Index="1" RelativeSize="20.338983050847457" ViewItem="Address1" Removed="True" />
+                <LayoutItem Id="Address21" Index="2" RelativeSize="20.338983050847457" ViewItem="Address2" Removed="True" />
+                <LayoutItem Id="User1" Index="3" RelativeSize="32.20338983050848" ViewItem="User" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Auto6e9c0e4d-feaa-48f4-9cc3-497ac4cab5bc">
+                <LayoutItem Id="Company1" Index="0" RelativeSize="27.11864406779661" ViewItem="Company" Removed="True" />
+                <LayoutGroup Id="Person_col2">
+                  <LayoutItem Id="Position1" Index="0" RelativeSize="48.38709677419355" ViewItem="Position" Removed="True" />
+                  <LayoutItem Id="Manager1" Index="1" RelativeSize="51.61290322580645" ViewItem="Manager" Removed="True" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

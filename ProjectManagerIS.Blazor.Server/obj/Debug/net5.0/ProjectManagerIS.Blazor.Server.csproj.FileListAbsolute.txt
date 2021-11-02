@@ -255,3 +255,4 @@ C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS
 C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Blazor.Server\obj\Debug\net5.0\ref\ProjectManagerIS.Blazor.Server.dll
 C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Blazor.Server\obj\Debug\net5.0\ProjectManagerIS.Blazor.Server.pdb
 C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Blazor.Server\obj\Debug\net5.0\ProjectManagerIS.Blazor.Server.genruntimeconfig.cache
+C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Blazor.Server\bin\Debug\net5.0\ProjectManagerIS.Module.Blazor.StaticWebAssets.xml

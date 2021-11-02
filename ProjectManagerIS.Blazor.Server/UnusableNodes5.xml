@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Employee_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="Address1" Removed="True" />
+        <PropertyEditor Id="Address2" Removed="True" />
+        <PropertyEditor Id="Company" Removed="True" />
+        <PropertyEditor Id="Department" Removed="True" />
+        <PropertyEditor Id="Email" Removed="True" />
+        <PropertyEditor Id="Manager" Removed="True" />
+        <PropertyEditor Id="Position" Removed="True" />
+        <PropertyEditor Id="SpouseName" Removed="True" />
+        <PropertyEditor Id="User" Removed="True" />
+      </Items>
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Employee_Copy" Index="1" Direction="Horizontal" ShowCaption="True" Caption="Contact and Position" RelativeSize="50.171821305841924" Removed="True">
+              <LayoutGroup Id="Auto0af332d5-dc55-47ca-ba87-fb3eb2fb236f" ShowCaption="False" Caption="" Index="0" RelativeSize="49.658002735978116">
+                <LayoutItem Id="Email" Index="0" RelativeSize="27.11864406779661" ViewItem="Email" />
+                <LayoutItem Id="Address1" Index="1" RelativeSize="20.338983050847457" ViewItem="Address1" />
+                <LayoutItem Id="Address2" Index="2" RelativeSize="20.338983050847457" ViewItem="Address2" />
+                <LayoutGroup Id="Employee_col1" ShowCaption="False" Index="3" RelativeSize="32.20338983050848">
+                  <LayoutItem Id="User" Index="0" RelativeSize="100" ViewItem="User" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Auto9e00db43-e3cf-4a96-84c8-9d522266a20a" ShowCaption="False" Caption="" Index="1" RelativeSize="50.341997264021884">
+                <LayoutItem Id="Company" Index="0" RelativeSize="27.11864406779661" ViewItem="Company" />
+                <LayoutItem Id="Department" Index="1" RelativeSize="20.338983050847457" ViewItem="Department" />
+                <LayoutItem Id="Position" Index="2" RelativeSize="20.338983050847457" ViewItem="Position" />
+                <LayoutGroup Id="Employee_col2" ShowCaption="False" Caption="Photo" Index="3" RelativeSize="32.20338983050848">
+                  <LayoutItem Id="Manager" Index="0" RelativeSize="100" ViewItem="Manager" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

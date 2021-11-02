@@ -205,7 +205,7 @@
     </Class>
     <Class Name="DevExpress.Persistent.BaseImpl.PhoneNumber" Caption="Numéro de téléphone">
       <OwnMembers>
-        <Member Name="Number" Caption="Nombre" />
+        <Member Name="Number" Caption="Numéro" />
       </OwnMembers>
     </Class>
     <Class Name="DevExpress.Persistent.BaseImpl.Resource">
@@ -329,14 +329,8 @@
       </Item>
       <Item Id="Default">
         <Items>
-          <Item Id="ApplicationUser_ListView" Caption="Les Utilisateurs" />
-          <Item Id="DemoTask_ListView" Caption="Tâches" />
-          <Item Id="Department_ListView" Caption="Départements" />
-          <Item Id="Employee_ListView" Caption="Employés" />
           <Item Id="Event_ListView" Caption="Calendar" />
-          <Item Id="MyDetails" Caption="Mes Details" />
           <Item Id="Note" Caption="Remarques" />
-          <Item Id="Resume_ListView" Caption="CV" />
         </Items>
       </Item>
       <Item Id="Adminstration">
@@ -513,21 +507,16 @@
     </DetailView>
     <ListView Id="Employee_ListView" Caption="Employés">
       <Columns>
-        <ColumnInfo Id="Address1" Caption="Addresse" />
         <ColumnInfo Id="Address2" Caption="Addresse 2" />
         <ColumnInfo Id="Anniversary" Caption="Date de marriage" />
         <ColumnInfo Id="DisplayName" Caption="Afficher Le nom" />
         <ColumnInfo Id="FullName" Caption="Nom et prénom" />
+        <ColumnInfo Id="Address1" Caption="Addresse" />
       </Columns>
     </ListView>
     <ListView Id="Employee_LookupListView" Caption="Employé">
       <Columns>
         <ColumnInfo Id="FullName" Caption="Nom et prénom" />
-      </Columns>
-    </ListView>
-    <ListView Id="Employee_Tasks_ListView">
-      <Columns>
-        <ColumnInfo Id="DateCompleted" Caption="Date de complétion" />
       </Columns>
     </ListView>
     <DetailView Id="Event_DetailView">

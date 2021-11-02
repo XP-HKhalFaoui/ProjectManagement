@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="DemoTask_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutItem Id="AssignedTo" Index="1" RelativeSize="8.16326530612245" ViewItem="AssignedTo" Removed="True" />
+            <LayoutItem Id="Subject" Index="1" RelativeSize="21.08843537414966" ViewItem="Subject" Removed="True" />
+            <LayoutGroup Id="Task" RelativeSize="62.75303643724696" Index="1" Removed="True">
+              <LayoutGroup Id="Task_col1" RelativeSize="49.78783592644979">
+                <LayoutItem Id="StartDate" RelativeSize="25.19685039370079" Index="0" />
+                <LayoutItem Id="Subject" Index="1" RelativeSize="18.89763779527559" />
+                <LayoutItem Id="DueDate" RelativeSize="18.89763779527559" Index="2" />
+                <LayoutItem Id="AssignedTo" RelativeSize="37.00787401574803" />
+              </LayoutGroup>
+              <LayoutGroup Id="Task_col2" RelativeSize="50.21216407355021" Caption="Task_col2">
+                <LayoutItem Id="DateCompleted" RelativeSize="25.19685039370079" Index="0" />
+                <LayoutItem Id="Status" Index="1" RelativeSize="49.60629921259842" />
+                <LayoutItem Id="PercentCompleted" Index="2" RelativeSize="25.19685039370079" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="DemoTask">
+              <LayoutGroup Id="Autoebddf971-984e-48b4-835f-d7ec378fa88d">
+                <LayoutItem Id="Status" Index="0" RelativeSize="49.93141289437586" ViewItem="Status" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

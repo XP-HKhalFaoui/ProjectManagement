@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Employee_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Party" RelativeSize="42.687747035573125" Index="1">
+              <LayoutGroup Id="Contact" ShowCaption="False" Index="0" RelativeSize="100" Caption="Contact" Direction="Horizontal">
+                <LayoutGroup Id="Auto78f3aa38-9dfc-4842-a2f0-434e60e0afba" ShowCaption="False" Caption="" Index="0" RelativeSize="49.93141289437586">
+                  <LayoutItem Id="Email" ViewItem="Email" Index="0" RelativeSize="27.77777777777778" />
+                  <LayoutItem Id="Address1" ViewItem="Address1" Index="1" RelativeSize="22.22222222222222" />
+                  <LayoutItem Id="Address2" ViewItem="Address2" Index="2" RelativeSize="22.22222222222222" />
+                  <LayoutItem Id="User" ViewItem="User" Index="3" RelativeSize="27.77777777777778" />
+                </LayoutGroup>
+                <LayoutItem Id="Email" Index="0" RelativeSize="7.407407407407407" ViewItem="Email" Removed="True" />
+                <LayoutItem Id="Address1" Index="1" RelativeSize="15.384615384615385" ViewItem="Address1" Removed="True" />
+                <LayoutGroup Id="Autod8d9acd5-9f1a-4258-8ebe-1266370b6a61" ShowCaption="False" Caption="" Index="1" RelativeSize="50.06858710562414">
+                  <LayoutItem Id="Department" ViewItem="Department" Index="0" RelativeSize="27.77777777777778" />
+                  <LayoutItem Id="Company" ViewItem="Company" Index="1" RelativeSize="22.22222222222222" />
+                  <LayoutItem Id="Position" ViewItem="Position" Index="2" RelativeSize="22.22222222222222" />
+                  <LayoutItem Id="Manager" ViewItem="Manager" Index="3" RelativeSize="27.77777777777778" />
+                </LayoutGroup>
+                <LayoutItem Id="Manager" Index="1" RelativeSize="27.77777777777778" ViewItem="Manager" Removed="True" />
+                <LayoutItem Id="User" Index="1" RelativeSize="18.181818181818183" ViewItem="User" Removed="True" />
+                <LayoutItem Id="Position" Index="2" RelativeSize="18.181818181818183" ViewItem="Position" Removed="True" />
+                <LayoutItem Id="Department" Index="4" RelativeSize="19.753086419753085" ViewItem="Department" Removed="True" />
+              </LayoutGroup>
+              <LayoutItem Id="Address1" Index="1" RelativeSize="10.256410256410257" Removed="True" />
+              <LayoutItem Id="Address2" Index="1" RelativeSize="13.824884792626728" Removed="True" />
+              <LayoutItem Id="Photo" Index="1" RelativeSize="8.51063829787234" Removed="True" />
+              <LayoutItem Id="DisplayName" Index="3" RelativeSize="11.627906976744185" Removed="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="Person" Index="2" RelativeSize="20.458553791887127" Removed="True">
+              <LayoutGroup Id="Person_col1" RelativeSize="50">
+                <LayoutItem Id="FirstName" RelativeSize="36.36363636363637" />
+                <LayoutItem Id="LastName" RelativeSize="27.272727272727273" />
+                <LayoutItem Id="MiddleName" RelativeSize="36.36363636363637" />
+              </LayoutGroup>
+              <LayoutGroup Id="Person_col2" RelativeSize="50">
+                <LayoutItem Id="Birthday" RelativeSize="36.36363636363637" />
+                <LayoutItem Id="Email" RelativeSize="36.36363636363637" />
+                <LayoutItem Id="FullName" RelativeSize="27.272727272727273" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Employee">
+              <LayoutGroup Id="Employee_col1">
+                <LayoutItem Id="Manager" Index="1" RelativeSize="15" Removed="True" />
+                <LayoutItem Id="NickName" Index="2" RelativeSize="17.647058823529413" Removed="True" />
+                <LayoutItem Id="SpouseName" Index="5" RelativeSize="13.043478260869565" Removed="True" />
+                <LayoutItem Id="Company" Index="6" RelativeSize="9.375" ViewItem="Company" Removed="True" />
+                <LayoutItem Id="TitleOfCourtesy" Index="6" RelativeSize="11.538461538461538" Removed="True" />
+                <LayoutItem Id="Anniversary" Index="7" RelativeSize="10.344827586206897" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Employee_col2">
+                <LayoutItem Id="Company" RelativeSize="76.47058823529412" Index="1" Removed="True" />
+                <LayoutItem Id="User" RelativeSize="9.375" Index="1" Removed="True" />
+                <LayoutItem Id="Department" Removed="True" />
+                <LayoutItem Id="Position" RelativeSize="9.375" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

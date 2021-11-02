@@ -205,7 +205,7 @@
     </Class>
     <Class Name="DevExpress.Persistent.BaseImpl.PhoneNumber" Caption="Numéro de téléphone">
       <OwnMembers>
-        <Member Name="Number" Caption="Nombre" />
+        <Member Name="Number" Caption="Numéro" />
       </OwnMembers>
     </Class>
     <Class Name="DevExpress.Persistent.BaseImpl.Resource">

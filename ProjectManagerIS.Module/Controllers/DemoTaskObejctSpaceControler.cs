@@ -43,6 +43,8 @@ namespace ProjectManagerIS.Module.Controllers
 
         }
 
+        
+
         void ObjectSpace_ObjectCommiting(object sender, ObjectChangedEventArgs e)
         {
             if (View.CurrentObject == e.Object && ObjectSpace.IsCommitting)
@@ -57,8 +59,6 @@ namespace ProjectManagerIS.Module.Controllers
 
         void ObjectSpace_ObjectChanged(object sender , ObjectChangedEventArgs e)
         {
-            //IList<SortProperty> GetCollectionSorting(object collection);
-            //object GetObjectKey(Type objectType, string objectKeyString);
 
 
             if (View.CurrentObject == e.Object &&
@@ -68,7 +68,7 @@ namespace ProjectManagerIS.Module.Controllers
                 DemoTask TaskChanged = (DemoTask)e.Object;
                     if (TaskChanged.AssignedTo != null)
                         {
-                            TaskChanged.Description += "The task has be Assigned to " + TaskChanged.AssignedTo;
+                    TaskChanged.Description += "La tache a été assigné a " + TaskChanged.AssignedTo + " le " + DateTime.Now + "\n";
                         }
             
                 }
@@ -76,11 +76,7 @@ namespace ProjectManagerIS.Module.Controllers
                 
         }
 
-        protected override void OnViewControlsCreated()
-        {
-            base.OnViewControlsCreated();
-            // Access and customize the target View control.
-        }
+
         protected override void OnDeactivated()
         {
             // Unsubscribe from previously subscribed events and release other references and resources.
@@ -88,33 +84,8 @@ namespace ProjectManagerIS.Module.Controllers
             ObjectSpace.ObjectChanged += ObjectSpace_ObjectChanged;
         }
 
-        protected override void BeginUpdate()
-        {
-            base.BeginUpdate();
-        }
+        
 
-        protected override void EndUpdate()
-        {
-            base.EndUpdate();
-        }
-
-        protected override void OnAfterConstruction()
-        {
-            base.OnAfterConstruction();
-        }
-
-
-        protected override void OnFrameAssigned()
-        {
-            base.OnFrameAssigned();
-        }
-
-
-        protected override void OnViewChanged()
-        {
-            base.OnViewChanged();
-        }
-
-
+        
     }
 }

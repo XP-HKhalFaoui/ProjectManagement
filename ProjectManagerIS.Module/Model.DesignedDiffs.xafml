@@ -1,13 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Application Title="ProjectManagerIS">
+<Application Title="XpertProjectManager">
   <ActionDesign>
     <Actions>
-      <Action Id="Cancel">
+      <Action Id="Save" Index="1" />
+      <Action Id="New" Index="2" />
+      <Action Id="Delete" Index="3" />
+      <Action Id="Cancel" Index="50">
         <DisableReasons Index="50" />
       </Action>
       <Action Id="DemoTask.Postpone.PostponeParametersObject" TargetObjectsCriteria="[Status] &lt;&gt; ##Enum#DevExpress.Persistent.Base.General.TaskStatus,Completed#" />
       <Action Id="Task.MarkCompleted" ValidationContexts="MarkCompleted" />
     </Actions>
+    <ActionToContainerMapping>
+      <ActionContainer Id="Save" Index="1" />
+      <ActionContainer Id="Edit">
+        <ActionLink ActionId="Delete" Index="50" />
+      </ActionContainer>
+      <ActionContainer Id="UndoRedo">
+        <ActionLink ActionId="Cancel" Index="20" />
+      </ActionContainer>
+    </ActionToContainerMapping>
   </ActionDesign>
   <BOModel>
     <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
@@ -63,6 +75,44 @@
       <Items>
         <PropertyEditor Id="ProjectName" LookupEditorMode="AllItems" ImmediatePostData="True" />
       </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="51.75438596491228">
+            <LayoutGroup Id="DemoTask" RelativeSize="60.67796610169491">
+              <LayoutItem Id="ProjectName" Index="0" RelativeSize="17.877094972067038" />
+              <LayoutItem Id="Priority" Index="1" RelativeSize="13.40782122905028" />
+              <LayoutItem Id="Resolutions" RelativeSize="13.186813186813186" Index="2" Removed="True" />
+              <LayoutItem Id="Subject" ViewItem="Subject" Index="2" RelativeSize="68.71508379888269" IsNewNode="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="Task" RelativeSize="39.32203389830509">
+              <LayoutGroup Id="Task_col1" RelativeSize="49.93234100135318">
+                <LayoutItem Id="AssignedTo" RelativeSize="36.36363636363637" Index="0" />
+                <LayoutItem Id="DueDate" RelativeSize="36.36363636363637" Index="0" Removed="True" />
+                <LayoutItem Id="StartDate" RelativeSize="27.272727272727273" Index="1" Removed="True" />
+                <LayoutItem Id="Status" ViewItem="Status" Index="1" RelativeSize="27.272727272727273" IsNewNode="True" />
+                <LayoutItem Id="Resolutions" ViewItem="Resolutions" Index="2" RelativeSize="36.36363636363637" IsNewNode="True" />
+                <LayoutItem Id="Subject" RelativeSize="36.507936507936506" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Task_col2" ShowCaption="False" Index="1" RelativeSize="50.06765899864682" IsNewNode="True" Removed="True">
+                <LayoutItem Id="StartDate" ViewItem="StartDate" Index="0" RelativeSize="36.36363636363637" IsNewNode="True" />
+                <LayoutItem Id="DateCompleted" ViewItem="DateCompleted" Index="1" RelativeSize="27.272727272727273" IsNewNode="True" />
+                <LayoutItem Id="DueDate" ViewItem="DueDate" Index="2" RelativeSize="36.36363636363637" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="22.105263157894736">
+            <LayoutItem Id="Description" RelativeSize="100" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="26.140350877192983">
+            <LayoutGroup Id="Portfolio" RelativeSize="100">
+              <LayoutItem Id="Portfolio" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="AuditTrail" RelativeSize="100">
+              <LayoutItem Id="AuditTrail" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
     </DetailView>
     <ListView Id="DemoTask_ListView" AllowEdit="True" NewItemRowPosition="Top">
       <Columns>
@@ -84,6 +134,72 @@
       <HiddenActions>
         <ActionLink ActionId="@69af7e21-57d7-4868-b3db-1ae203bd8e81" IsNewNode="True" />
       </HiddenActions>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="35.055350553505534">
+            <LayoutGroup Id="Employee" RelativeSize="50.87719298245614" Caption="Person">
+              <LayoutGroup Id="Employee_col1" RelativeSize="49.92987377279103">
+                <LayoutItem Id="FirstName" ViewItem="FirstName" Index="0" RelativeSize="28.571428571428573" IsNewNode="True" />
+                <LayoutItem Id="NickName" RelativeSize="28.571428571428573" Index="0" Removed="True" />
+                <LayoutItem Id="LastName" ViewItem="LastName" Index="1" RelativeSize="21.428571428571427" IsNewNode="True" />
+                <LayoutItem Id="SpouseName" RelativeSize="17.647058823529413" Index="1" Removed="True" />
+                <LayoutItem Id="FullName" ViewItem="FullName" Index="2" RelativeSize="21.428571428571427" IsNewNode="True" />
+                <LayoutItem Id="Anniversary" RelativeSize="28.571428571428573" Index="3" Removed="True" />
+                <LayoutItem Id="Birthday" ViewItem="Birthday" Index="3" RelativeSize="28.571428571428573" IsNewNode="True" />
+                <LayoutItem Id="TitleOfCourtesy" RelativeSize="17.647058823529413" Index="3" Removed="True" />
+                <LayoutItem Id="Manager" RelativeSize="23.529411764705884" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Employee_col2" RelativeSize="50.07012622720897" Caption="Employee_col2">
+                <LayoutItem Id="Photo" ViewItem="Photo" Index="0" RelativeSize="100" IsNewNode="True" />
+                <LayoutItem Id="Position" RelativeSize="100" Index="0" Removed="True" />
+                <LayoutItem Id="Company" RelativeSize="41.1764705882353" Removed="True" />
+                <LayoutItem Id="Department" RelativeSize="23.529411764705884" Removed="True" />
+                <LayoutItem Id="User" RelativeSize="58.8235294117647" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Person" Caption="Contact and Position" RelativeSize="49.12280701754386">
+              <LayoutGroup Id="Person_col1" RelativeSize="49.92987377279103">
+                <LayoutItem Id="Email" ViewItem="Email" Index="0" RelativeSize="28.571428571428573" IsNewNode="True" />
+                <LayoutItem Id="Address1" ViewItem="Address1" Index="1" RelativeSize="21.428571428571427" IsNewNode="True" />
+                <LayoutItem Id="Address2" ViewItem="Address2" Index="2" RelativeSize="21.428571428571427" IsNewNode="True" />
+                <LayoutItem Id="MiddleName" RelativeSize="46.666666666666664" Index="2" Removed="True" />
+                <LayoutItem Id="User" ViewItem="User" Index="3" RelativeSize="28.571428571428573" IsNewNode="True" />
+                <LayoutItem Id="FirstName" RelativeSize="11.538461538461538" Index="5" Removed="True" />
+                <LayoutItem Id="LastName" RelativeSize="13.043478260869565" Index="5" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Auto6e9c0e4d-feaa-48f4-9cc3-497ac4cab5bc" ShowCaption="False" Caption="Auto6e9c0e4d-feaa-48f4-9cc3-497ac4cab5bc(16)" Index="1" RelativeSize="50.07012622720897" IsNewNode="True">
+                <LayoutItem Id="Company" ViewItem="Company" Index="0" RelativeSize="28.571428571428573" IsNewNode="True" />
+                <LayoutItem Id="Department" ViewItem="Department" Index="1" RelativeSize="21.428571428571427" IsNewNode="True" />
+                <LayoutItem Id="Position" ViewItem="Position" Index="2" RelativeSize="21.428571428571427" IsNewNode="True" />
+                <LayoutItem Id="Manager" ViewItem="Manager" Index="3" RelativeSize="21.428571428571427" IsNewNode="True" />
+                <LayoutGroup Id="Person_col2" ShowCaption="False" Index="4" RelativeSize="7.142857142857143" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Person_col2" RelativeSize="50.07012622720897" Caption="Person_col2" Removed="True">
+                <LayoutItem Id="Email" RelativeSize="100" Index="0" Removed="True" />
+                <LayoutItem Id="FullName" RelativeSize="15.384615384615385" Index="0" Removed="True" />
+                <LayoutItem Id="Birthday" RelativeSize="15.384615384615385" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Party" RelativeSize="17.91044776119403" Caption="Party" Removed="True">
+              <LayoutItem Id="Address1" Index="0" RelativeSize="35.714285714285715" Removed="True" />
+              <LayoutItem Id="Address2" Index="0" RelativeSize="50" Removed="True" />
+              <LayoutItem Id="DisplayName" Index="0" RelativeSize="100" Removed="True" />
+              <LayoutItem Id="Photo" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="31.857318573185733">
+            <LayoutItem Id="Notes" RelativeSize="100" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="33.08733087330873">
+            <LayoutGroup Id="PhoneNumbers" RelativeSize="100" Index="0">
+              <LayoutItem Id="PhoneNumbers" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="Resumes" RelativeSize="100" Index="1">
+              <LayoutItem Id="Resumes" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
     </DetailView>
     <ListView Id="Employee_ListView" IsGroupPanelVisible="True">
       <Columns>

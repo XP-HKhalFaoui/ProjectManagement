@@ -2,6 +2,7 @@
 <Application>
   <ActionDesign>
     <Actions>
+      <Action Id="Save" Caption="Sauvegarder" />
       <Action Id="Cancel" Caption="Annuler" />
       <Action Id="CancelAction" Caption="Annuler" />
       <Action Id="DemoTask.Postpone.PostponeParametersObject" Caption="Reporter" />
@@ -10,7 +11,6 @@
       <Action Id="ListViewShowObject" Caption="Ouvert" />
       <Action Id="Logon" Caption="Connectez-vous" />
       <Action Id="ResetViewSettings" Caption="Réinitialiser les paramètres d'affichage" />
-      <Action Id="Save" Caption="Sauvegarder" />
       <Action Id="SaveAndClose" Caption="Enregistrer et fermer" />
       <Action Id="SaveAndNew" Caption="Enregistrer et Nouveau" />
       <Action Id="SetTaskAction" Caption="Définir Tâche">
@@ -102,6 +102,11 @@
         <Member Name="MiddleName" Caption="Deuxième nom" />
       </OwnMembers>
     </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.PhoneNumber">
+      <OwnMembers>
+        <Member Name="PhoneType" Caption="Type de Téléphone" />
+      </OwnMembers>
+    </Class>
     <Class Name="DevExpress.Persistent.BaseImpl.Task" Caption="Tâche">
       <OwnMembers>
         <Member Name="AssignedTo" Caption="Assigné à" />
@@ -145,7 +150,7 @@
     </Class>
     <Class Name="ProjectManagerIS.Module.BusinessObjects.Company" Caption="Compagnie">
       <OwnMembers>
-        <Member Name="CompanyName" Caption="Nom de la compagnie" />
+        <Member Name="CompanyName" Caption="Nom de la Compagnie" />
         <Member Name="Empolyees" Caption="Employés" />
         <Member Name="Location" Caption="Emplacement" />
         <Member Name="Projects" Caption="Dossiers" />
@@ -171,6 +176,7 @@
     <Class Name="ProjectManagerIS.Module.BusinessObjects.Employee" Caption="Employé">
       <OwnMembers>
         <Member Name="Anniversary" Caption="Anniversaire" />
+        <Member Name="Company" Caption="Compagnie" />
         <Member Name="Department" Caption="Département" />
         <Member Name="Manager" Caption="Directeur" />
         <Member Name="NickName" Caption="Surnom" />
@@ -306,6 +312,15 @@
         </LayoutGroup>
       </Layout>
     </DetailView>
+    <DetailView Id="Company_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Company" Caption="Compagnie" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
     <DetailView Id="DashboardCreationInfo_DetailView">
       <Layout>
         <LayoutGroup Id="Main">
@@ -365,7 +380,7 @@
         <LayoutGroup Id="Main">
           <LayoutGroup Id="SimpleEditors">
             <LayoutGroup Id="Employee" Caption="Employé" />
-            <LayoutGroup Id="Person" Caption="Personne" />
+            <LayoutGroup Id="Person" Caption="Contact et Poste" />
           </LayoutGroup>
         </LayoutGroup>
       </Layout>
