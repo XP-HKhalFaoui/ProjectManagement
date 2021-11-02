@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Employee_Tasks_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="DateCompleted" Caption="Date de complétion" />
+      </Columns>
+    </ListView>
+  </Views>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="ApplicationUser_ListView" Caption="Les Utilisateurs" />
+          <Item Id="DemoTask_ListView" Caption="Tâches" />
+          <Item Id="Department_ListView" Caption="Départements" />
+          <Item Id="Employee_ListView" Caption="Employés" />
+          <Item Id="MyDetails" Caption="Mes Details" />
+          <Item Id="Resume_ListView" Caption="CV" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>
