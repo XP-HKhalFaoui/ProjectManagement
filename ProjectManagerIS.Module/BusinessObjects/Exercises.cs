@@ -2,6 +2,7 @@
 using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.DC;
 using DevExpress.ExpressApp.Model;
+using DevExpress.ExpressApp.Xpo;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl;
 using DevExpress.Persistent.Validation;
@@ -17,6 +18,7 @@ namespace ProjectManagerIS.Module.BusinessObjects
     [DefaultClassOptions]
 
     [RuleCriteria("End_Date_Value", DefaultContexts.Save, "StartDate < EndDate", CustomMessageTemplate = "End Date Has to be Recent than Start Date", SkipNullOrEmptyValues = true)]
+    
     public class Exercises : BaseObject
     { // Inherit from a different class to provide a custom primary key, concurrency and deletion behavior, etc. (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument113146.aspx).
         public Exercises(Session session)
@@ -26,8 +28,10 @@ namespace ProjectManagerIS.Module.BusinessObjects
         public override void AfterConstruction()
         {
             base.AfterConstruction();
-            StartDate = DateTime.Today;
             // Place your initialization code here (https://documentation.devexpress.com/eXpressAppFramework/CustomDocument112834.aspx).
+            cloture = Cloture.NoCloture;
+
+
 
 
         }
@@ -81,6 +85,7 @@ namespace ProjectManagerIS.Module.BusinessObjects
             }
         }
 
+        
         public DateTime StartDate
         {
             get
@@ -101,6 +106,7 @@ namespace ProjectManagerIS.Module.BusinessObjects
             set => SetPropertyValue(nameof(Cloture), ref cloture, value);
         }
 
+       
 
 
         //private ClotureExercise cloture;

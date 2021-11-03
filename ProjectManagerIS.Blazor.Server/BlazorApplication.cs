@@ -18,6 +18,7 @@ namespace ProjectManagerIS.Blazor.Server {
             InitializeComponent();
             Modules.Add(new FileAttachmentsBlazorModule());
             Modules.Add(new AuditTrailModule());
+            LinkNewObjectToParentImmediately = true;
         }
         protected override void OnSetupStarted() {
             base.OnSetupStarted();

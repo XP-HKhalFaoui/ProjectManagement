@@ -201,3 +201,4 @@ C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS
 C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\obj\Debug\net5.0-windows\ref\ProjectManagerIS.Win.dll
 C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\obj\Debug\net5.0-windows\ProjectManagerIS.Win.pdb
 C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\obj\Debug\net5.0-windows\ProjectManagerIS.Win.genruntimeconfig.cache
+C:\Users\xpertsoft\Source\Repos\XP-HKhalFaoui\ProjectManagement\ProjectManagerIS.Win\obj\Debug\net5.0-windows\ProjectManagerIS.Win.csproj.CopyComplete

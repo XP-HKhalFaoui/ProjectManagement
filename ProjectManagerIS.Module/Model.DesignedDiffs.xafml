@@ -40,7 +40,7 @@
   </BOModel>
   <NavigationItems>
     <Items>
-      <Item Id="Default">
+      <Item Id="Default" Visible="False">
         <Items>
           <Item Id="Note" Caption="Notes" ImageName="BO_Note" ViewId="Note_ListView" IsNewNode="True" />
         </Items>

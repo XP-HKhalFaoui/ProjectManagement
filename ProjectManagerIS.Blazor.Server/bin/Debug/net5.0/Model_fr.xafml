@@ -2,6 +2,9 @@
 <Application>
   <ActionDesign>
     <Actions>
+      <Action Id="Save" Caption="sauvegarder" />
+      <Action Id="New" ShortCaption="Nouveau" ToolTip="Nouveau" />
+      <Action Id="Delete" Caption="Supprimer" />
       <Action Id="Cancel" Caption="annuler" />
       <Action Id="CancelAction" Caption="Annuler" />
       <Action Id="ChangePasswordByUser" ShortCaption="Changer mon mot de passe" ToolTip="Changer mon mot de passe" />
@@ -9,7 +12,6 @@
       <Action Id="CopyModelDifference" ShortCaption="Copier la différence de modèle" />
       <Action Id="CreateDashboard" Caption="Créer un tableau de bord" />
       <Action Id="CreateModelDifferences" ShortCaption="Créer des différences de modèle" ToolTip="Initialise les paramètres (différences de modèle) pour tous les utilisateurs." />
-      <Action Id="Delete" Caption="Supprimer" />
       <Action Id="Delete Item" Caption="Supprimer l'élément" />
       <Action Id="DeleteDashboard" Caption="Supprimer le tableau de bord" />
       <Action Id="Diagnostic Info" Caption="Diagnostique" />
@@ -24,14 +26,12 @@
       <Action Id="MyDetails" ShortCaption="Mes Details" ToolTip="Mes Details" />
       <Action Id="NavigateBack" ShortCaption="Retour" />
       <Action Id="NavigateForward" ShortCaption="Effronté" />
-      <Action Id="New" ShortCaption="Nouveau" ToolTip="Nouveau" />
       <Action Id="NextObject" ShortCaption="Enregistrement suivant" ToolTip="Enregistrement suivant" />
       <Action Id="OrganizeDashboard" Caption="Organiser le tableau de bord" />
       <Action Id="PreviousObject" ShortCaption="Enregistrement précédent" ToolTip="Enregistrement précédent" />
       <Action Id="Refresh" ShortCaption="Rafraîchir" ToolTip="Rafraîchir" />
       <Action Id="RefreshAction" ShortCaption="Rafraîchir" ToolTip="Rafraîchir" />
       <Action Id="ResetPassword" ShortCaption="réinitialiser le mot de passe" ToolTip="Générer un nouveau mot de passe pour l'utilisateur sélectionné" />
-      <Action Id="Save" Caption="sauvegarder" />
       <Action Id="SaveAndClose" Caption="Sauver et fermer" />
       <Action Id="SaveAndNew" Caption="Enregistrer et Nouveau" />
       <Action Id="SetFilter" Caption="Filtre" />
@@ -42,9 +42,9 @@
       <Action Id="Unlink" Caption="Dissocier" />
     </Actions>
     <ActionToContainerMapping>
+      <ActionContainer Id="Save" Caption="sauvegarder" />
       <ActionContainer Id="Close" Caption="Fermer" />
       <ActionContainer Id="Edit" Caption="Éditer" />
-      <ActionContainer Id="Save" Caption="sauvegarder" />
       <ActionContainer Id="Security" Caption="Sécurité" />
     </ActionToContainerMapping>
     <DisableReasons>
@@ -327,7 +327,7 @@
           <Item Id="Resume_ListView" Caption="CV" />
         </Items>
       </Item>
-      <Item Id="Default">
+      <Item Id="Others">
         <Items>
           <Item Id="Event_ListView" Caption="Calendar" />
           <Item Id="Note" Caption="Remarques" />
@@ -339,6 +339,7 @@
           <Item Id="ApplicationUser_ListView" Caption="Les Utilisateurs" />
         </Items>
       </Item>
+      <Item Id="Default" Caption="Default" />
     </Items>
   </NavigationItems>
   <Validation>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Employee">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Resumes" Caption="curriculum vitae" />
+      </OwnMembers>
+    </Class>
+    <Class Name="ProjectManagerIS.Module.BusinessObjects.Resume">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="Contact" Caption="Employé" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+</Application>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="Event_ListView" Caption="Calendar" />
+          <Item Id="Note" Caption="Remarques" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

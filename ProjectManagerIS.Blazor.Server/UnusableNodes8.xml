@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="DemoTask_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="DemoTask">
+              <LayoutGroup Id="Autoebddf971-984e-48b4-835f-d7ec378fa88d" ShowCaption="False" Caption="Autoebddf971-984e-48b4-835f-d7ec378fa88d(6)" Direction="Vertical" Index="2" RelativeSize="24.81203007518797" Removed="True">
+                <LayoutItem Id="Resolutions" Index="0" RelativeSize="100" ViewItem="Resolutions" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors">
+            <LayoutGroup Id="Task" ShowCaption="True" Direction="Horizontal" Index="0" RelativeSize="70" Removed="True">
+              <LayoutGroup Id="Task_col1" ShowCaption="False" Index="0" RelativeSize="49.7275204359673">
+                <LayoutItem Id="StartDate" Index="0" RelativeSize="28.571428571428573" ViewItem="StartDate" />
+                <LayoutItem Id="Subject" Index="1" RelativeSize="21.428571428571427" ViewItem="Subject" />
+                <LayoutItem Id="DueDate" Index="2" RelativeSize="21.428571428571427" ViewItem="DueDate" />
+                <LayoutItem Id="AssignedTo" Index="3" RelativeSize="28.571428571428573" ViewItem="AssignedTo" />
+              </LayoutGroup>
+              <LayoutGroup Id="Task_col2" ShowCaption="False" Index="1" RelativeSize="50.2724795640327">
+                <LayoutItem Id="DateCompleted" Index="0" RelativeSize="28.571428571428573" ViewItem="DateCompleted" />
+                <LayoutItem Id="Status" Index="1" RelativeSize="42.857142857142854" ViewItem="Status" />
+                <LayoutItem Id="PercentCompleted" Index="2" RelativeSize="28.571428571428573" ViewItem="PercentCompleted" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Employee_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <TabbedGroup Id="Tabs">
+            <LayoutGroup Id="Resumes" RelativeSize="100" Index="1">
+              <LayoutItem Id="Resumes" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
