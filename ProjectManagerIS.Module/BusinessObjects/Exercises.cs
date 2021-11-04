@@ -36,6 +36,10 @@ namespace ProjectManagerIS.Module.BusinessObjects
 
         }
 
+        protected override void BeginEdit() { }
+        protected override void EndEdit() { }
+        protected override void CancelEdit() { }
+
         public void setDataModified()
         {
             this.dateModified = DateTime.Now;
@@ -46,11 +50,15 @@ namespace ProjectManagerIS.Module.BusinessObjects
         {
 
             base.OnSaving();
+
+
             setDataModified();
 
 
 
         }
+
+
 
         Cloture cloture;
         private DateTime dateModified;

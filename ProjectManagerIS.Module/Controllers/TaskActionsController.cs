@@ -30,24 +30,24 @@ namespace ProjectManagerIS.Module.Controllers
             // Target required Views (via the TargetXXX properties) and create their Actions.
             TargetObjectType = typeof(DemoTask);
 
-            SingleChoiceAction SetTaskAction = new SingleChoiceAction(this, "SetTaskAction", PredefinedCategory.Edit)
-            {
-                Caption = "Set Task",
-                ItemType = SingleChoiceActionItemType.ItemIsOperation,
-                SelectionDependencyType = SelectionDependencyType.RequireMultipleObjects
-            };
-            setPriorityItem =
-                 new ChoiceActionItem(CaptionHelper.GetMemberCaption(typeof(DemoTask), "Priority"), null);
-            SetTaskAction.Items.Add(setPriorityItem);
-            FillItemWithEnumValues(setPriorityItem, typeof(Priority));
+            //SingleChoiceAction SetTaskAction = new SingleChoiceAction(this, "SetTaskAction", PredefinedCategory.Edit)
+            //{
+            //    Caption = "Set Task",
+            //    ItemType = SingleChoiceActionItemType.ItemIsOperation,
+            //    SelectionDependencyType = SelectionDependencyType.RequireMultipleObjects
+            //};
+            //setPriorityItem =
+            //     new ChoiceActionItem(CaptionHelper.GetMemberCaption(typeof(DemoTask), "Priority"), null);
+            //SetTaskAction.Items.Add(setPriorityItem);
+            //FillItemWithEnumValues(setPriorityItem, typeof(Priority));
 
-            setStatusItem =
-               new ChoiceActionItem(CaptionHelper.GetMemberCaption(typeof(DemoTask), "Status"), null);
-            SetTaskAction.Items.Add(setStatusItem);
-            FillItemWithEnumValues(setStatusItem, typeof(TaskStatus));
+            //setStatusItem =
+            //   new ChoiceActionItem(CaptionHelper.GetMemberCaption(typeof(DemoTask), "Status"), null);
+            //SetTaskAction.Items.Add(setStatusItem);
+            //FillItemWithEnumValues(setStatusItem, typeof(TaskStatus));
 
 
-            SetTaskAction.Execute += SetTaskAction_Execute;
+            //SetTaskAction.Execute += SetTaskAction_Execute;
 
         }
         private void SetTaskAction_Execute(object sender, SingleChoiceActionExecuteEventArgs e)

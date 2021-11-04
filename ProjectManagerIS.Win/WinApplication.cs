@@ -15,6 +15,8 @@ namespace ProjectManagerIS.Win {
         public ProjectManagerISWindowsFormsApplication() {
 			InitializeComponent();
 			SplashScreen = new DXSplashScreen(typeof(XafSplashScreen), new DefaultOverlayFormOptions());
+            LinkNewObjectToParentImmediately = true;
+
         }
         protected override void CreateDefaultObjectSpaceProvider(CreateCustomObjectSpaceProviderEventArgs args) {
             args.ObjectSpaceProviders.Add(new SecuredObjectSpaceProvider((SecurityStrategyComplex)Security, XPObjectSpaceProvider.GetDataStoreProvider(args.ConnectionString, args.Connection, true), false));

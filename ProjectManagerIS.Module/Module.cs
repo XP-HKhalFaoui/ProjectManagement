@@ -24,7 +24,8 @@ namespace ProjectManagerIS.Module {
         public ProjectManagerISModule() {
             InitializeComponent();
             AdditionalExportedTypes.Add(typeof(Note));
-           
+
+
         }
         public override IEnumerable<ModuleUpdater> GetModuleUpdaters(IObjectSpace objectSpace, Version versionFromDB) {
             ModuleUpdater updater = new DatabaseUpdate.Updater(objectSpace, versionFromDB);
